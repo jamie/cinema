@@ -6,6 +6,6 @@ class Api::V1::FilmsController < Api::V1::BaseController
       times2d: ['4:15'],
       times3d: ['7:10', '9:50'],
     }
-    respond_with [stub]
+    render json: [stub].to_json
   end
 end
