@@ -1,2 +1,2 @@
 web: rails s -p 3001
-react: yarn --cwd client start
+react: PORT=3000 yarn --cwd client start
