@@ -15,8 +15,12 @@ describe CinemaClock do
 
         it { expect(film['title']).to eq("Bumblebee") }
         it { expect(film['theatre']).to eq("Galaxy Nanaimo") }
-        it { expect(film['showings'].size).to eq(3)}
-        it { expect(film['showings'][0]).to eq({'format' => '2d', 'time' => '4:15'})}
+        it { expect(film['showings'].size).to eq(6)}
+        it { expect(film['showings'][0]).to eq({
+          'format' => '2d',
+          'time' => '4:15',
+          'd3_time' => {'start'=>'2019-01-14 16:15:00','stop'=>'2019-01-14 18:08:00'},
+        })}
       end
     end
   end

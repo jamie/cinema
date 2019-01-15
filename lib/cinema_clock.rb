@@ -72,20 +72,33 @@ class CinemaClock < Struct.new(:url)
     end
 
     def duration
-      h, m = node.css('.moviegenre').text.match(/(\d+)h(\d+)m/).captures.map(&:to_i)
-      h * 60 + m
+      @duration ||= begin
+        h, m = node.css('.moviegenre').text.match(/(\d+)h(\d+)m/).captures.map(&:to_i)
+        h * 60 + m
+      end
     end
 
     def showings
+      duration_sec = duration*60
       node.css('.filall').map do |filall|
         is_3d = filall.attributes['class'].value.include?('fil3d')
-        filall.css('.times i').text.split(' ').map do |time|
-          {
-            'format' => is_3d ? '3d' : '2d',
-            'time'   => time,
-          }
+        filall.css('.times, .timesother s').map do |time|
+          date = Time.parse(time.css('u span').text)
+          time.css('i').text.split(' ').map do |time|
+            h, m = time.split(":").map(&:to_i)
+            h += 12 unless time =~ /am/
+            start_sec = (h*60 + m)*60
+            {
+              'format'  => is_3d ? '3d' : '2d',
+              'time'    => time,
+              'd3_time' => {
+                "start" => (date + start_sec).to_s[0..-7], # Strip timezone
+                "stop"  => (date + start_sec + duration_sec).to_s[0..-7],
+              },
+            }
+          end
         end
-      end.flatten.sort_by(&:values)
+      end.flatten.sort_by{|e| [e['format'], e['time']] }
     end
   end
 end
