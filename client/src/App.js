@@ -117,7 +117,6 @@ class TimeBlock extends Component {
     // svg.append("g")
     //   .attr("class","y left axis")
     //   .call(yAxis);
-
   }
 
   render() {
