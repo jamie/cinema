@@ -86,7 +86,7 @@ class CinemaClock < Struct.new(:url)
           date = Time.parse(time.css('u span').text)
           time.css('i').text.split(' ').map do |time|
             h, m = time.split(":").map(&:to_i)
-            h += 12 unless time =~ /am/
+            h += 12 if time !~ /am/ && h != 12
             start_sec = (h*60 + m)*60
             {
               'format'  => is_3d ? '3d' : '2d',
