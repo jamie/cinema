@@ -26,6 +26,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # gem 'rack-cors'
 
 gem 'http'
+gem 'nokogiri'
 
 group :development, :test do
   gem 'rspec'

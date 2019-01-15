@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 15 Jan 2019 00:37:16 GMT
+      - Tue, 15 Jan 2019 02:39:19 GMT
       Content-Type:
       - text/html; charset=utf-8
       Transfer-Encoding:
@@ -27,14 +27,14 @@ http_interactions:
       Connection:
       - close
       Set-Cookie:
-      - __cfduid=de86bf5b6153524b696cf0452892884971547512635; expires=Wed, 15-Jan-20
-        00:37:15 GMT; path=/; domain=.cinemaclock.com; HttpOnly; Secure
+      - __cfduid=d5ee73fd6ec0d140100b26751fd611bf41547519959; expires=Wed, 15-Jan-20
+        02:39:19 GMT; path=/; domain=.cinemaclock.com; HttpOnly; Secure
       X-Depends-On:
       - 70551 79654 71399 76520 77416 70438 77159 79161 68475 74449
       Cache-Control:
       - max-age=1
       Expires:
-      - Tue, 15 Jan 2019 00:37:17 GMT
+      - Tue, 15 Jan 2019 02:39:20 GMT
       Vary:
       - Accept-Encoding,User-Agent
       Access-Control-Allow-Credentials:
@@ -44,7 +44,7 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 499445d58ce6799d-SEA
+      - 4994f8a098307a17-SEA
     body:
       encoding: UTF-8
       string: "<!DOCTYPE html>\n<html prefix=\"og: http://ogp.me/ns#\" lang=\"en\">\n<head>\n<meta
@@ -273,8 +273,8 @@ http_interactions:
         (CCm.length>2) && ('cm'!='clock')) {CCpath='/'+CCr+'/'+CCm;}\nvar blokujRekIgn=0;\nvar
         aref='unknown';\nif (document.referrer) {aref=aref.replace(/(['\"])/g,\" \");aref
         = encodeURI(document.referrer);};\nvar ggltime = getCookie('ggl');\nif (ggltime)
-        {\n\tif (ggltime > (1547512636-864000)) {\n \t\tblokujRekIgn=1;\n\t}\n}\nelse
-        if ((aref.indexOf(\"googl\")>1) || (aref.indexOf(\"bing\")>1)) {\n\tblokujRekIgn=1;\n\tsetCookie('ggl','1547512636',4096);\t\n}\n</script>\n<script>\nfunction
+        {\n\tif (ggltime > (1547519959-864000)) {\n \t\tblokujRekIgn=1;\n\t}\n}\nelse
+        if ((aref.indexOf(\"googl\")>1) || (aref.indexOf(\"bing\")>1)) {\n\tblokujRekIgn=1;\n\tsetCookie('ggl','1547519959',4096);\t\n}\n</script>\n<script>\nfunction
         scrollUp(div2scroll2) {\n\t$('html, body').animate({\n\t\tscrollTop: $(div2scroll2).offset().top-6\n\t},
         1000);\n}\nvar menuFocused=0;\nfunction hideMenu() {\n\tvar wwii = wwi-10;\n\tvar
         wwiii = wwii + \"px\";\n\t$('#tdsearch').css(\"width\",wwiii);\n\tmenuFocused=1;\n\t$('.logoimg').css(\"opacity\",\"0\");\n\t$('.searchcancel').fadeIn();\n\tsetTimeout(function()
@@ -938,7 +938,7 @@ http_interactions:
         data-url=\"/movies/the-upside-2017\"><div class=\"tagm tagm0\" onclick=\"favMovie(70551);return
         false;\"></div><img class=\"lazy\" src=\"/images/posters/140x210.png\" data-src=\"/images/posters/140x210/51/the-upside-2017-poster.jpg\"
         alt=\"The Upside\"></div><div class=\"moviedesc\"><a href=\"/movies/the-upside-2017/reviews\"><div
-        class=\"valmain \">7<span class=\"decimal\">.7</span></div></a><h3 class=\"movietitle\"><a
+        class=\"valmain \">7<span class=\"decimal\">.6</span></div></a><h3 class=\"movietitle\"><a
         href=\"/movies/the-upside-2017\">The Upside <span class=\"rtUS\">PG-13</span><span
         class=\"rtQC\">G</span><span class=\"rtON\">PG</span><span class=\"rtAB\">PG</span><span
         class=\"rtBC\">PG</span><span class=\"rtMB\">PG</span><span class=\"rtNS\">PG</span></a></h3><p
@@ -949,7 +949,7 @@ http_interactions:
         inne\" href=\"/movies/the-upside-2017\">info</a><a class=\"button16 btnvid\"
         href=\"/movies/the-upside-2017/videos/212631\">videos<span class=\"butsub\">4</span></a><a
         class=\"button16 btnrev inne\" href=\"/movies/the-upside-2017/reviews\">reviews<span
-        class=\"butsub nrevmain \">41</span></a><!--RevSnip--></div><!--MoBl--></div>
+        class=\"butsub nrevmain \">44</span></a><!--RevSnip--></div><!--MoBl--></div>
         <div class=\"filall  fil2d filexp filcc filad fil1110010\"> <p class=\"timesalso\">
         Full Recliner Seating <!-- ALONOTREG --> (<span class=\"cce\" title>CC</span>
         + <span class=\"dvse\" title>AD</span>)<!-- ALONOTREG --> </p> \n<p class=\"times\"><u>Today
@@ -1351,7 +1351,7 @@ http_interactions:
         \ timeout: 5000,\n  maximumAge: 0\n};\nfunction getLocation(force) {\n\t//
         1 = force gps\n\t// 2 = show box\n\tif (force > 0) {} else {force=0;}\n\tif
         (navigator.geolocation) {\n\t\tvar deviceloctime = getCookie('deviceloctime');\n\t\tif
-        ((force == 2) || ((force<1) && (deviceloctime>(1547512636-1800)))) {\n\t\t\tshowGeoBox(force);\n\t\t}\n\t\telse
+        ((force == 2) || ((force<1) && (deviceloctime>(1547519959-1800)))) {\n\t\t\tshowGeoBox(force);\n\t\t}\n\t\telse
         {\n\t\t\tdocument.getElementById('spinner').style.display = 'block'; \n\t\t\tsetTimeout(function(){document.getElementById('spinner').style.display
         = 'none'; },3000);\n\t\t\tnavigator.geolocation.getCurrentPosition(savePosition,errorPosition,optionsPosition);\n\t\t}\n\t}
         else {\n\t\tlocAccuracy=false;\n\t\tconsole.log('CC: Geolocation is not supported
@@ -1359,7 +1359,7 @@ http_interactions:
         {\n\tvar crd = pos.coords;\n\tconsole.log('Your current position is:');\n\tconsole.log('Latitude
         : ' + crd.latitude);\n\tconsole.log('Longitude: ' + crd.longitude);\n\tconsole.log('More
         or less ' + crd.accuracy + ' meters.');\n\tvar devlat = Math.abs(crd.latitude);\n\tvar
-        devlon = Math.abs(crd.longitude);\n\tsetCookie('devicelat',devlat,180);\n\tsetCookie('devicelon',devlon,180);\n\tsetCookie('devicelocacc',crd.accuracy,180);\n\tsetCookie('deviceloctime','1547512636',180);\n\tsetCookie('userlat',devlat,180);\n\tsetCookie('userlon',devlon,180);\n\tif
+        devlon = Math.abs(crd.longitude);\n\tsetCookie('devicelat',devlat,180);\n\tsetCookie('devicelon',devlon,180);\n\tsetCookie('devicelocacc',crd.accuracy,180);\n\tsetCookie('deviceloctime','1547519959',180);\n\tsetCookie('userlat',devlat,180);\n\tsetCookie('userlon',devlon,180);\n\tif
         (crd.accuracy < 2000) { // within 2km\n\t\tsetCookie('lang','e',1024);\n\t\tsetCookie('m','',-1);\n\t\tsetCookie('r','',-1);\n\t\tsetCookie('zipcode','',-1);\n\t\tif
         ((CCuserid>0) && (CCusertoken.length)) {\n\t\t\t$.post(\"/login/\",{CCuserid:CCuserid,CCusertoken:CCusertoken,CCdevlat:devlat,CCdevlon:devlon,CClocacc:crd.accuracy},\n\t\t\tfunction(html){\n\t\t\t\tconsole.log('CCdevlocResp:
         '+html);\n\t\t\t});\n\t\t}\n\t\tconsole.log (\"Got device location=\" + devlat
@@ -1685,5 +1685,5 @@ http_interactions:
         {\n        console.log(\"No it didn't. This happened: \", err)\n      });\n
         \ }\n</script>\n</body>\n</html>\n"
     http_version: 
-  recorded_at: Tue, 15 Jan 2019 00:37:14 GMT
+  recorded_at: Tue, 15 Jan 2019 02:39:17 GMT
 recorded_with: VCR 4.0.0
