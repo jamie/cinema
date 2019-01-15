@@ -22,17 +22,24 @@ class App extends Component {
   getFilms() {
     var sources = [
       'https://www.cinemaclock.com/theatres/galaxy-nanaimo',
-      // 'https://www.cinemaclock.com/theatres/avalon',
+      'https://www.cinemaclock.com/theatres/avalon',
     ]
-    // TODO: Loop across both
-    this.fetch('/api/v1/films?source='+sources[0])
-      .then(films => {
-        if (films.length) {
-          this.setState({films: films})
-        } else {
-          this.setState({films: []})
-        }
-      })
+    this.setState({films: []})
+    sources.map((url) => {
+      this.fetch('/api/v1/films?source='+url)
+        .then(films => {
+          var all_films = this.state.films.concat(films)
+          all_films.sort((film1, film2) => {
+            return (film1.title < film2.title) ? -1 : 1
+          })
+          if (films.length) {
+            this.setState({films: all_films})
+          } else {
+            this.setState({films: []})
+          }
+        })
+      return '' // TODO: I really just want "each"
+    })
   }
 
   render() {
@@ -58,8 +65,8 @@ class App extends Component {
                   <Table.Row>
                     <Table.Cell>{film.title}</Table.Cell>
                     <Table.Cell>{film.theatre}</Table.Cell>
-                    <Table.Cell>{(film.times.map((time) => {
-                      return time[1];
+                    <Table.Cell>{(film.showings.map((showing) => {
+                      return showing.time;
                     }).join(", "))}</Table.Cell>
                   </Table.Row>
                 )}

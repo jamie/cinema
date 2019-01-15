@@ -53,10 +53,10 @@ class CinemaClock < Struct.new(:url)
     def to_h
       return if title.nil?
       {
-        'title'   => title,
-        'theatre' => theatre,
-        'duration'=> duration,
-        'times'   => times,
+        'title'    => title,
+        'theatre'  => theatre,
+        'duration' => duration,
+        'showings' => showings,
       }
     end
 
@@ -76,7 +76,7 @@ class CinemaClock < Struct.new(:url)
       h * 60 + m
     end
 
-    def times
+    def showings
       node.css('.filall').map do |filall|
         is_3d = filall.attributes['class'].value.include?('fil3d')
         filall.css('.times i').text.split(' ').map do |time|

@@ -15,8 +15,8 @@ describe CinemaClock do
 
         it { expect(film['title']).to eq("Bumblebee") }
         it { expect(film['theatre']).to eq("Galaxy Nanaimo") }
-        it { expect(film['times'].size).to eq(3)}
-        it { expect(film['times'][0]).to eq({'format' => '2d', 'time' => '4:15'})}
+        it { expect(film['showings'].size).to eq(3)}
+        it { expect(film['showings'][0]).to eq({'format' => '2d', 'time' => '4:15'})}
       end
     end
   end
