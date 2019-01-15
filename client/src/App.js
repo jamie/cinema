@@ -20,7 +20,12 @@ class App extends Component {
   }
 
   getFilms() {
-    this.fetch('/api/v1/films')
+    var sources = [
+      'https://www.cinemaclock.com/theatres/galaxy-nanaimo',
+      // 'https://www.cinemaclock.com/theatres/avalon',
+    ]
+    // TODO: Loop across both
+    this.fetch('/api/v1/films?source='+sources[0])
       .then(films => {
         if (films.length) {
           this.setState({films: films})
