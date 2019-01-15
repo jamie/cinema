@@ -20,4 +20,35 @@ describe CinemaClock do
       end
     end
   end
+
+  context "(Double Features)", vcr: {cassette_name: 'cinema_clock/double-feature'} do
+    let(:url) { 'https://www.cinemaclock.com/theatres/avalon' }
+    let(:parser) { CinemaClock.new(url) }
+    let(:films) { parser.films }
+
+    describe '#films' do
+      it { expect(films.size).to eq(10) }
+
+      describe 'Superman + Superman' do
+        let(:feature) { films[0] }
+        # TODO
+      end
+    end
+
+  end
+
+  context "(Upcoming)", vcr: {cassette_name: 'cinema_clock/upcoming'} do
+    let(:url) { 'https://www.cinemaclock.com/theatres/avalon' }
+    let(:parser) { CinemaClock.new(url) }
+    let(:films) { parser.films }
+
+    describe '#films' do
+      it { expect(films.size).to eq(10) }
+
+      describe 'Dragon Ball Super: Broly' do
+        let(:film) { films[9] } # 8, when double feature collapses
+        # TODO
+      end
+    end
+  end
 end

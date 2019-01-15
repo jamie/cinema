@@ -1,0 +1,1657 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.cinemaclock.com/theatres/avalon
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - www.cinemaclock.com
+      User-Agent:
+      - http.rb/4.0.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 15 Jan 2019 03:37:24 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=dccbf75ab36e2216320c21013e796824a1547523443; expires=Wed, 15-Jan-20
+        03:37:23 GMT; path=/; domain=.cinemaclock.com; HttpOnly; Secure
+      X-Depends-On:
+      - 76915 79974 77415 74441 79652 72211 67680 74451 76519 81098
+      Cache-Control:
+      - max-age=1
+      Expires:
+      - Tue, 15 Jan 2019 03:37:25 GMT
+      Vary:
+      - Accept-Encoding,User-Agent
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 49954db40bf52a13-SEA
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\n<html prefix=\"og: http://ogp.me/ns#\" lang=\"en\">\n<head>\n<meta
+        charset=\"utf-8\">\n<title>Avalon (Landmark) movies and showtimes</title>\n<meta
+        name=\"description\" content=\"Movies now playing at Avalon in Nanaimo. Detailed
+        showtimes for today and for upcoming days.\">\n<meta name=\"viewport\" content=\"width=device-width,
+        minimum-scale=1, initial-scale=1\">\n<meta name=\"google\" content=\"notranslate\">\n<link
+        rel=\"canonical\" href=\"https://www.cinemaclock.com/theatres/avalon\">\n<link
+        rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/html/ccimg/apple-touch-icon.png\">\n<link
+        rel=\"icon\" type=\"image/png\" sizes=\"196x196\" href=\"/html/ccimg/favicon-196x196.png\">\n<link
+        rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"/html/ccimg/favicon-192x192.png\">\n<link
+        rel=\"icon\" type=\"image/png\" sizes=\"128x128\" href=\"/html/ccimg/favicon-128x128.png\">\n<link
+        rel=\"icon\" type=\"image/png\" sizes=\"64x64\" href=\"/html/ccimg/favicon-64x64.png\">\n<link
+        rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/html/ccimg/favicon-32x32.png\">\n<link
+        rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/html/ccimg/favicon-16x16.png\">\n<link
+        rel=\"manifest\" href=\"/manifest.json?v=Misia\">\n<link rel=\"mask-icon\"
+        href=\"/safari-pinned-tab.svg\" color=\"#4da9df\">\n<meta name=\"msapplication-TileColor\"
+        content=\"#4da9df\">\n<meta name=\"theme-color\" content=\"#444444\">\n<meta
+        name=\"google-signin-client_id\" content=\"652148242806-36d06cfcihu51jl7o9eldjmmes5e72o4.apps.googleusercontent.com\">\n<meta
+        property=\"og:type\" content=\"place\" /><meta property=\"og:description\"
+        content=\"Movies now playing at Avalon in Nanaimo. Detailed showtimes for
+        today and for upcoming days.\"><meta property=\"place:location:latitude\"
+        content=\"49.235737\" /><meta property=\"place:location:longitude\" content=\"-124.051215\"
+        /><meta property=\"og:site_name\" content=\"Cinema Clock\" /><meta property=\"og:title\"
+        content=\"Avalon (Landmark) movies and showtimes\" /><meta property=\"og:url\"
+        content=\"https://www.cinemaclock.com/theatres/avalon\" /><meta property=\"og:image\"
+        content=\"https://www.cinemaclock.com/html/ccimg/logo-256x256.png\" />\n<script
+        async src='//rdc.m32.media/m32hb_gpt.min.js'></script>\n<script>\nvar googletag
+        = googletag || {};\ngoogletag.cmd = googletag.cmd || [];\n</script>\n<script>\nvar
+        wwi = window.innerWidth || document.documentElement.clientWidth;\nvar wwh
+        = window.innerHeight || document.documentElement.clientHeight;\nvar CCpath='';\n</script>\n<style>\n.printeronly{display:none;}\n\n@font-face
+        {\n    font-family: 'TrebuchetWeb';\n    src: url('/html/ccfont/TrebuchetWeb.eot');\n\tsrc:
+        url('/html/ccfont/TrebuchetWeb.eot?#iefix') format('embedded-opentype'),\n
+        \        url('/html/ccfont/TrebuchetWeb.woff') format('woff'),\n         url('/html/ccfont/TrebuchetWeb.ttf')
+        format('truetype'),\n         url('/html/ccfont/TrebuchetWeb.svg#TrebuchetWeb')
+        format('svg');\n}\n.btn-group,.butoptions,.crumb a,.crumbs,span.shortvalue{white-space:nowrap}\n*{margin:0;padding:0;border:0;-moz-osx-font-smoothing:grayscale;box-sizing:border-box;position:relative;}\ninput,textarea{border:1px
+        solid #ccc;font-family: inherit;font-size: inherit;}\nlabel,form{position:static;min-height:
+        30px;}\nhtml{width:100%;height:100%}\nbody{color:#333;font-size:14px;font-weight:300;background:#f5fcff;background:
+        linear-gradient(to right,#eef3fc 0,#f0f8fb 70%,#e9f3fb 100%);font-family:
+        \"Trebuchet MS\", TrebuchetWeb, \"Lucida Grande\", \"Lucida Sans\", Tahoma,
+        sans-serif;}\nimg {vertical-align: middle;}\ndiv#MNFull,.sharepopup,.searchcancel,#ccmainlogin,#ccmainlogout,td.tdmenu.tdhide,td.tdhome.tdhide,.rtUS,.rtQC,.rtON,.rtAB,.rtBC,.rtMB,.rtSK,.rtNS,.valex,.nrevex,.butsub{display:none;}\n#HD,#LBzone{height:auto;width:auto;top:0;text-align:
+        center;min-height:50px;}#LBzone{-o-transition:.3s ease-out;-ms-transition:.3s
+        ease-out;transition:.3s ease-out;min-height:110px;margin-top:30px;}\n#HD{padding:
+        25px 0;}\nh1{font-weight:700;text-align:center;font-size:42px;letter-spacing:0;line-height:36px;padding:
+        40px 0 0;}\nh3.movietitle{padding:5px 0 3px;max-height:50px;overflow:hidden;font-weight:bold;}\n.movietitleother{font-size:
+        14px;line-height:24px;color: #777;display: block;font-weight:400;}\nh2,h4{font-size:30px;font-weight:700;margin:
+        0;text-align:center;}\nh2{font-size: 24px;text-transform: uppercase;line-height:
+        24px;}\nh2::after{content:\"\";display:block;height:5px;width:200px;margin:10px
+        auto 0;background:#5babe0;}\ntd.tdmenu{padding-right:3px;text-align:right;}\na,a:active,a:hover,a:link{color:#333;text-decoration:none;cursor:
+        pointer;}\nh1,h1 a:active,h1 a:hover,h1 a:link,h1 a:visited{color: #fff}\np{line-height:20px;font-size:14px}\n.btn{cursor:pointer;text-align:center;display:inline-block;min-width:40px;line-height:14px;font-size:14px;color:#777;border:1px
+        solid #ccc;background: #f7f7f7;border-radius: 25px;padding: 8px 4px;}\n.btn.btnccinv{text-transform:
+        uppercase;background: #fff;color: #4DA9DF;border: 2px solid #4DA9DF;font-weight:
+        bold;font-size: 18.5px;overflow: hidden;display: block;margin: 30px auto;padding:
+        6px 0px;font-size: 16px;line-height: 24px;}\n.avec{display:none;}\n.moviegenre{padding:
+        2px 0 5px 0;color:#999;margin-bottom: 45px;line-height:16px;font-style: italic;font-size:
+        13px;font-weight: 300;}\ndiv.buttonstop{padding:0;display:table;width:100%;border-collapse:separate;border-spacing:0;font-size:14px;font-weight:400;line-height:35px;margin:0
+        auto}\na.buttontoptab,p.buttontoptab{display:table-cell;text-align:center;color:#777;-webkit-transition:.1s
+        ease-out;-moz-transition:.1s ease-out;-o-transition:.1s ease-out;-ms-transition:.1s
+        ease-out;transition:.1s ease-out;height:auto;padding:0;border:none;vertical-align:top;width:
+        72px;}\n.BDblock.headswitcher,.headswitcher{display: table;padding: 0;margin:
+        0 auto;border-collapse: separate;border-spacing: 5px;border-spacing: 0;border-radius:
+        25px;padding: 0p;background: #333;margin: 20px auto;border: 1px solid #999;width:
+        90%;min-width: 310px;max-width: 480px;background: #fff;}\n.valex,.valmain{float:
+        right;margin: 0;right: 0;top: 3px;color: #0590e9;font-weight: 400;font-size:
+        25px;line-height: 25px;width: 42px;height: 22px;text-align: center;white-space:
+        nowrap;}\n.valmain:after,.valex:after{width:10px;content:\"\\e802\";font-family:
+        \"fontello\";font-style: normal;font-weight: 400;speak: none;display: inline-block;text-decoration:
+        inherit;text-align: center;font-variant: normal;text-transform: none;font-size:
+        12px;color: #ddd;vertical-align: 4px;margin-left:2px;}\nspan.decimal{font-size:21px;letter-spacing:
+        -1px;}\nh3{font-size:22px;line-height:22px;margin:0;font-weight:700;}\n.movieblock,.showtimeblock{text-align:
+        left;padding: 0;margin: 22px auto 0;width: 95%;display: block;border:1px solid
+        rgba(0, 0, 0, 0.1);box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05);background:
+        #fff;vertical-align: top;}\n.movieblock.moviepage:after{border:none;margin:0}\n.movieblock.notpub
+        .desctext,.movieblock.notpub .tagm{display:none}\n.moviedesc{display:table-cell;float:none;vertical-align:top;width:100%;margin:0;padding:2px
+        0 0 2%;font-size:13px}\n#PGL,#PGR{display:block}\n.moviehtmlbuttons>.btn-group>.btn.btn-mini{padding:2px
+        8px}\n.moviepage h1{margin:0 -4px;padding:0 5px 5px;background:0 0;border-bottom:1px
+        solid #DFF3FB}\n.pictures,.poster{width:100px}\n.poster{margin-bottom:8px}\n.rntm{display:none}\n.smallposter{display:table-cell;vertical-align:top;overflow:hidden;}\n.smallposter,.smallposter
+        img{width:120px;height:180px;margin:0;border:none;}\n#openSetting{padding:10px
+        10px 20px;text-align:left}\na.times,p.times,p.timesother{padding:0}\n.chain,.ratingtitle,.smallbutton{border:1px
+        solid #ddd;font-size:11px;font-weight:400;line-height:11px;padding:1px 3px;margin-left:8px;color:#555;vertical-align:4px;border-radius:2px;white-space:nowrap}\n.ratingtitle{font-size:13px}\n.smallbutton{line-height:12px;margin:5px
+        0;padding:4px 8px;display:inline-block;border-color:#ddd}\n.showtimeblock{text-align:left;margin:0;padding:0
+        0 18px;background:#fff;}\np.timesalso {margin: 10px 4% 0 4%;padding: 20px
+        0 0;color: #23a2fd;color:#0590e9;line-height: 20px;font-size: 18px;font-weight:
+        400;}\na.times,p.times,p.timesnotto {font-weight: 400; margin: 0 2% 0 6%;line-height:
+        26px;font-size:19px;padding: 8px 0;color:#333;}\np.timesother {margin:0 0
+        0 6%;padding: 0 0 10px 15px;line-height: 24px;font-size: 16px;color: #aaa;font-weight:
+        300;}\np.timesother u{display:inline-block;width:98px;padding:0;text-decoration:none;white-space:
+        nowrap;}\np.timesother i{display:inline-block;text-decoration:none;}\np.timesnotto{color:#777;}\n.button16{display:
+        inline-block;font-size: 15px;width: 45%;height: 36px;line-height: 36px;text-align:
+        center;margin: 10px 1% 2px;position:absolute;bottom:5px;background:#f7f7f7;}\na.button16{color:
+        #777;}\n.button16.btntim{left:2%;top:84px;bottom:auto;}\n.button16.btninf{left:2%;}\n.button16.btnvid{left:50%;width:46%}\n.button16.btnrev{left:50%;width:46%;top:84px;bottom:auto;}\n.button16.btnpro{left:
+        2%;width: 94%;}\n#topbar{width:100%;height: 30px;background: #5babe0;background:
+        linear-gradient(to right,#5296da 0,#5babe0 70%,#5babe0 100%);}\n#topbarinner{margin:0
+        auto;max-width:1040px;}\na.btn.mnb{text-align:center;color:#fff;background:0
+        0;border:none;padding:6px 0 12px;font-size: 13px;text-transform: uppercase;font-weight:400}\na.btn.mnb.mnbhome{min-width:32px;font-size:21px;padding:
+        4px 12px 9px;}\n.mnbd,.mnbf{display:inline-block}\n#ccmainlogin, #ccmainlogout
+        {color:#fff;display: none;cursor: pointer;position: absolute;top: 0;z-index:
+        999;right: 0;font-size: 15px;font-weight:400;    padding: 6px 5px 0 30px;background:
+        #5babe0;background: linear-gradient(to right,#5babe000 0,#5babe0 20%,#5babe0
+        100%);}\na.btn.mnb.mnbhome path{fill:#FFFFFF;}\na.btn.mnb.menuactive{color:#50beff;font-weight:700;border-radius:
+        0;border-bottom: 1px solid #50beff;padding-bottom:11px;}\na.btn.mnb.mnbhome.menuactive{border-bottom:none;}\na.btn.mnb.mnbhome.menuactive
+        path{fill:#50beff;}\n#MNFull a.btn.mnb {width: 100%;height: 100%;padding:14px
+        0 14px 12px;text-align:left;}\n#logoimg{max-width: 1050px;height:67px;margin:
+        0 auto;padding: 10px 0 0 5px;}\n#logowhite{width:160px;height:50px;border:none;-o-transition:.3s
+        ease-out;-ms-transition:.3s ease-out;transition:.3s ease-out;}\n#mnopen{min-width:
+        52px;height: auto;vertical-align: top;text-align: right;padding-right: 12px;}\n.td480,.td640,.td768,.td860{display:table-cell}\n.tdhome{padding:0;width:30px;}\n#tdsearch{width:150px;min-width:
+        150px;max-width: 99%;position: absolute;top: 17px;\nright: 0;}\n#key{max-width:1080px;top:0;right:0;font-size:18px;line-height:
+        21px;padding:0;height:36px;border-radius:18px;background: #fff;color: #999;\nborder:
+        none;width: 150px;margin: 0 0 0 auto;text-align: center;-webkit-transition:
+        all .5s;-moz-transition: all .5s;transition: all .5s;}\n#key:focus {width:
+        100%;text-align:left;padding-left:20px;color:#333;}\n#menuarrowc{height:17px;width:10px;border:none;position:absolute;left:40px;top:4px;padding:6px
+        0}\ntable{border-collapse:collapse}\ndl,i,ol,ul{font-size:14px}\n.BD{max-width:
+        1080px;margin: 0 auto;text-align:center;}\n.BD,.map_BD,dl,em,i.fa,ol,ul{padding:0;}\nem{font-size:
+        13px;font-style: normal;}\ndl,ol,ul{list-style-image:none;line-height:33px}\n#BBmobi{clear:both;}#BBone,#BBtwo{display:inline-block;height:260px;margin:0;}\n#BBtwo{margin-left:20px;display:none;}\n#breadcrumbs{background:none;margin:
+        0 auto;padding:7px 150px 0 5px;overflow: hidden;}\n#sitetitle{background:#111;position:
+        absolute;top: 0;left: 0;width: 100%;height: 130px;}\n.crumbs>li+li::before{content:\">\";display:inline-block;margin:
+        0 4px 0 3px;}\n.crumb a,.crumbs{font-size:14px;line-height:16px;font-style:normal;font-weight:400;color:#fff;}\n.crumb{display:inline-block}\na.btnsort{display:block;width:90%;min-width:
+        280px;max-width:480px;margin:30px auto 36px;border: solid 1px #0590e9;border-radius:
+        25px;color: #0590e9;font-weight: normal;}\na.btnsort.dark{border: solid 1px
+        #fff;color: #fff;background: rgba(0, 0, 0, 0.3);}\n#AGNES,#JASON,#KEVIN{position:absolute;top:
+        85px;width: 100%;height: 85vw;max-height: 285px;}\n#AGNES{background: #333;}\n@media
+        screen and (min-width: 100px) {\nh1{font-size:30px;line-height:30px}\n#PGL,#PGR,.td480,.td640,.td768,.td860{display:none}\n#mr480,#mr640,#mr768,#mr860{display:block}\n#btnMovie{margin:30px
+        5px 30px 0;width:90%}\n#btnCinema{margin:30px 0 30px 5px;width:90%}}\n@media
+        screen and (min-width: 360px) {\n#btnMovie{margin:30px 15px 30px 5px;width:80%}\n#btnCinema{margin:30px
+        5px 30px 15px;width:80%}}\n@media screen and (min-width: 400px) {\n.movieblock,.showtimeblock{width:
+        90%;}\n#btnMovie{margin-right:20px}\n#btnCinema{margin-left:20px}\n.btn-archives{display:block}\n#btnsort>.btn.btn-mini{padding:0
+        10px}}\n@media screen and (min-width: 480px) {\n.avec{display:inline;}\nh1{font-size:42px;line-height:36px}\n.td480{display:table-cell}\n#mr480{display:none}\n#AGNES,#JASON,#KEVIN{max-height:
+        315px;}\n.showtimeblock{padding-left: 20px;}}\n@media screen and (min-width:
+        640px) {\n#MNFull a.btn.mnb {padding:10px 0 10px 12px;}\n#btnCinema,#btnMovie{margin-top:40px;margin-bottom:0}\n.td640{display:table-cell}\n#mr640{display:none}\n#AGNES,#JASON,#KEVIN{max-height:
+        400px;height:60vw;top:30px;}\n#BBtwo{display:inline-block;}}\n@media screen
+        and (min-width: 660px) {\n.avec{display:none;}\n.movieblock,.showtimeblock{margin:
+        22px 1% 0;width: 47%;display: inline-block;}}\n@media screen and (min-width:728px)
+        {\n#LBzone{height:90px;}}\n@media screen and (min-width:768px) {\n.td768{display:table-cell}\n#mr768{display:none}}\n@media
+        screen and (min-width:860px) {\n.avec{display:inline;}\n.td860{display:table-cell}\n#mr860{display:none}}\n@media
+        screen and (min-width: 980px) {\n#MISIA{background-size:auto}\n.tdhome{padding:0}\n#PAGE{margin:0
+        auto;width:970px}}\n#PAGE{height:130px;}\na.btn.btnccinv{display:block;margin:30px
+        auto;max-width:480px;}\n#BDmenu{max-width:1050px;overflow:visible;margin:0
+        auto;padding-top:2px;}\n#menubar{padding:5px 0;width:100%;position: absolute;top:
+        91px;z-index:999888;height:39px;}\n#menuarrow{height:0;width:0;border:6px
+        solid transparent;border-width:7px 5px;border-top-color:#fff}\ndiv.BD.loginbox{top:
+        0;height:100%;width:96%;max-width: 440px;min-width:310px;height:auto;max-height:none;min-height:
+        270px;padding-bottom:20px;margin:5px auto;overflow: hidden;background:#fff;-webkit-transition:
+        top 0.3s;-moz-transition: top 0.3s;-o-transition: top 0.3s;transition: top
+        0.3s;}\ndiv.loginother{text-align: center;margin: 0 5px;display:inline-block;}\nimg
+        {opacity: 1;transition: opacity 0.3s;}\nimg[data-src] {opacity: 0;}\n#btnscrolltop{display:none;}\ninput,textarea{margin:
+        10px auto;display: block;padding: 10px 8px;max-width: 400px;-webkit-box-sizing:
+        border-box;-moz-box-sizing: border-box;box-sizing: border-box;font-size: 18px;width:
+        100%;}\n#FT div.left{display:inline-block; color:#999;width:49%;padding:10px
+        0 0 29px;text-align:left;vertical-align:top;}\n#FT div.right{display:inline-block;
+        color:#999;width:49%;padding:10px 30px 0 0;text-align:right;vertical-align:top;}\n#FT
+        p{line-height:30px;}\n@media screen and (min-width: 360px) {\n#FT div.left,#FT
+        div.right{width:40%;}}\n@media screen and (min-width: 600px) {\n#FT div.left,#FT
+        div.right{width:24%;text-align:left;padding: 0 0 0 6%;max-width:200px;}}\n@media
+        screen and (min-width: 900px) {\n#FT div.left,#FT div.right{padding: 0 0 0
+        55px;max-width:250px;}\n#FT p{line-height:23px;white-space:nowrap;}}\n#headblock{overflow:visible;}\ni{font-style:
+        normal;}\n\n#logowhite{background: url('/html/ccimg/logo-cinema-clock-white-narrow-320x100.png')
+        no-repeat left top;background-size:160px 50px;}\n@media screen and (min-width:
+        480px) {\n#logowhite{background: url('/html/ccimg/logo-cinema-clock-white-wide-720x100.png')
+        no-repeat left top;background-size:360px 50px;width:360px;}\n}\n\n#unmutebutton:before{content:
+        \"CLICK FOR AUDIO\"}\n#videoinfobuttoninplay:before{content: \"CLICK HERE
+        FOR DETAILS\"}\n#BBmobi.filled{padding: 20px 0 40px;}\n#BBmobi.filled:before{content:'Advertisement';color:#777;font-size:12px;}\ndiv.BD.loginbox
+        label{top:0;left: 0;width: 80px;}\ninput.text.login {padding-left:85px;text-align:left;}\n</style>\n<script>\nvar
+        msie = 0;\nvar ua = window.navigator.userAgent;\nvar old_ie = ua.indexOf('MSIE
+        ');\nvar new_ie = ua.indexOf('Trident/');\nif ((old_ie > -1) || (new_ie >
+        -1)) {msie = 1;}\nvar ie=0;\nvar CCrcpath=\"/bri/nanaimo\";\n</script>\n<script>\nvar
+        PostRollBannerId = 0;\nvar PostRollCampId = 0;\nvar PostRollZoneId = 0;\nvar
+        VideoEmbed=0;\nvar PostRollClickURL = '';\nvar WitnessPrerollS = '';\nvar
+        WitnessPrerollQ1 = '';\nvar WitnessPrerollQ2 = '';\nvar WitnessPrerollQ3 =
+        '';\nvar WitnessPrerollE = '';\nvar PostRollAd = '';\nvar LimitationsJustToTest
+        = '';\nvar VideoAd = '';\nvar VASTnotes = '';\nvar ShowVideoInLB = 0;\n\t\nvar
+        pagehasmovielist=0;\nvar Bannerid = 0;\nvar Campid = 0;\nvar VideoSkin = 0;\t\nvar
+        SkinClickArea=\"\";\nvar SkinCentre=0;\nvar SkinLeft=0;\nvar SkinWithVideo=0;\nvar
+        SkinVideoWaitPlay=0;\nvar Zoneid = 0;\nvar ShowLB = 1;\nvar ShowBillboard
+        = 0;\nvar ShowBB = 1;\nvar ShowBB2 = 1;\nvar ShowSS = 1;\nvar ShowVideo =
+        1;\nvar ShowVideoIV = 0;\nvar ShowVideoDemo=0;\nvar playerba;\nvar atag='';\nvar
+        Interstitial = 0;\nvar SkinClick=0;\nvar SkinParallax = 0;\nvar SkinFullScreen
+        = 0;\nvar SkinFullScreenLB = 0;\nvar SkinFullScreenVideo = 0;\nvar SkinFullScreenShowing
+        = 0;\nvar SkinFullScreenDismiss = 0;\nvar SkinFullScreenTime = 6000;\nvar
+        CCLB320inline = 1;\nvar CCLB320stayinview = 4;\nvar highlightFavMoviesDone=0;\nvar
+        moveVideo2BB=0;\nvar quicksrchres=0;\nvar initOpenRadius=1;\nif (moveVideo2BB){ShowBB=0;}\nvar
+        BannerTarget = \"_blank\";\nvar SearchBoxY=0;\nvar LinkUnderVideoText = '';\nvar
+        fstrigger=1;\nvar fsopening=1;\nvar FSallowDismiss=0;\nif (typeof RandomNumber
+        == \"undefined\") RandomNumber = new String (Math.random()).substring(2, 11);\nfunction
+        donothing() {}\nfunction callAjax(url, callback){\n\tconsole.log('callAjax'+url);\n\tvar
+        xmlhttp;\n\txmlhttp = new XMLHttpRequest();\n\txmlhttp.onreadystatechange
+        = function(){\n\t\tif (xmlhttp.readyState == XMLHttpRequest.DONE && xmlhttp.status
+        == 200){\n\t\t\tcallback(xmlhttp.responseText);\n\t\t}\n\t}\n\txmlhttp.open(\"GET\",
+        url, true);\n\txmlhttp.send();\n}\nfunction setCookie(cname,cvalue,ndays)
+        {\n\tvar today = new Date();\n\tvar expire = new Date();\n\tif (ndays==null
+        || ndays==0) ndays=1;\n\texpire.setTime(today.getTime() + 3600000*24*ndays);\n\tdocument.cookie
+        = cname + \"=\" + encodeURIComponent(cvalue) + \";expires=\" + expire.toGMTString()
+        + \";domain=.cinemaclock.com;path=/\";\n}\nfunction getCookie(cname) {\n   var
+        name = cname + \"=\";\n   var ca = document.cookie.split(';');\n   for(var
+        i=0; i<ca.length; i++) {\n       var c = ca[i];\n       while (c.charAt(0)=='
+        ') c = c.substring(1,c.length);\n       if (c.indexOf(name)==0) return decodeURIComponent(c.substring(name.length,c.length));\n
+        \  }\n   return \"\";\n}\nfunction clearLoc() {\n\tsetCookie('userlon','',0);setCookie('userlat','',0);\t\n\tsetCookie('autolon','',0);setCookie('autolat','',0);\t\n\tsetCookie('devicelon','',0);setCookie('devicelat','',0);\t\n}\nvar
+        cinemasNearby='.';\nvar CCuserid = getCookie('ccuserid');\nvar CCusertoken
+        = getCookie('ccusertoken');\nvar CCuseremail = getCookie('ccuseremail');\nvar
+        CCusername = getCookie('ccusername');\nvar CCusername_ = '';\nif (CCusername.length>1)
+        {CCusername_=CCusername+'@'}\nvar CSr = \"bri\";\nvar CSm = \"nanaimo\";\nvar
+        CSv = \"Nanaimo\";\nvar CCr = getCookie('r');\nvar CCm = getCookie('m');\nvar
+        CCv = getCookie('v');\nvar devicelat = getCookie('devicelat');\nvar devicelon
+        = getCookie('devicelon');\nvar userlat = getCookie('userlat');\nvar userlon
+        = getCookie('userlon');\nvar CClocrad = getCookie('cclocrad');\nvar CCradcnt
+        = getCookie('ccradcnt');\nvar rlat=0;\nvar rlon=0;\n\t\nif (CClocrad>1) {\n\tCClocrad=Math.floor(CClocrad);\n}\nvar
+        CCusercin = getCookie('ut');\nfunction setCityName(newCityName) {\n\tCCv =
+        newCityName;\n\tif (CCv.length>0) {\n\t\tsetCookie(\"v\",CCv,4096);\n\t\tdocument.getElementById('CCpathHome').innerHTML=CCv;
+        \n\t}\n\tconsole.log('setCityName = new CCv='+CCv);\n}\nfunction setLatLon(newLatLon)
+        {\n\tconsole.log('setLatLon.eval='+newLatLon);\n\tif (newLatLon.length>21)
+        {\n\t\teval(newLatLon);\n\t\trlat=Math.round(userlat);\n\t\trlon=Math.round(userlon);\t\n\t}\n}\n\n\t\nif
+        ((CCm.length<1)||(CCr.length<1)||((CSm.length>1)&&(CSr.length>1)&&((CSm!=CCm)||(CSr!=CCr))))
+        {console.log('CCm != Csm : emptying CCv');CCm=CSm;CCr=CSr;CCv='';if ((CCm.length>0)&&(CCr.length>0))
+        {setCookie('r',CSr,4096);setCookie('m',CSm,4096);}}\n\nif ((CSm.length>1)&&(userlat>24)&&(userlon>52))
+        {\n\trlat=Math.round(userlat);\n\trlon=Math.round(userlon);\t\n}\nelse if
+        ((devicelat>24)&&(devicelon>52)) {\n\trlat=Math.round(devicelat);\n\trlon=Math.round(devicelon);\n}\nif
+        ((rlat>23)&&(rlon>51)) {\n\tdocument.write('<style>.valmain.ll'+rlat+rlon+',.nrevmain.ll'+rlat+rlon+'
+        {display:none;}.valex.ll'+rlat+rlon+',.nrevex.ll'+rlat+rlon+',div.reviews.exclusive.ll'+rlat+rlon+'{display:block;}</style>');
+        \n}\nelse if ((CCm.length>1)&&(CCr.length>1)) {\n\tdocument.write('<style>.valmain.'+CCr+CCm+',.nrevmain.'+CCr+CCm+'
+        {display:none;}.valex.'+CCr+CCm+',.nrevex.'+CCr+CCm+',div.reviews.exclusive.'+CCr+CCm+'{display:block;}</style>');\n\tvar
+        tocall = \"/location/gll/\" + CCr + \"/\" + CCm;\n\tconsole.log('callAjax
+        '+tocall);\n\tcallAjax(tocall,setLatLon);\n}\nif (CCv.length<1){\n\tconsole.log('CCv.length<1
+        ='+CCv);\n\tif ((CCm.length>0)&&(CCr.length>0)){\n\t\tvar tocall = \"/location/gtfc/\"
+        + CCr + \"/\" + CCm;\n\t\tconsole.log('callAjax '+tocall);\n\t\tcallAjax(tocall,setCityName);\n\t}\n}\nCCpath='/bri/nanaimo';if
+        ('cm'=='clock'){CCpath='';CCv='Montréal';}else if (('cq'=='clock') && (CCm.length>2)){CCpath='/'+CCm;}else
+        if (CCm=='zipcode'){CCpath='/'+CCr;}\nif ((CCpath=='') && (CCr.length>1) &&
+        (CCm.length>2) && ('cm'!='clock')) {CCpath='/'+CCr+'/'+CCm;}\nvar blokujRekIgn=0;\nvar
+        aref='unknown';\nif (document.referrer) {aref=aref.replace(/(['\"])/g,\" \");aref
+        = encodeURI(document.referrer);};\nvar ggltime = getCookie('ggl');\nif (ggltime)
+        {\n\tif (ggltime > (1547523444-864000)) {\n \t\tblokujRekIgn=1;\n\t}\n}\nelse
+        if ((aref.indexOf(\"googl\")>1) || (aref.indexOf(\"bing\")>1)) {\n\tblokujRekIgn=1;\n\tsetCookie('ggl','1547523444',4096);\t\n}\n</script>\n<script>\nfunction
+        scrollUp(div2scroll2) {\n\t$('html, body').animate({\n\t\tscrollTop: $(div2scroll2).offset().top-6\n\t},
+        1000);\n}\nvar menuFocused=0;\nfunction hideMenu() {\n\tvar wwii = wwi-10;\n\tvar
+        wwiii = wwii + \"px\";\n\t$('#tdsearch').css(\"width\",wwiii);\n\tmenuFocused=1;\n\t$('.logoimg').css(\"opacity\",\"0\");\n\t$('.searchcancel').fadeIn();\n\tsetTimeout(function()
+        {\n\t\tdocument.getElementById('results').style.display='block';\n\t}, 500);\n}\nvar
+        runningUnhideMenu=0;\nfunction unhideMenu() {\n\trunningUnhideMenu=1;\n\tmenuFocused=0;\n\t$('.divline.hilite').css(\"background\",\"#fff\");\n\t$('.searchcancel').hide();\n\t
+        $('.logoimg').css(\"opacity\",\"1\");\n\tif (quicksrchres<1) {\n\t\t$(\"#results\").css({display:'none'});\n\t}\n\tsetTimeout(function()
+        { \n\t\tif (!(menuFocused)){\n\t\t\t$('#tdsearch').css(\"width\",\"150px\");\n\t\t\t$('.divline').removeClass('hilite');\n\t\t\t$('.divline.hilite').css(\"background\",\"#E2F6FF\");\n\t\t\trunningUnhideMenu=0;\n\t\t}\n\t\t$(\"#results\").css({display:'none'});\n\t},
+        700);\n}\n</script>\n<script>\n\tfunction favMovie(mid) {\n\t\tvar AJAXhtml=document.getElementById('AJAXhtml');\n\t\tvar
+        stopPropagation = function (event) {\n\t\t\tif (event && event.stopPropagation)
+        {\n\t\t\t\tevent.stopPropagation();\n\t\t\t} \n\t\t\telse if (window.event)
+        {\n\t\t\t\twindow.event.cancelBubble = true;\n\t\t\t}\n\t\t\telse if (window.$.Event.prototype)
+        {\n\t\t\t\twindow.$.Event.prototype.stopPropagation();\n\t\t\t}\n\t\t}\n\t\tif
+        (jcli === undefined || jcli === null) {\n\t\t\tvar jcli=1;\n\t\t\tvar tagmi='div.fi'
+        + mid + ' .tagm';\n\t\t\tvar tagmm='div#mymovies .fi' + mid;\n\t\t\tvar pat
+        = '\\\\b'+mid+'\\\\b';\n\t\t\tvar reg = new RegExp(pat,\"g\");\n\t\t\tvar
+        ufother = getCookie('uf');\n\t\t\tif (ufother.match(reg)) {\n\t\t\t\tufother
+        = ufother.replace(reg,'.');\n\t\t\t\tufother = ufother.replace(/\\.+/g,'.');\n\t\t\t\t$(tagmi).removeClass(\"tagm1\").addClass(\"tagm0\");\n\t\t\t
+        \   setTimeout(function() { \n\t\t\t\t\tsetCookie('uf',ufother,1048);\n\t\t\t\t\tdelete
+        jcli;\n\t\t\t\t\tif ((CCuserid>0) && (CCusertoken.length)) {\n\t\t\t\t\t\t$.post(\"/login/\",{CCuserid:CCuserid,CCusertoken:CCusertoken,CCfavMovies:ufother},\n\t\t\t\t\t\tfunction(html){\n\t\t\t\t\t\t\tAJAXhtml.innerHTML
+        = html;\n\t\t\t\t\t\t\t$(\"#AJAXhtml\").find(\"script\").each(function(i)
+        {\n\t\t\t\t\t\t\t\teval($(this).text());\t\n\t\t\t\t\t\t\t});\n\t\t\t\t\t\t});\n\t\t\t\t\t}\n\t\t\t\t\telse
+        {\n\t\t\t\t\t\tvar ulogcan = getCookie('ccuserlogincancel');\n\t\t\t\t\t\tif
+        (!(ulogcan>0)) {\n\t\t\t\t\t\t\tshowLoginBox(\"\",\"It's optional, but useful.
+        Please log in to save your favourite movies.\",\"CCfavMovies\",ufother);\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t},
+        500);\n\t\t\t}\n\t\t\telse {\n\t\t\t\tufother = '.' + mid + '.' + ufother;\n\t\t\t\tufother
+        = ufother.replace(/\\.+/g,'.');\n\t\t\t\t$(tagmi).removeClass(\"tagm0\").addClass(\"tagm1\");\n\t\t\t\t$('#myfav_empty').slideUp(600);\n\t\t\t\tif
+        ($(tagmm).is(':hidden')) {\n\t\t\t\t\t$(tagmm).detach().prependTo('#mymovies').slideDown(600);\n\t\t\t\t}\n\t\t\t\tsetTimeout(function()
+        { \n\t\t\t\t\tsetCookie('uf',ufother,1048);\n\t\t\t\t\tdelete jcli;\n\t\t\t\t\tif
+        ((CCuserid>0) && (CCusertoken.length)) {\n\t\t\t\t\t\t$.post(\"/login/\",{CCuserid:CCuserid,CCusertoken:CCusertoken,CCfavMovies:ufother},\n\t\t\t\t\t\tfunction(html){\n\t\t\t\t\t\t\tAJAXhtml.innerHTML
+        = html;\n\t\t\t\t\t\t\t$(\"#AJAXhtml\").find(\"script\").each(function(i)
+        {\n\t\t\t\t\t\t\t\teval($(this).text());\n\t\t\t\t\t\t\t});\n\t\t\t\t\t\t});\t\t\t\t\t\t\n\t\t\t\t\t}\n\t\t\t\t\telse
+        {\n\t\t\t\t\t\tvar ulogcan = getCookie('ccuserlogincancel');\n\t\t\t\t\t\tif
+        (!(ulogcan>0)) {\n\t\t\t\t\t\t\tshowLoginBox(\"\",\"It's optional, but useful.
+        Please log in to save your favourite movies.\",\"CCfavMovies\",ufother);\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t},
+        500);\n\t\t\t}\n\t\t}\n\t\treturn false;\n\t}\n\tfunction favMovieSet(mid)
+        {\n\t\tvar pat = '\\\\b'+mid+'\\\\b';\n\t\tvar ufother = getCookie('uf');\n\t\tufother
+        = '.' + mid + '.' + ufother;\n\t\tufother = ufother.replace(/\\.+/g,'.');\n\t\tsetCookie('uf',ufother,1048);\n\t}\n\tfunction
+        highlightFavMov() {\n\t\tvar ufall = getCookie('uf');\n\t\tvar oneum = ufall.split('.');\n\t\tfor(var
+        i=0; i<oneum.length; i++) {\n\t\t\tvar mid = oneum[i];\n\t\t\tvar tagmi='div.fi'
+        + mid + ' .tagm'; \n\t\t\t$(tagmi).removeClass(\"tagm0\").addClass(\"tagm1\");\n\t\t}\n\t\thighlightFavMoviesDone=1;\n\t}\n\tfunction
+        willNotSee(mid) {\n\t\tvar mblo='div.fi' + mid;\n\t\t$(mblo).slideUp();\n\t\tsetTimeout(function()
+        {\n\t\t\tif ((CCuserid>0) && (CCusertoken.length)) {\n\t\t\t\t$.post(\"/login/\",{CCuserid:CCuserid,CCusertoken:CCusertoken,CCnotMovie:mid},\n\t\t\t\tfunction(html){});\n\t\t\t}\n\t\t\telse
+        {\n\t\t\t\tvar ulogcan = getCookie('ccuserlogincancel');\n\t\t\t\tif (!(ulogcan>0))
+        {\n\t\t\t\t\tshowLoginBox('','Please log in to save your choice.','CCnotMovie',mid);\n\t\t\t\t}\n\t\t\t}\n\t\t},
+        500);\n\t}\n</script>\n<script>\nvar FBappLaunched=0;\nfunction FBstatusChangeCallback(response)
+        {\n    console.log('FB statusChangeCallback');\n    console.log(response);\n
+        \   if (response.status === 'connected') {\n\t\tconsole.log('FB fetching your
+        information.... ');\n\t\tvar fb_id_token = response.authResponse.accessToken;\n\t\tconsole.log(JSON.stringify(response));\n\t\tFB.api('/me',
+        { locale: 'en_US', fields: 'first_name, last_name,email, gender, age_range'
+        }, function(response) {\n\t\t  \tconsole.log('FB login for: ' + response.name);\n\t\t\tconsole.log(JSON.stringify(response));\t\n\t
+        \ \t\tvar fb_id = response.id;\n\t\t\tvar fb_fname = response.first_name;\n\t\t\tvar
+        fb_lname = response.last_name;\n\t\t\tvar fb_email = response.email;\n\t\t\tvar
+        fb_gender = response.gender;\n\t\t\tvar fb_age = response.age_range.min;\n\t\t\tvar
+        CCloginclbk=document.getElementById('CCloginclbk').value;\n\t\t\tvar CCloginclbkV=document.getElementById('CCloginclbkV').value;\n\t
+        \ \t\tconsole.log('Ajax FB login /login/ with fb_id='+fb_id);\n\t\t\tif ((fb_id>0)
+        && (fb_id_token.length>11)) {\n\t\t\t\t$.post(\"/login/\",{FBuserid:fb_id,FBusertoken:fb_id_token,FBfname:fb_fname,FBlname:fb_lname,FBemail:fb_email,FBgender:fb_gender,FBage:fb_age,CCloginlang:'e',CCloginclbk:CCloginclbk,CCloginclbkV:CCloginclbkV},\n\t\t\t\tfunction(html){\n\t\t\t\t\tvar
+        CCloginunderemail=document.getElementById('CCloginunderemail');\n\t\t\t\t\tCCloginunderemail.innerHTML
+        = html;\n\t\t\t\t\t$(\"#CCloginunderemail\").find(\"script\").each(function(i)
+        {\n\t\t\t\t\t\teval($(this).text());\n\t\t\t\t\t});\n\t\t\t\t\tconsole.log('Resp
+        FB token: '+html);\n\t\t\t\t\t$('#spinner').hide();\n\t\t\t\t});\n\t\t\t}\n\t\t\t\n\t\t});\n
+        \   }\n}\nfunction FBcheckLoginState() {\n    FB.getLoginStatus(function(response)
+        {\n      FBstatusChangeCallback(response);\n    });\n}\nfunction FBattachSignin(element)
+        {\n\telement.addEventListener('click', function() {\n\t\tFB.login(function(response)
+        {\n\t\t\tif (response.authResponse) {\n\t\t\t\tFBcheckLoginState();\n\t\t\t}\n\t\t},
+        {scope: 'email', return_scopes: true});\n\t}, false);\n}\t\nfunction FBaskEmail()
+        {\n    console.log('FB ask for Email');\n\tFB.login(function(response) {\n\t\tif
+        (response.authResponse) {\n\t\t\tFBcheckLoginState();\n\t\t}\n\t}, {scope:
+        'email',auth_type: 'rerequest'});\n}\nfunction FBappLaunch() {\n\tconsole.log('FB
+        app launch.');\n\t(function(d, s, id) {\n\t\tvar js, fjs = d.getElementsByTagName(s)[0];\n\t\tif
+        (d.getElementById(id)) return;\n\t\tjs = d.createElement(s); js.id = id;\n\t\tjs.src
+        = \"//connect.facebook.net/en_US/sdk.js\";\n\t\tfjs.parentNode.insertBefore(js,
+        fjs);\n\t}(document, 'script', 'facebook-jssdk'));\n\n\twindow.fbAsyncInit
+        = function() {\n\t  FB.init({\n\t\tappId      : '1055788111119425',\n\t\tcookie
+        \    : true,\n\t\txfbml      : false,\n\t\tversion    : 'v2.8'\n\t  });\n\t};\n\tFBappLaunched=1;\n}\t\t\t\n</script>
+        \    \n<script>\nvar auth2;\nvar googleUser;\nvar GGloggingout=0;\nvar GGappLaunched=0;\nvar
+        GGbuttonattached=0;\nvar GGappStart = function() {\n\tconsole.log('GG app
+        start.');\n\tif ((CCuserid>0) && (CCusertoken.length)) {\n\t} \n\telse {\n\t\tgapi.load('auth2',
+        GGinitSigninV2);\n\t}\n};\nvar GGinitSigninV2 = function() {\n  auth2 = gapi.auth2.init({\n
+        \     client_id: '652148242806-36d06cfcihu51jl7o9eldjmmes5e72o4.apps.googleusercontent.com',\n
+        \     scope: 'profile'\n  });\n  auth2.isSignedIn.listen(GGsigninChanged);\n
+        \ auth2.currentUser.listen(GGuserChanged);\n  if (auth2.isSignedIn.get() ==
+        true) {\n    auth2.signIn();\n  }\n  GGrefreshValues();\n};\nvar GGsigninChanged
+        = function (val) {\n  console.log('Goog Signin state changed to ', val);\n\tif
+        (GGloggingout) {\n\t\t  console.log('Goog Signing out log out...');\n\t\t
+        \ GGloggingout=0;\n\t\t  gapi.auth2.getAuthInstance().signOut();\n\t}\n};\nvar
+        GGuserChanged = function (user) {\n  console.log('Goog User now: ', user);\n
+        \ googleUser = user;\n};\nvar GGrefreshValues = function() {\n  if (auth2){\n\t
+        \ \tconsole.log('Goog Refreshing values...');\n\t\tgoogleUser = auth2.currentUser.get();\n\t
+        \ \tif ((!GGbuttonattached) && (!GGloggingout)){\n\t\t\tGGbuttonattached=1;\n
+        \ \t\t\tconsole.log('GG attach login button.');\n\t\t\tGGattachSignin(document.getElementById('gg-login-button'));\n\t\t}\n
+        \ }\n}\nfunction GGattachSignin(element) {\n    auth2.attachClickHandler(element,
+        {},\n        function(googleUser) {\n\t\t\tconsole.log('Google login for:
+        ' + googleUser.getBasicProfile().getName());\n            googleUser.getBasicProfile().getName();\n\t\t\tvar
+        gg_id_token = googleUser.getAuthResponse().id_token;\n\t  \t\tvar gg_id =
+        googleUser.getId();\n\t\t\tvar CCloginclbk=document.getElementById('CCloginclbk').value;\n\t\t\tvar
+        CCloginclbkV=document.getElementById('CCloginclbkV').value;\n\t\t\tconsole.log('Ajax
+        GG login /login/ with gg_id='+gg_id);\n\t\t\tif ((gg_id>0) && (gg_id_token.length>11))
+        {\n\t\t\t\t$.post(\"/login/\",{GGuserid:gg_id,GGusertoken:gg_id_token,CCloginlang:'e',CCloginclbk:CCloginclbk,CCloginclbkV:CCloginclbkV},\n\t\t\t\tfunction(html){\n\t\t\t\t\tCCloginunderemail.innerHTML
+        = html;\n\t\t\t\t\t$(\"#CCloginunderemail\").find(\"script\").each(function(i)
+        {\n\t\t\t\t\t\teval($(this).text());\n\t\t\t\t\t});\n\t\t\t\t\tconsole.log('Resp
+        GG token: '+html);\n\t\t\t\t\t$('#spinner').hide();\n\t\t\t\t});\n\t\t\t}\t\t\t\t\n
+        \       },\n\t\tfunction(error) {\n          console.log(JSON.stringify(error,
+        undefined, 2));\n        }\n\t);\n}\nfunction GGsignOut() {\n\tconsole.log('GG
+        sign out.');\n\tvar auth2 = gapi.auth2.getAuthInstance();\n\tauth2.signOut().then(function
+        () {\n\t  console.log('Google user signed out.');\n\t});\n}\nfunction GGappLaunch()
+        {\n\tconsole.log('GG app launch.');\n\tvar script = document.createElement('script');\n
+        \   script.src = \"https://apis.google.com/js/platform.js?onload=GGappStart\";\n
+        \   script.async = true;\n    document.body.appendChild(script);\n\tGGappLaunched=1;\n}\n</script>\n<script>\nfunction
+        updateRatings() {\n\t//console.log('updateRatings()');\n\tvar ratings = {que:'QC',ont:'ON',alb:'AB',bri:'BC',man:'MB',sco:'NS',bru:'NS',fou:'NS',pei:'NS',nwt:'BC',nun:'BC',sas:'BC',yuk:'BC',qc:'QC',on:'ON',ab:'AB',bc:'BC',mn:'MB',ns:'NS',nb:'NS',nl:'NS',pe:'NS',nt:'BC',nu:'BC',sk:'BC',yt:'BC'}\n\tvar
+        CCrating=ratings[CCr];\n\tif (typeof CCrating !== 'undefined') {\n\t\tconsole.log('CCrating='+CCrating);\n\t\tif
+        (CCrating.length==2) {\n\t\t\tvar rtclass=\".rt\"+CCrating;\n\t\t\tvar myClasses
+        = document.querySelectorAll(rtclass),i = 0,l = myClasses.length;\n\t\t\tfor
+        (i; i < l; i++) {\n\t\t\t\tmyClasses[i].style.display = 'inline-block';\n\t\t\t}\n\t\t}\n\t}\n\telse
+        {\n\t\tvar myClasses = document.querySelectorAll('.rtUS'),i = 0,l = myClasses.length;\n\t\tfor
+        (i; i < l; i++) {\n\t\t\tmyClasses[i].style.display = 'inline-block';\n\t\t}\n\t}\n}\nvar
+        clickingEnter=0;\nvar enterButton = '<button class=\"btn btnccinv btnenter\"
+        onClick=\"clickingEnter=1;\">Enter</button>';\nvar emailFocused=0;\nvar askingPassword=0;\nfunction
+        loginEmailFocus() {\n\t$(\"input.text.login\").css({'padding-left':'85px'}).css({'text-align':'left'});
+        // fr=105 en=85\n\temailFocused=1;\n\t$('#spinner').hide();\n\tvar CCloginunderemail=document.getElementById('CCloginunderemail');\n}\nfunction
+        goToMyTheatres(){window.location=\"/theatres/my-theatres\";}\nfunction goToMyMovies(){window.location=\"/movies/my-movies\";}\nfunction
+        myAccount() {\n\t$('#LOGUJ').html('<div class=\"BD loginbox\" style=\"text-align:center;\"><div
+        class=\"ccicon ccicon-cancel loginclose\" onclick=\"cancelLogin();\"></div><h1>My
+        Account</h1><p class=\"form\">Hello '+CCusername_+' :)</p><div id=\"CCloginunderemail\"><button
+        class=\"btn btnccinv btnenter\" onClick=\"showMyAccountFn();return false;\">My
+        Account</button><button class=\"btn btnccinv btnenter\" onClick=\"goToMyTheatres();\">My
+        Cinemas</button><button class=\"btn btnccinv btnenter\" onClick=\"goToMyMovies();\">My
+        Movies</button><button class=\"btn btnccinv btnenter\" onClick=\"showMyReviewsFn();return
+        false;\">My Reviews</button><button class=\"btn btnccinv btnenter\" onClick=\"logOut();\">Log
+        out</button></div></div>');\n\t$('#LOGUJ').fadeIn('fast');$('div.BD.loginbox').css('top','20px');\n}\nfunction
+        logOut() {\n\tGGloggingout=1;\n\t$('#LOGUJ').html('<div class=\"BD loginbox\"
+        style=\"text-align:center;\"><h1>Logout</h1><p class=\"form\">You are now
+        logged out.</p><div id=\"CCloginunderemail\"><button class=\"btn btnccinv
+        btnenter\" onClick=\"closeLogin();\">OK</button></div></div>');\n\taskingPassword=0;\n\tCCusertoken='';\n\tsetCookie('ccuserid','',-1);\n\tsetCookie('ccusertoken','',-1);\n\tsetCookie('ccusername','',-1);\n\tsetCookie('ccuseremail','',-1);\n\tsetCookie('uc','',-1);\n\tsetCookie('uf','',-1);\n\tsetCookie('um','',-1);\n\tsetCookie('ccuserlogincancel','',-1);\n\t$('#ccmainlogout').fadeOut();\n\t$('#ccmainlogin').fadeIn();\n\t$('#LOGUJ').fadeIn('fast');$('div.BD.loginbox').css('top','20px');\n\t//Google
+        sign out\n\tif (GGappLaunched) {\n\t\tGGappStart();\n\t}\n\telse {\n\t\tGGappLaunch();\t\t\t\n\t}\n}\nfunction
+        showSpin() {\n\tdocument.getElementById('spinner').style.display = 'block';\n}\nfunction
+        showLoginBox(uemail,umsg,uclbk,uclbkv) {\n\taskingPassword=0;\n\tif (!GGappLaunched)
+        {\n\t\tconsole.log('GG app NOT launched yet');\n\t\tif ((CCuserid>0) && (CCusertoken.length))
+        {\n\t\t\tconsole.log('GG app ignore launch because logged in.');\n\t\t}\n\t\telse
+        {\n\t\t\tGGappLaunch();\n\t\t}\n\t}\n\tif (!FBappLaunched) {\n\t\tconsole.log('FB
+        app NOT launched yet');\n\t\tif ((CCuserid>0) && (CCusertoken.length)) {\n\t\t\tconsole.log('FB
+        app ignore launch because logged in.');\n\t\t}\n\t\telse {\n\t\t\tFBappLaunch();\n\t\t}\n\t}\n\tif
+        (uemail == undefined) {uemail='';}\n\tif (umsg == undefined) {umsg='';}\n\tif
+        (uclbk == undefined) {uclbk='';}\n\tif (uclbkv == undefined) {uclbkv='';}\n\t$('#LOGUJ').html('<div
+        class=\"BD loginbox\" style=\"text-align:center;\"><div class=\"ccicon ccicon-cancel
+        loginclose\" onclick=\"cancelLogin();\"></div><h1>Welcome</h1><em id=\"logintopmsg\">'+umsg+'</em><p
+        class=\"form loginor\">Log in / Sign up with</p><div class=\"loginother\"><div
+        id=\"gg-login-button\" onClick=\"showSpin();\"><span class=\"googleicon\"></span><span
+        class=\"googletext\">Google</span></div></div><div class=\"loginother\"><div
+        id=\"fb-login-button\" class=\"fb-login-button\" onClick=\"showSpin();\"><span
+        class=\"facebookicon\"><svg xmlns=\"https://www.w3.org/2000/svg\" viewBox=\"0
+        0 216 216\" class=\"fbsvg\" color=\"#ffffff\"><path fill=\"#ffffff\" d=\"M204.1
+        0H11.9C5.3 0 0 5.3 0 11.9v192.2c0 6.6 5.3 11.9 11.9 11.9h103.5v-83.6H87.2V99.8h28.1v-24c0-27.9
+        17-43.1 41.9-43.1 11.9 0 22.2.9 25.2 1.3v29.2h-17.3c-13.5 0-16.2 6.4-16.2
+        15.9v20.8h32.3l-4.2 32.6h-28V216h55c6.6 0 11.9-5.3 11.9-11.9V11.9C216 5.3
+        210.7 0 204.1 0z\"></path></svg></span><span class=\"facebooktext\">Facebook</span></div></div><p
+        class=\"form loginor\">Or with your E-mail</p><div class=\"logininput\"><input
+        type=\"hidden\" name=\"uclbk\" id=\"CCloginclbk\" value=\"'+uclbk+'\"><input
+        type=\"hidden\" name=\"uclbkv\" id=\"CCloginclbkV\" value=\"'+uclbkv+'\"><input
+        type=\"email\" name=\"email\" id=\"CCloginemail\" value=\"'+uemail+'\" class=\"text
+        login\" onBlur=\"loginfindemail();\" onFocus=\"loginEmailFocus()\" onkeyup=\"if
+        (event.keyCode == 13){clickingEnter=1;loginfindemail();}\"><label for=\"email\">E-mail</label></div><div
+        id=\"CCloginunderemail\" onClick=\"clickEnter()\">'+enterButton+'</div></div>');\n\tif
+        (auth2){\n\t\tconsole.log('GG (re)attach login button.');\n\t\tGGattachSignin(document.getElementById('gg-login-button'));\n\t}\t\n\tFBattachSignin(document.getElementById('fb-login-button'));\n\t$('#LOGUJ').fadeIn('fast');$('div.BD.loginbox').css('top','20px');\n}\nfunction
+        clickEnter() {\n\tif (document.getElementById(\"CCloginemail\").value.length>3){clickingEnter=1;loginfindemail();}\n}\nfunction
+        cancelLogin() {\n\t$('#spinner').hide();\n\t$('#LOGUJ').fadeOut('fast');\n\tsetCookie('ccuserlogincancel','1',0.01);\n}\nfunction
+        closeLogin() {\n\t$('#spinner').hide();\n\t$('#LOGUJ').fadeOut('fast');\n\twindow.location.reload();\n}\nfunction
+        submitReviewFn() {\n\tvar revform=$(\"#reviewform\");\n\t$('#spinner').show();\n\t$.ajax({\n\t\turl:'/aw/creviewsprefetchtitles_.aw',\n\t\tdata:$(\"input\").serialize(),\n\t\tsuccess:
+        function(response){\n\t\t\trevform.submit();\n\t\t},\n\t\terror: function
+        (jqXHR, exception) {\n\t\t\trevform.submit();\n\t\t},\n\t});\n}\nfunction
+        submitPromoFn() {\n\tvar proform=$(\"#promoform\");\n\t$('#spinner').show();\n\tproform.submit();\n}\nfunction
+        loginconfirm(CCuserid_,CCusertoken_,callback) {\n\tCCuserid = CCuserid_;\n\tCCusertoken
+        = CCusertoken_;\n\tsetCookie('ccuserid',CCuserid,180);\n\tsetCookie('ccusertoken',CCusertoken,180);\n\tsetCookie('ccuserlogincancel','',0);\n\tvar
+        ufavF = getCookie('uf');\n\tvar ufavC = getCookie('uc');\n\tif (ufavF.length)
+        {\n\t\t$.post(\"/login/\",{CCuserid:CCuserid,CCusertoken:CCusertoken,CCfavMovies:ufavF},\n\t\tfunction(html){\n\t\t\tconsole.log('CCfavMoviesResp:
+        '+html);\n\t\t});\n\t}\n\tif (ufavC.length) {\n\t\t$.post(\"/login/\",{CCuserid:CCuserid,CCusertoken:CCusertoken,CCfavCinemas:ufavC},\n\t\tfunction(html){\n\t\t\tconsole.log('CCfavCinemasResp:
+        '+html);\n\t\t});\n\t}\n\t$('#LOGUJ').fadeOut('fast');\n\tif (callback &&
+        typeof callback === \"function\") {\n       \tcallback();\n\t}\n\telse {\n\t\tdocument.getElementById('spinner').style.display
+        = 'block';\n\t\twindow.location.reload();\n\t}\n\treturn false;\n}\nfunction
+        loginsubmit() {\n\tvar CCloginemail=document.getElementById('CCloginemail').value;\n\tvar
+        CCloginpass=document.getElementById('CCloginpass').value;\n\tvar CCloginclbk=document.getElementById('CCloginclbk').value;\n\tvar
+        CCloginclbkV=document.getElementById('CCloginclbkV').value;\n\tif (CCloginpass.length>3)
+        {\n\t\tCCloginemail=CCloginemail.replace(/[\\W]+/g,\"\");\n\t\t$.post(\"/login/\",{CCloginemail:CCloginemail,CCloginpass:CCloginpass,CCloginlang:'e',CCloginclbk:CCloginclbk,CCloginclbkV:CCloginclbkV},\n\t\tfunction(html){\n\t\t\tvar
+        CCloginunderemail=document.getElementById('CCloginunderemail');\n\t\t\tCCloginunderemail.innerHTML
+        = html;\n\t\t\t$(\"#CCloginunderemail\").find(\"script\").each(function(i)
+        {\n                 eval($(this).text());\n\t\t\t});\n\t\t});\n\t}\n\telse
+        {\n\t\tdocument.getElementById('loginpasshint').style.color=\"red\";\n\t}\n\treturn
+        false;\n}\nfunction loginaddnewuser() {\n\tvar CCloginemailo=document.getElementById('CCloginemail').value;\n\tvar
+        CCloginpass=document.getElementById('CCloginpass').value;\n\tvar CCloginclbk=document.getElementById('CCloginclbk').value;\n\tif
+        (CCloginpass.length>3) {\n\t\tvar CCloginemail=CCloginemailo.replace(/[\\W]+/g,\"\");\n\t\t$.post(\"/login/\",{CCloginclbk:CCloginclbk,CCloginemail:CCloginemail,CCloginpass:CCloginpass,CCloginemailo:CCloginemailo,CClogincity:'nanaimo',CCloginreg:'bri',CCloginlang:'e'},\n\t\tfunction(html){\n\t\t\tvar
+        CCloginunderemail=document.getElementById('CCloginunderemail');\n\t\t\tCCloginunderemail.innerHTML
+        = html;\n\t\t});\n\t}\n\telse {\n\t\tdocument.getElementById('CCloginpassshow').style.display=\"none\";\n\t\tdocument.getElementById('CCloginpasshide').style.display=\"none\";\n\t\tdocument.getElementById('loginpasshint').style.display=\"block\";\n\t\tdocument.getElementById('loginpasshint').style.color=\"red\";\n\t}\n\treturn
+        false;\n}\nfunction loginresetpass() {\n\tvar CCloginemail=document.getElementById('CCloginemail').value;\n\tvar
+        CCloginurl=window.location.href;\n\tif (ValidateEmail(CCloginemail)) {\n\t\tconsole.log('User
+        email valid.');\n\t\tCCloginemail=CCloginemail.replace(/[\\W]+/g,\"\");\n\t\t$.post(\"/login/\",{CCloginemail:CCloginemail,CCloginurl:CCloginurl,CCloginlang:'e'},\n\t\tfunction(html){\n\t\t\tvar
+        CCloginunderemail=document.getElementById('CCloginunderemail');\n\t\t\tCCloginunderemail.innerHTML
+        = html;\n\t\t});\n\t}\n\telse {\n\t\tconsole.log('User email NOT valid.');\n\t}\n\treturn
+        false;\n}\nfunction loginfindemail() {\n\tif ((emailFocused)||(clickingEnter))
+        {\n\t\temailFocused=0;\n\t\tclickingEnter=0;\n\t\tvar CCloginemail=document.getElementById('CCloginemail').value;\n\t\tif
+        ((!(askingPassword)) && (ValidateEmail(CCloginemail))) {\n\t\t\tconsole.log('loginfindemail()
+        -- User email valid.');\n\t\t\tsetCookie('ccuseremail',CCloginemail,180);\n\t\t\t$('#logintopmsg').hide();\n\t\t\tCCloginemail=CCloginemail.replace(/[\\W]+/g,\"\");\n\t\t\t$.ajax({\n\t\t\t\turl:
+        \"/login/\"+CCloginemail+\"/fe/rn\" + RandomNumber,\n\t\t\t\tcache: false\n\t\t\t})\n\t\t\t.done(function(
+        html ) {\n\t\t\t\tif (!(askingPassword)){\n\t\t\t\t\tvar CCloginunderemail=document.getElementById('CCloginunderemail');\n\t\t\t\t\tCCloginunderemail.innerHTML
+        = html;\n\t\t\t\t\tdocument.getElementById('CCloginpass').focus();\n\t\t\t\t\taskingPassword=1;\n\t\t\t\t\tconsole.log('askingPassword#2='+askingPassword);\n\t\t\t\t}\n\t\t\t});\n\t\t}\n\t}\n\treturn
+        false;\n}\nfunction showGeoBox(force) {\n\tif (force > 0) {} else {force=0;}\n\t$('#LOGUJ').html('<div
+        class=\"BD loginbox\" style=\"text-align:center;\"><div class=\"ccicon ccicon-cancel
+        loginclose\" onclick=\"cancelLogin();\"></div><h1>Location</h1><div id=\"logintop\"></div></div>');\n\t$.ajax({\n\t\turl:
+        \"/location/aptheatres/avalon/rn\" + force + RandomNumber,\n\t\tcache: false\n\t})\n\t.done(function(
+        html ) {\n\t\t$('#logintop').append(html).fadeIn('slow');\n\t});\t\n\t$('#LOGUJ').fadeIn('fast');$('div.BD.loginbox').css('top','20px');\n}\t\n</script>\n<script>\nvar
+        SkinParallaxStopScroll=-(2*wwi-wwh)*wwi/500+20;\nvar SkinParallaxScrollUp=1;\nvar
+        CCpathHomeIcon = CCpath + \"/\";\nif ('cq'=='clock'){CCpathHomeIcon = CCpath
+        + \"/e\"}\nif ('cm'=='clock'){CCpathHomeIcon = \"/eng\"}\nfunction showMyReviewsFn()
+        {\n\tif ((CCuserid>0) && (CCusertoken.length)) {\n\t\tvar CCusername__ = CCusername;\n\t\tif
+        (CCusername.length<1) {CCusername__='my-reviews'}\n\t\tvar reviewsloc = '/movies/reviews/'+CCuserid+'/'+CCusername__;\n\t\twindow.location=reviewsloc;\n\t}\n\telse
+        {\n\t\tshowLoginBox(CCuseremail,'Please connect to see your reviews.','CCshowMyReviews');return
+        false;\n\t}\n}\nfunction showMyAccountFn() {\n\tif ((CCuserid>0) && (CCusertoken.length))
+        {\n\t\twindow.location='/my-account';\n\t}\n\telse {\n\t\tshowLoginBox(CCuseremail,'Please
+        connect to access your account.','CCshowMyAccount');return false;\n\t}\n}\n</script>\n</head>\n<body>\n<noscript
+        id=deferred-styles><link rel=stylesheet type=\"text/css\" href=\"/html/ccss/clock20180924min.css\"/></noscript>
+        <script>var loadDeferredStyles=function(){var addStylesNode=document.getElementById(\"deferred-styles\");var
+        replacement=document.createElement(\"div\");replacement.innerHTML=addStylesNode.textContent;document.body.appendChild(replacement)\naddStylesNode.parentElement.removeChild(addStylesNode);};var
+        raf=requestAnimationFrame||mozRequestAnimationFrame||webkitRequestAnimationFrame||msRequestAnimationFrame;if(raf)raf(function(){window.setTimeout(loadDeferredStyles,0);});else
+        window.addEventListener('load',loadDeferredStyles);</script>\n<style>\nh3#grouptime{display:block;padding-top:
+        0;text-align:center;margin: 30px auto 0;}\nh3#noshownote{display:block;text-align:center;margin:
+        40px auto 60px;}\nh3#timenow{display:block;margin:10px auto;}\n\n.clickaddress{cursor:pointer;}\ndiv.buttonstop{
+        margin-bottom: 30px;}\n.allchains:hover {background: #fcfcfc;}\n.allchains
+        {padding:10px 0 0;background: #fff;}\n\na.clickaddress{text-decoration:none;}\na.clickaddress:hover,a.clickaddress:active{color:#333}\n.guziki
+        {\n\tpadding-bottom:15px;\n}\ninput[type=\"checkbox\"] {\n    display:none;\n}\n\n.glyp
+        {    position: relative;\n\tfont: normal normal normal 14px/1 fontello;\n\ttext-rendering:
+        auto;\n\t-webkit-font-smoothing: antialiased;\n\tfont-size: 24px;\n\tright:
+        2px;\n\tpadding-right: 1px;\n\tcolor: #eee;\n\tcursor: pointer;\n}\n.checkempty{font-size:24px;color:#bbb;}\n\n.onecinema
+        .glyp.check:before{content:\"\\e801\"}\n.onecinema .checked .glyp.check:before{content:\"\\e800\"}\n.glyp{margin:
+        3px 0 1px;}\n.onecinema .ccicon-share{padding-top: 18px;}\n.onecinema{display:
+        table;margin: 0 auto;padding: 20px 10px 0;}\n.onecinema label{display: block;position:absolute;font-weight:bold;font-size:
+        26px;width:40px;text-align:left;top:0;left:0;padding: 4px 0 0 3px;}\n.onecinema
+        .glyp.check{text-shadow: none;font-size: 25px;width:30px; line-height: 25px;}\n.onecinema
+        label > .glyp{color:#eee;}\n.onecinema label:hover > .glyp,.onecinema label.checked
+        > .glyp{\n\tcolor:#05a2e3;\n}\n.onecinema label.checked > .glyp,.onecinema
+        label:hover > .glyp{\n\tcolor:#fff;\n}\n.map_canvas {height:100vw;max-height:
+        480px;margin:0;}\n#map_canvas, .map_canvas {width:100%}\n\n\n\n@media screen
+        and (min-width: 640px) {\n\t.onecinema{padding: 18px 30px 0;}\n}\n@media screen
+        and (min-width: 1000px) {\n\t.onecinema{padding: 18px 50px 0;}\n}\n\n\np.times.multiplefeature{margin-left:
+        2px;font-size: 22px;font-style: italic;color: #9604dd;padding: 0;}\n#addressBlock{text-align:center;}\n.sf{color:#0a0;}\n.fa.fa-subway{color:
+        #555;font-size: 16px;}\nh1,h2{text-align:center;}\n.btncinemainfo{top: 0;border:
+        solid 1px #999;right:0;display: inline-block;margin: 0 0 0 0;z-index: 2;min-width:
+        27px;height: 27px;font-size: 26px;line-height: 26px;text-align: center;color:
+        #06B6FF;background: #fff;padding: 7px;-webkit-border-radius: 24px;-moz-border-radius:
+        24px;border-radius: 24px;cursor:pointer;}\n\n\n.playingwarn{display:inline;color:red;font-style:italic;white-space:nowrap;}\na.btn.btnccinv.twooptions{white-space:nowrap;background:rgba(0,
+        0, 0, 0.1);display: table-cell;margin: 0;width: 20%;padding: 10px 0 10px;font-size:
+        12px;line-height: 24px;border-radius: 25px;border: 2px solid #fff;color: #fff;font-weight:
+        700;}\na.btn.btnccinv.twooptions.selected{color: #000;background: #fff;}\n#sortoptions{display:none;position:
+        relative;border: 2px solid #fff;border-radius: 15px;background: rgba(20, 20,
+        20, 0.9);max-width: 320px;margin: 10px auto 0;padding: 10px 0 0;z-index: 999000;}\nh2{padding-top:50px;}\n\n#AGNES{background:
+        #222;}\n#JASON{background: url(/html/ccimg/header-cinema.jpg);background-repeat:
+        no-repeat;background-size: cover;color: #fff;background-position: center;}\n#KEVIN{background:
+        linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 85%, rgba(0, 0, 0, 0.6));}\n\n#sitetitle
+        {background: linear-gradient(to bottom,#000 0,#000 70%,rgba(0, 0, 0, 0.5)
+        100%);}\n@media screen and (min-width: 640px) {\n\t#sitetitle {background:
+        linear-gradient(to bottom,rgba(0, 0, 0, .8) 0,rgba(0, 0, 0, 0.5) 100%);}\n}\n\n.h1header{display:table;max-width:
+        750px;margin:0 auto;padding:0;}\n.h1header h1{display:table-cell;padding:4px
+        40px 15px;text-align:center;}\n.h1header span.ccicon-share{display: block;position:
+        absolute;top: 0;right: 0;padding: 6px 5px 0 0;font-size: 25px;line-height:
+        27px;width: 30px;}\n\n\n\n\n.btnsort{color: #555;background: #fff;font-weight:
+        normal;border: solid 1px #999;}\n.headswitcher {margin:40px auto 30px;}\na.btn.btnccinv.headoptions{white-space:nowrap;background:
+        none;display: table-cell;margin: 0;width: 30%;padding: 8px 0;font-size: 14px;line-height:
+        14px;border-radius: 25px;border: none;color: #555;font-weight: normal;text-transform:none;}\na.btn.btnccinv.headoptions.buttopinv,a.buttontop.headoptions.buttopinv:hover{border:
+        none;color: #fd0;background: #333;font-weight: 700}\n\n\n#headblockin{position:
+        absolute;width: 100%;padding-bottom: 0;bottom: 0;min-height: 136px;}\n#LBzone{margin-top:30px;}\n#headblock{height:
+        240px;text-align:center;color:#fff;font-weight:bold;max-width:100%;}\n#headoptions{display:
+        table;padding: 0;margin:0 auto;border-collapse:separate;border-spacing: 5px;}\na.btn.btnccinv.twooptions{background:rgba(0,
+        0, 0, 0.1);display: table-cell;margin: 0;width: 30%;padding: 12px 0;font-size:
+        14px;line-height: 24px;border-radius: 30px;border: 2px solid #fff;color: #fff;font-weight:
+        700;}\n@media screen and (min-width: 400px) {\n\t#headoptions{border-spacing:
+        5px 10px;}\n\ta.btn.btnccinv.twooptions{font-size:16px;}\n}\n@media screen
+        and (min-width: 480px) {\n\t#headoptions{border-spacing: 10px}\n\t#headblock{height:270px;}\n\t.h1header
+        h1{padding-top:0;}\n}\n@media screen and (min-width: 640px) {\n\t#headblock{height:300px;}\n\t#headblockin{padding-bottom:23px;min-height:
+        162px}\n\t#sitetitle {background: linear-gradient(to bottom,rgba(0, 0, 0,
+        .8) 0,rgba(0, 0, 0, 0.5) 100%);}\n}\n@media screen and (min-width: 1000px)
+        {\n\t#AGNES,#JASON,#KEVIN{max-height:480px;}\n\t#headblock{height:380px;}\n}\n\n\n\n\n#headoptions{display:
+        table;padding: 0;margin:0 auto;border-collapse:separate;border-spacing: 10px;width:
+        50%;min-width:250px;max-width: 480px;}\n\n.onecinema{display:table;max-width:
+        750px;margin:0 auto;padding:0;}\n.onecinema h1{display:table-cell;padding:4px
+        40px 15px;text-align:center;text-transform:none;}\n.onecinema span.ccicon-share{display:
+        block;position: absolute;top: 0;right: 0;padding: 7px 5px 0 0;font-size: 25px;line-height:
+        27px;width: 30px;}\n\n@media screen and (min-width: 400px) {\n\ta.btn.btnccinv.twooptions{font-size:15px;}\n\t#headoptions{border-spacing:
+        5px 10px;}\n}\n@media screen and (min-width: 480px) {\n\t#headoptions{border-spacing:
+        10px}\n\t.onecinema h1{padding-top:0;}\n}\n@media screen and (min-width: 640px)
+        {\n\ta.btn.btnccinv.twooptions{font-size:18px;}\n}\n\n.btnsort{color: #555;background:
+        #fff;font-weight: normal;border: solid 1px #999;}\n.headswitcher {margin:30px
+        auto 30px;}\na.btn.btnccinv.twooptions.buttopinv,a.buttontop.twooptions.buttopinv:hover{color:#000;background:
+        #fff}\n\na.btn.btnccinv.headoptions{background: none;display: table-cell;margin:
+        0;width: 30%;padding: 8px 0;font-size: 14px;line-height: 14px;border-radius:
+        25px;border: none;color: #555;font-weight: normal;text-transform:none;}\na.btn.btnccinv.headoptions.buttopinv,a.buttontop.headoptions.buttopinv:hover{border:
+        none;color: #fd0;background: #333;font-weight: 700}\n\n\n\n.btn{border: 1px
+        solid #999;background:#fff;color:#555;}\n.butfilon{color: #fd0;background:
+        #333;font-weight: 700;}\n.butfiloff{background: #eee;text-decoration: line-through;color:
+        #bbb;border-color: #ddd;}\n\n\n\n\n\n</style>\n<script></script>\n\n<script>\n\tgoogletag.cmd.push(function()
+        {\n\t\tvar mappingtop = googletag.sizeMapping().addSize([0,0], [[320,50],[320,100]]).addSize([728,0],
+        [728,90]).addSize([970, 0], [[728,90],[970,90],[970,250]]).build();\n\t\tvar
+        mappingbot = googletag.sizeMapping().addSize([0,0], [[320,50],[320,100],[300,250],[300,600]]).addSize([728,0],
+        [[728,90],[300,600]]).addSize([970, 0], [[728,90],[970,90],[300,600]]).build();\n\t\tgoogletag.defineSlot('/108678561/cinema_clock_en/cinemas',
+        [[320,50],[320,100],[728,90],[970,90],[970,250]], 'ad-slot-top').defineSizeMapping(mappingtop).addService(googletag.pubads());\n\t\tgoogletag.defineSlot('/108678561/cinema_clock_en/cinemas',
+        [[320,50],[320,100],[300,250],[300,600],[728,90],[970,90]], 'ad-slot-mid').defineSizeMapping(mappingbot).addService(googletag.pubads());\n\t\tgoogletag.pubads().setTargeting(\"section\",\"cinema\").setTargeting(\"cinema\",\"avalon\");\n\t\tgoogletag.pubads().enableSingleRequest();\n\t\tgoogletag.enableServices();\n\t});\n</script>\n<script>pagehasmovielist=1;</script>\n\n<style
+        type=\"text/css\">\n#h1titlein{max-width: 818px;}\n#h1title.h1fixedtitle{max-width:
+        100%;position: fixed;top: 39px;background: rgba(0, 0, 0, 0.85) none repeat
+        scroll 0% 0%;width: 100%;padding: 0;font-size: 18px;line-height: 18px;text-align:
+        center;z-index: 999888;}\n#h1title.h1fixedtitle h1{font-size: 18px;padding:
+        5px 40px 6px;line-height: 18px;}\n#h1title.h1fixedtitle label{padding:3px
+        15px;}\n#h1title.h1fixedtitle .glyp.check {font-size:18px;line-height:18px;margin:0;padding:0;}\n#h1title.h1fixedtitle
+        span.ccicon-share{font-size: 18px;padding: 1px 8px 0 0;}\n.BD.width100per{max-width:100%
+        !important;}\n\n\nh3.movietitle{max-height:71px;}\n#timesBlock{text-align:
+        center;}\n.pricessubhead{font-weight:bold;margin:10px 0 3px;}\n.pramount{width:
+        80px;margin-right: 2px;display: inline-block;float:right;text-align: right;}\n.priceline{border-bottom:1px
+        dashed #ccc;}\n\ndiv.showtimeblock.multfeatmid{border-top:0;border-bottom:0;margin-bottom:0}\ndiv.showtimeblock.multfeatlast{border-top:0;}\n\n.smallposter,
+        .smallposter img {width: 60px;height: 90px;}\n.button16{bottom: -2px;}\n.button16.btntim,.button16.btnrev{top:63px;}\n.showtimeblock{margin:0
+        auto 30px;padding:0;display:block;max-width: 800px;width:90%;}\n.showtimeblock.bytime{display:
+        inline-block;margin: 10px;min-width: 280px;padding: 10px 5px 20px 12px;}\n.movieblock{background:#fff;display:block;margin:
+        0;padding: 0;border: none;box-shadow: none;width:100%}\n\np.times u,p.times
+        i,p.timesother u,p.timesother i{display: table-cell;text-decoration:none;font-size:1em;}\np.times
+        u,p.times i{font-size:20px;}\np.times u{white-space: nowrap;padding-right:15px;}\np.timesother
+        u{padding-right: 5px;min-width: 95px;}\np.timesother i{padding-bottom: 1px;font-style:normal;}\np.timesother
+        s{display:table-row;font-size:1em;text-decoration:none;}\n\np.timesalso,a.times,p.times,p.timesother{margin-left:
+        10px;}\na.times,p.times,p.timesnotto{padding-left:5%;}\np.timesother{padding-bottom:20px;
+        margin-bottom: 0;padding-left:7%;}\np.timesalso{padding-left: 3%;text-transform:uppercase;font-size:14px;line-height:14px;}\n.button16{font-size:
+        12px;height: 49px;line-height: 48px;top:91px !important;bottom:auto !important;}\n.button16.btntim{left:2%;width:23%;}\n.button16.btninf{left:27%;width:
+        22%;}\n.button16.btnvid{left:51%;width: 22%;}\n.button16.btnrev{left:75%;width:
+        22%;}\n@media screen and (min-width: 360px) {\n.button16{font-size: 14px;}\n}\n.button16{display:none;}\n@media
+        screen and (min-width: 640px) {\n\th3.movietitle{line-height:24px;}\n\t.showtimeblock.bytime{max-width:
+        395px;width: 45%;}\n\t.button16{display:block;}\n\t.button16{font-size: 15px;height:
+        43px;line-height: 41px;top:71px !important;}\n\t.button16.btntim{left:2%;width:22%;}\n\t.button16.btninf{left:27%;width:
+        21%;}\n\t.button16.btnvid{left:51%;width: 21%;}\n\t.button16.btnrev{left:75%;width:
+        21%;}\n\th3{font-size:24px;line-height:27px;}\n\tp.timesalso,p.times,p.timesother,p.timesnotto{margin-left:
+        100px;}\n\t.smallposter, .smallposter img {width: 80px;height: 120px;}\n}\np.timesalso,a.times,p.times,p.timesother,p.timesnotto{margin-left:
+        10px;}\nimg.lazy{margin: 4px;}\n.valex,.valmain{width:52px;}\n\n.showtimeblock.bytime
+        p.timesalso{margin-left:0;}\na.times{display:block;padding-top: 0px;padding-bottom:
+        5px;}\ndiv.bytime p.timesalso{padding-bottom: 10px;padding-top: 12px;}\n\n.arrowdrop{height:
+        0;width: 0;border: 6px solid transparent;border-width: 6px 4px;border-top-color:
+        #999;display: inline-block;position: relative;top:5px;left: 5px;}\n.moviedesc{cursor:default;}\n.moviegenre{margin-bottom:0;}\n#BD1{margin-bottom:0;border-bottom-left-radius:0;border-bottom-right-radius:0;border-bottom:none;}\np.buttonShowAllDays
+        {display:none;width: auto;line-height:21px;border-radius: 5px;color:#999;border-color:#ddd;margin-top:10px;padding:
+        0 6px;}\ns.chain{line-height:18px;top:0;}\nspan.glyp.xclose{\n\ttop: 0;\n\tright:0;\n\tborder:
+        solid 1px #999;\n\tbox-shadow:none;\n}\n\nem.subt{font-size: 18px;color:#333;}\n\n\n\n</style>\n\n<script
+        type='text/javascript'>\n\tvar TextAdSource='home_';\n\tvar VideoPoster='';\n\tvar
+        WitnessPrerollS='';\n\tvar WitnessPrerollQ1='';\n\tvar WitnessPrerollQ2='';\n\tvar
+        WitnessPrerollQ3='';\n\tvar WitnessPrerollE='';\n</script>\n<script>\n\tfunction
+        showAllDays() {\n\t\tsetCookie('showalldays24hrs','1',1);\n\t\t$('.noshows').slideDown();\n\t\t$('.timesother').slideDown();\n\t\t$('.buttonShowAllDays').hide();\n\t//\tif
+        ('e' == 'f') {\n\t//\t\t$('#sortbyoptionsdays').html('toutes les dates disponibles');\n\t//\t}\n\t//\telse
+        {\n\t//\t\t$('#sortbyoptionsdays').html('all available dates');\n\t//\t}\n\t}\n</script>\n\n<script>\nfunction
+        ValidateEmail(valemail) {\n\tif (/^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$/.test(valemail))\n\t{return
+        (true)}\n\t//console.log('User email NOT good: '+valemail);\n\treturn (false)\n}\n</script>\n\n<script>\nvar
+        jQl={q:[],dq:[],gs:[],ready:function(a){\"function\"==typeof a&&jQl.q.push(a);return
+        jQl},getScript:function(a,c){jQl.gs.push([a,c])},unq:function(){for(var a=0;a<jQl.q.length;a++)jQl.q[a]();jQl.q=[]},ungs:function(){for(var
+        a=0;a<jQl.gs.length;a++)jQuery.getScript(jQl.gs[a][0],jQl.gs[a][1]);jQl.gs=[]},bId:null,boot:function(a){\"undefined\"==typeof
+        window.jQuery.fn?jQl.bId||(jQl.bId=setInterval(function(){jQl.boot(a)},25)):(jQl.bId&&clearInterval(jQl.bId),jQl.bId=0,jQl.unqjQdep(),jQl.ungs(),jQuery(jQl.unq()),
+        \"function\"==typeof a&&a())},booted:function(){return 0===jQl.bId},loadjQ:function(a,c){setTimeout(function(){var
+        b=document.createElement(\"script\");b.src=a;document.getElementsByTagName(\"head\")[0].appendChild(b)},1);jQl.boot(c)},loadjQdep:function(a){jQl.loadxhr(a,jQl.qdep)},qdep:function(a){a&&(\"undefined\"!==typeof
+        window.jQuery.fn&&!jQl.dq.length?jQl.rs(a):jQl.dq.push(a))},unqjQdep:function(){if(\"undefined\"==typeof
+        window.jQuery.fn)setTimeout(jQl.unqjQdep,50);else{for(var a=0;a<jQl.dq.length;a++)jQl.rs(jQl.dq[a]);
+        jQl.dq=[]}},rs:function(a){var c=document.createElement(\"script\");document.getElementsByTagName(\"head\")[0].appendChild(c);c.text=a},loadxhr:function(a,c){var
+        b;b=jQl.getxo();b.onreadystatechange=function(){4!=b.readyState||200!=b.status||c(b.responseText,a)};try{b.open(\"GET\",a,!0),b.send(\"\")}catch(d){}},getxo:function(){var
+        a=!1;try{a=new XMLHttpRequest}catch(c){for(var b=[\"MSXML2.XMLHTTP.5.0\",\"MSXML2.XMLHTTP.4.0\",\"MSXML2.XMLHTTP.3.0\",\"MSXML2.XMLHTTP\",\"Microsoft.XMLHTTP\"],d=0;d<b.length;++d){try{a=
+        new ActiveXObject(b[d])}catch(e){continue}break}}finally{return a}}};if(\"undefined\"==typeof
+        window.jQuery){var $=jQl.ready,jQuery=$;$.getScript=jQl.getScript};\njQl.loadjQ('//www.cinemaclock.com/html/ccjs/jquery-3.3.1.min.js');\n</script>\n\n<div
+        id=\"AGNES\"></div>\n<div id=\"WOJTEK\"></div>\n<div id=\"MISIA\"></div>\n<div
+        id=\"JASON\"></div>\n<div id=\"KEVIN\"></div>\n<div id=\"MINI\"></div>\n<div
+        id=\"PAGE\"></div>\n<div id=\"sitetitle\">\n<div id=\"topbar\">\n<div id=\"topbarinner\">\n\n<div
+        id=\"breadcrumbs\">\n<script>var Cookv=CCv;var CCpathHome=CCpath;if(\"cq\"==\"clock\"){CCpathHome=CCpath+'/e';}if(\"cm\"==\"clock\"){CCpathHome='/eng';}if(CSm==\"zipcode\"){Cookv=CSr;}if
+        (Cookv.length<2){Cookv=\"Choose location\";CCpathHome='\" onClick=\"getLocation();return
+        false;';}</script><script>document.write('<ol class=\"crumbs\"><li class=\"crumb\"><a
+        id=\"CCpathHome\" href=\"'+CCpathHome+'\">'+Cookv+'</a></li><li class=\"crumb\"><a
+        href=\"'+CCpath+'/theatres\">Cinemas</a></li><li class=\"crumb\">Avalon</li></ol>')</script>\n<script>\n
+        \ var el = document.createElement('script');\n  el.type = 'application/ld+json';\n
+        \ el.text = JSON.stringify({\n    \"@context\": \"https://schema.org\",\n
+        \   \"@type\": \"BreadcrumbList\",\n    \"itemListElement\": [{\"@type\":
+        \"ListItem\",\"position\": 1,\"item\": {\"@id\": \"https://www.cinemaclock.com\"+CCpath,\"name\":
+        Cookv}},{\"@type\": \"ListItem\",\"position\": 2,\"item\": {\"@id\": \"https://www.cinemaclock.com\"+CCpath+\"/theatres\",\"name\":
+        \"Cinemas\" }},{\"@type\": \"ListItem\",\"position\": 3,\"item\": {\"@id\":
+        \"https://www.cinemaclock.com\"+CCpath+\"/theatres/avalon\",\"name\": \"Avalon\"
+        }}\n  ]\n});\n  document.querySelector('body').appendChild(el);\n</script>\n\n</div>\n\n<div
+        id=\"ccmainlogin\" onclick=\"showLoginBox(CCuseremail);loginfindemail();\"
+        rel=\"nofollow\" class=\"nowrap\"><span class=\"ccicon ccicon-user\"></span>&nbsp;
+        Log in / Sign up</div>\n<div id=\"ccmainlogout\" onclick=\"myAccount();\"
+        rel=\"nofollow\"><span class=\"ccicon ccicon-user\"></span>&nbsp;<span id=\"topbarusername\"><script>document.write(CCusername_)</script></span></div>\n</div></div>\n<div
+        id=\"logoimg\">\n<div id=\"logowhite\" class=\"logoimg\" alt=\"Logo Cinema
+        Clock\" onclick=\"location.href=CCpathHomeIcon;\"></div>\n<div id=\"tdsearch\">\n<div
+        class=\"ccicon ccicon-cancel searchcancel\" onclick=\"unhideMenu();\"></div>\n<form
+        style=\"margin:0;padding:0;\" method=\"get\" action=\"/search\" target=\"_top\"
+        name=\"searchform2\" onSubmit=\"qsearch();return false;\"><input id=\"key\"
+        name=\"key\" type=\"text\" class=\"keyfield text\"   onFocus=\"document.getElementById('MNFull').style.display='none';hideMenu();\"
+        \ onBlur=\"unhideMenu();\" placeholder=\"Search\" autocomplete=\"off\"><input
+        type=\"hidden\" name=\"keysel\" id=\"keysel\" value=\"\"></form>\n</div>\n<div
+        id=\"results\"><ul id=\"resultsli\"></ul></div>\n</div></div>\n<div id=\"menubar\">
+        \  \n<div id=\"BDmenu\">\n<table style=\"width:100%;\"><tr>\n<script>\nvar
+        ccpromo = getCookie('ccpromo');\ndocument.write('<td class=\"tdhome\"><div
+        class=\"mnbd\"><a class=\"btn mnb mnbhome \" href=\"'+CCpathHomeIcon+'\"><svg
+        style=\"width:20px;height:16px;\" version=\"1.1\" id=\"Layer_1\" xmlns=\"https://www.w3.org/2000/svg\"
+        xmlns:xlink=\"https://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0
+        0 112.4 89.5\" style=\"enable-background:new 0 0 112.4 89.5;\" xml:space=\"preserve\"><path
+        d=\"M96.4,51.6V85c0,1.2-0.5,2.3-1.4,3.1s-2,1.3-3.1,1.4H65.2V62.8H47.3v26.8H20.5c-1.2,0-2.3-0.5-3.1-1.4
+        s-1.3-2-1.4-3.1V51.6c0-0.1,0-0.2,0-0.2s0-0.2,0-0.2l40.1-33l40.1,33C96.4,51.2,96.4,51.4,96.4,51.6z
+        M111.9,46.8l-4.2,5.1 c-0.4,0.4-0.9,0.7-1.5,0.8h-0.2c-0.6,0-1.1-0.1-1.5-0.4L56.2,12L7.9,52.2c-0.6,0.3-1.1,0.5-1.6,0.4c-0.6-0.1-1.1-0.3-1.5-0.8
+        l-4.4-5.1c-0.3-0.5-0.5-1-0.4-1.6s0.3-1.1,0.8-1.5L50.9,1.9C52.4,0.6,54.2,0,56.2,0s3.8,0.6,5.4,1.9l17,14.1V2.5
+        c0-0.7,0.2-1.2,0.6-1.6s1-0.6,1.6-0.6h13.4c0.7,0,1.2,0.2,1.6,0.6s0.6,1,0.6,1.6v28.4l15.2,12.8c0.5,0.3,0.8,0.8,0.8,1.5
+        S112.2,46.3,111.9,46.8z\"/></svg></a></div></td><td class=\"tdmenu\" style=\"text-align:
+        center;\"><div class=\"mnbd\"><a class=\"btn mnb  menuactive\" href=\"'+CCpath+'/theatres\">Cinemas</a></div></td><td
+        class=\"tdmenu\" style=\"text-align: center;\"><div class=\"mnbd\"><a class=\"btn
+        mnb    \" href=\"'+CCpath+'/movies/in-theatres\" style=\"min-width: 48px;\">Movies</a></div></td><td
+        \ class=\"tdmenu\"><div class=\"mnbd mnd1\"><a class=\"btn mnb \" href=\"'+CCpath+'/movies/top-10\"
+        style=\"min-width: 46px;\">Top 10</a></div></td><td  class=\"tdmenu\"><div
+        class=\"mnbd \"><a class=\"btn mnb \" href=\"/movies/trailers\">Trailers</a></div></td><td
+        class=\"tdmenu td480\"><div class=\"mnbd \"><a class=\"btn mnb \" href=\"'+CCpath+'/movies/upcoming\">Upcoming</a></div></td><td
+        class=\"tdmenu td640\"><div class=\"mnbd \"><a class=\"btn mnb \" href=\"/movies/dvd\">DVD-VOD</a></div></td><td
+        class=\"tdmenu td768\"><div class=\"mnbd \"><a class=\"btn mnb \" href=\"/theatres/my-theatres\">My
+        Cinemas</a></div></td><td class=\"tdmenu td768\"><div class=\"mnbd \"><a class=\"btn
+        mnb \" href=\"/movies/my-movies\">My Movies</a></div></td>');\nif (ccpromo>0)
+        {document.write('<td class=\"tdmenu td860\"><div class=\"mnbd \"><a class=\"btn
+        mnb \" href=\"'+CCpath+'/contests\">Promotions</a></div></td>');}\n</script>\n<td
+        class=\"tdmenu\"><a class=\"btn mnb\" id=\"mnopen\">More&nbsp;<div id=\"menuarrowc\"><div
+        id=\"menuarrow\"></div></div></a></td>\n</tr></table>\n<div id=\"MNFull\">\n<div
+        class=\"mnbf \" id=\"mr768\"><a class=\"btn mnb\" href=\"/theatres/my-theatres\"
+        rel=\"nofollow\">My Favourite Cinemas</a></div>\n<div class=\"mnbf \" id=\"mr768\"><a
+        class=\"btn mnb\" href=\"/movies/my-movies\" rel=\"nofollow\">My Movie Library</a></div>\n<script>\ndocument.write('<div
+        class=\"mnbf\" id=\"mr480\"><a class=\"btn mnb\" href=\"'+CCpath+'/movies/upcoming\">Upcoming</a></div><div
+        class=\"mnbf\" id=\"mr640\"><a class=\"btn mnb\" href=\"/movies/dvd\">DVD-VOD</a></div>');\nif
+        (ccpromo>0) {document.write('<div class=\"mnbf\" id=\"mr860\"><a class=\"btn
+        mnb\" href=\"'+CCpath+'/contests\">Promotions</a></div>');}\n</script>\n<div
+        class=\"mnbf\"><a class=\"btn mnb\" href=\"/awards/oscars\">Oscars</a></div>\n<div
+        class=\"mnbf \"><a class=\"btn mnb\" href=\"\" onClick=\"getLocation(2);return
+        false;\">Change Location</a></div>\n<div class=\"mnbf \"><a class=\"btn mnb\"
+        href=\"/contact-us\" rel=\"nofollow\">Contact Us</a></div>\n<div class=\"mnbf\"><a
+        class=\"btn mnb\" href=\"/my-account\" onClick=\"showMyAccountFn();return
+        false;\">My Account</a></div>\n<div class=\"mnbf \"><a class=\"btn mnb\" href=\"/francais\"
+        rel=\"nofollow\">Français</a></div>\n</div>\n</div>\n</div>\n<div id=\"VIDEO\"
+        class=\"BD videooutstream\"><div class=\"BD videoembed\" id=\"trailervideo\"><div
+        id=\"TRvideo\"></div></div></div>\n<div id=\"WALL\"></div>\n<script>\nfunction
+        qsearch() {\n\tvar qurl = document.getElementById('key').value;\n\tvar keysel
+        = document.getElementById('keysel');\n\tif (keysel === undefined || keysel
+        === null) {\n\t}\n\telse {\n\t\tif (keysel.value.length>2){\n\t\t\twindow.location.href
+        = keysel.value;\n\t\t\treturn false;\n\t\t}\n\t}\n\twindow.location.href =
+        CCpath + '/search/' + qurl;\n\treturn false;\n}\n</script>\n<script>\n\tfunction
+        isScrolledIntoView(elem) {\n    var docViewTop = $(window).scrollTop();\n
+        \   var docViewBottom = docViewTop + $(window).height();\n\n    var elemTop
+        = $(elem).offset().top;\n    var elemBottom = elemTop + $(elem).height();\n\n
+        \   return ((elemBottom>= docViewTop) && (elemTop <= docViewBottom)\n      &&
+        (elemBottom <= docViewBottom) &&  (elemTop>= docViewTop) );\n\t}\n\t\n\tfunction
+        closeVideoEmbed18(){\n\t\tplayerba.pause();\n\t\t$('#VIDEO').slideUp('fast');\n\t\tif
+        (typeof closeVideoEmbedAfter === 'function') {\n\t\t\tcloseVideoEmbedAfter();\n\t\t}\n\t}\n</script>\n<div
+        class=\"sharepopup\" id=\"sharepopup\">\n\t<div class=\"sharepopuptoastcontainer\">\n\t\t<div
+        class=\"sharepopuptoast\">\n\t\t\t<div class=\"ccicon ccicon-cancel loginclose\"
+        onclick=\"cancelshare();\"></div>\n\t\t\tShare this&nbsp;page\n\t\t\t<div
+        class=\"sharebuttons\" style=\"margin:10px auto 0;\">\n\t\t\t<div class=\"share_w\"
+        onclick=\"sharepopup('whatsapp','600','440');\" data-action=\"share/whatsapp/share\"><div
+        class=\"ccicon-whatsapp\" style=\"color:#fff;\"></div></div>\n\t\t\t<div class=\"share_s\"
+        onclick=\"sharepopup('sms','600','440');\"><div class=\"ccicon-sms-icon\"
+        style=\"color:#fff;\"></div></div>\n\t\t\t<div class=\"share_f\" onclick=\"sharepopup('facebook','600','440');\"><div
+        class=\"ccicon-facebook-squared\" style=\"color:#fff;\"></div></div>\n\t\t\t<div
+        class=\"share_t\" onclick=\"sharepopup('twitter','600','450');\"><span class=\"ccicon-twitter-squared\"
+        style=\"color:#fff;\"></span></div>\n\t\t\t<div class=\"share_e\" onclick=\"sharepopup('email','600','600');\"><div
+        class=\"ccicon-mail\" style=\"color:#fff;\"></div></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n\n<script
+        charset=\"utf-8\">\nfunction intToAlpha(n) {\n\tvar ret = '';\n  \tfor (ret
+        = '', a = 1, b = 26; (n -= a) >= 0; a = b, b *= 26) {\n    \tret = String.fromCharCode(parseInt((n
+        % b) / a) + 97) + ret;\n  \t}\n  \treturn ret;\n}\nvar winloc = window.location.href.split('+')[0];\nfunction
+        recShare(newShare) {\n\tconsole.log('Shared='+newShare);\n}\n\t\nfunction
+        sharepopup(sharemedia,winw,winh) {\n\t// by www.nigraphic.com\n\tvar screenleft
+        = window.screenLeft != undefined ? window.screenLeft : screen.left;\n\tvar
+        screentop = window.screenTop != undefined ? window.screenTop : screen.top;\n\tvar
+        winwidth = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth
+        ? document.documentElement.clientWidth : screen.width;\n\tvar winheight =
+        window.innerHeight ? window.innerHeight : document.documentElement.clientHeight
+        ? document.documentElement.clientHeight : screen.height;\n\tvar posleft =
+        ((winwidth / 2) - (winw / 2)) + screenleft;\n\tvar postop = ((winheight /
+        2) - (winh / 2)) + screentop;\n\tvar sm=sharemedia.charAt(0);\n\twinloc =
+        window.location.href.split('~')[0];\n\tvar winlocenc=encodeURI(winloc) + '~'
+        + sm;\n\tif (CCuserid>0) {\n\t\twinlocenc = winlocenc + intToAlpha(CCuserid);\n\t\tvar
+        tocall= \"/login/\"+sm+intToAlpha(CCuserid)+\"/sp23\"+CCuserid+\"/\"+encodeURI(winloc)+\"_awmjk_\"+sm+intToAlpha(CCuserid)+\"/rn\"+RandomNumber;\n\t\tconsole.log('callAjax
+        '+tocall);\n\t\tcallAjax(tocall,recShare);\n\t}\n\tvar url = 'https://www.facebook.com/sharer/sharer.php?u='
+        + winlocenc + '&title=' + encodeURI(document.title);\n\tif (sharemedia ==
+        'twitter') {url = 'https://twitter.com/share?url=' + winlocenc + '&text='
+        + encodeURI(document.title);}\n\tif (sharemedia == 'google') {url = 'https://plus.google.com/share?hl=en-US&url='
+        + winlocenc + '&title=' + encodeURI(document.title);}\n\tif (sharemedia ==
+        'whatsapp') {\n\t\turl = 'whatsapp://send?text=' + winlocenc;\n\t\twindow.location=url;\n\t}\n\telse
+        if (sharemedia == 'sms') {\n\t\turl = 'sms:;?&body=' + encodeURI(document.title)
+        + '%0A%0A' + winlocenc + '%0A';\n\t\twindow.location=url;\n\t}\n\telse if
+        (sharemedia == 'email') {\n\t\turl = 'mailto:?Subject=' + encodeURI(document.title)
+        + '&body=%0A%0A' + winlocenc + '%0A%0A';\n\t\twindow.location=url;\n\t}\n\telse
+        {\n\t\tvar sharewindow = window.open(url,'','scrollbars=yes,width='+winw+',height='+winh+',top='+postop+',left='+posleft);\n\t\tif
+        (window.focus) {sharewindow.focus();}\n\t}\n}\nfunction cancelshare() {$('#sharepopup').fadeOut();}\n</script>\n\n<script>\nfunction
+        updateCookieUM() {\n\t$('.butkinofav').hide(); //2015-11-02\n\tvar cookieum
+        = \".\";\n\tvar oneum = umall.split('.');\n\tfor(var i=0; i<oneum.length;
+        i++) {\n\t\tvar oum = oneum[i];\n\t\toum = oum.replace(/\\d+e/g,'e');\n\t\toum
+        = oum.replace(/\\d+f/g,'f');\n\t\tvar pat = '\\\\.' + oum + '\\\\.';\n\t\tvar
+        reg = new RegExp(pat,\"g\");\n\t\tcookieum = cookieum.replace(reg,'.');\n\t\tcookieum
+        = cookieum + '.' + oum + '.';\n\t\tcookieum = cookieum.replace(/\\.+/g,'.');\n\t\t//2015-11-02\n\t\tfavmovel
+        = '.butkinofav.m' + oum;\n\t\t$(favmovel).css('display', 'block');\n\t}\n\tsetCookie('um',cookieum,.05);\n}\n\n\nfunction
+        clickAddFav(fid,cookm) {\n\tvar pat = '\\\\b'+fid+'\\\\b';\n\tvar reg = new
+        RegExp(pat,\"g\");\n\tvar ucother = getCookie('uc');\n\tucother = ucother.replace(reg,'.');\n\tucother
+        = ucother.replace(/\\.+/g,'.');\n\tvar ucall = ucother + '.' + fid;\n\tucall
+        = ucall.replace(/\\.+/g,'.');\n\tvar myheartcheck = '#my_heart_' + fid;\n\n\tif
+        ($(myheartcheck).val() == '1') {\n\t\t$(myheartcheck).val('0');\n\t\t$('#confirmationpopup').hide();\n\t\t$(myheartcheck).next('label').removeClass('checked');\n\t\tsetCookie('uc',ucother,1048);\n\t\t\t\tif
+        ((CCuserid>0) && (CCusertoken.length)) {\n\t\t\t\t\t$.post(\"/login/\",{CCuserid:CCuserid,CCusertoken:CCusertoken,CCfavCinemas:ucall},\n\t\t\t\t\tfunction(html){\n\t\t\t\t\t\tconsole.log('CCfavCinemasResp:
+        '+html);\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t\telse {\n\t\t\t\t\tvar ulogcan
+        = getCookie('ccuserlogincancel');\n\t\t\t\t\tif (!(ulogcan>0)) {\n\t\t\t\t\t\tshowLoginBox('','Please
+        log in to save your favourite movie theatres.','CCfavCinemas',ucother);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t//2015-11-02\n\t\tpat
+        = '\\\\.'+fid+'[ef]\\\\d+';\n\t\treg = new RegExp(pat,\"g\");\n\t\tumall =
+        umall.replace(reg,'.');\n\t\tumall = umall.replace(/\\.+/g,'.');\n\t}\n\telse
+        {\n\t\t$(myheartcheck).val('1');\n\t\t$(myheartcheck).next('label').removeClass('checked').addClass('checked');\n\t\t$('#confirmationpopup').show();\n\t\tsetTimeout(function(){
+        $('#confirmationpopup').fadeOut();}, 1200);\n\t\tsetCookie('uc',ucall,1048);\n\t\t\t\tif
+        ((CCuserid>0) && (CCusertoken.length)) {\n\t\t\t\t\t$.post(\"/login/\",{CCuserid:CCuserid,CCusertoken:CCusertoken,CCfavCinemas:ucall},\n\t\t\t\t\tfunction(html){\n\t\t\t\t\t\tconsole.log('CCfavCinemasResp:
+        '+html);\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t\telse {\n\t\t\t\t\tvar ulogcan
+        = getCookie('ccuserlogincancel');\n\t\t\t\t\tif (!(ulogcan>0)) {\n\t\t\t\t\t\tshowLoginBox('','Please
+        log in to save your favourite movie theatres.','CCfavCinemas',ucall);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t//2015-11-02\n\t\tpat
+        = '\\\\.'+fid+'[ef]\\\\d+';\n\t\treg = new RegExp(pat,\"g\");\n\t\tumall =
+        umall.replace(reg,'.');\n\t\tumall = umall + cookm;\n\t\tumall = umall.replace(/\\.+/g,'.');\n\t}\n\tupdateCookieUM();\n\treturn
+        false;\n}\n</script>\n\n<script>\nfunction showInfo() {\n\tdocument.getElementById('timesBlock').style.display='none';\n\tif
+        (document.getElementById('groupby')) {document.getElementById('groupby').style.display='none';}\n\tif
+        (document.getElementById('filtersbuttons')) {document.getElementById('filtersbuttons').style.display='none';}\n\tdocument.getElementById('addressBlock').style.display='block';\n\tdocument.getElementById('btntim').classList.remove(\"buttopinv\");;\n\tdocument.getElementById('btninf').classList.add(\"buttopinv\");;\n\treturn
+        false;\n}\nfunction showTimes() {\n\tdocument.getElementById('addressBlock').style.display='none';\n\tdocument.getElementById('timesBlock').style.display='block';\n\tif
+        (document.getElementById('groupby')) {document.getElementById('groupby').style.display='table';}\n\tif
+        (document.getElementById('filtersbuttons')) {document.getElementById('filtersbuttons').style.display='block';}\n\tdocument.getElementById('btntim').classList.add(\"buttopinv\");;\n\tdocument.getElementById('btninf').classList.remove(\"buttopinv\");;\n\treturn
+        false;\n}\n\n\n\nvar CCgroupByTime=0;\nfunction groupByTime(groupby) {\n\tif
+        (groupby) {\n\t\tCCgroupByTime=1;\n\t\t$('.groupmov').removeClass('buttopinv');\n\t\t$('.grouptim').addClass('buttopinv');\n\t}\n\telse
+        {\n\t\tCCgroupByTime=0;\n\t\t$('.grouptim').removeClass('buttopinv');\n\t\t$('.groupmov').addClass('buttopinv');\n\t}\n\tapplyShowOneFormat();\n\tapplyGroupByTime();\n}\nfunction
+        applyGroupByTime() {\n\t//$('#BBmobi').hide();\n\tif (CCgroupByTime) {\n\t\t$('.showtimeblock').not('.bytime').hide();\n\t\t$('.BDblock.shownext').hide();\n\t\t$('h3#grouptime').show();\n\t\t$('h3#timenow').show();\n\t}\n\telse
+        {\n\t\t$('.showtimeblock.bytime').hide();\n\t\t$('.BDblock.shownext').show();\n\t\t$('h3#grouptime').hide();\n\t\t$('h3#timenow').hide();\n\t}\n\tif
+        ($(\".showtimeblock:visible\").length) {\n\t\t$('h3#noshownote').hide();\n\t}\n\telse
+        {\n\t\t$('h3#grouptime').hide();\n\t\t$('h3#timenow').hide();\n\t\tvar ucall
+        = getCookie('uc');\n\t\tvar oneuc = ucall.split('.');\n\t\tif ((oneuc[0].length>0)||(oneuc[1].length>0))
+        {\n\t\t\tif ('e'=='f') {\n\t\t\t\t$('#noshownote').html('Aucune représentation
+        aujourd&apos;hui. Veuillez svp changer les options ci-haut.');\n\t\t\t}\n\t\t\telse
+        {\n\t\t\t\t$('#noshownote').html('No showtimes today. Please choose different
+        options above.');\n\t\t\t}\n\t\t}\n\t\telse {\n\t\t\tif ('e'=='f') {\n\t\t\t\t$('#noshownote').html('Vous
+        n&apos;avez aucun cinéma favori.<a href=\"/cinemas\" class=\"btn btnsort choose\">Choisir
+        mes cinémas favouris</a>');\n\t\t\t}\n\t\t\telse {\n\t\t\t\t$('#noshownote').html('You
+        have no favoggggurite cinemas.<a href=\"/theatres\" class=\"btn btnsort choose\">Choose
+        my favourite cinemas</a>');\n\t\t\t}\n\t\t}\n\t\t$('h3#noshownote').show();\n\t}\n}\n</script>\n\n\n<script>\n\tvar
+        showingfil=[];\n\tshowingfil['filreg']=0;\n\tshowingfil['filexp']=0;\n\tshowingfil['filad']=0;\n\tshowingfil['filcc']=0;\n\tshowingfil['filimax']=0;\n\tshowingfil['fil3d']=0;\n\tshowingfil['fil2d']=0;\n\n\tvar
+        filavailallcin=['0000000','0000011'];\n\tvar filavail=filavailallcin;\n\n\n\tfunction
+        showOneFormat(filter) {\n\t\tif (showingfil[filter]==1) {\n\t\t\tshowingfil[filter]=0;\n\t\t\tdocument.getElementById('filternote').innerHTML
+        = ' ';\n\t\t}\n\t\telse {\n\t\t\tshowingfil[filter]=1;\n\t\t\tif (filter ==
+        'filreg') {showingfil['fil3d']=0;}\n\t\t\tif (filter == 'fil2d') {showingfil['fil3d']=0;}\n\t\t\tif
+        (filter == 'fil3d') {showingfil['fil2d']=0;showingfil['filreg']=0;}\n\t\t\tif
+        ('e' == 'f') {\n\t\t\t\tif (filter == 'filcc') {document.getElementById('filternote').innerHTML
+        = 'CC = Sous-titrage codé disponible pour personnes malentendantes';}\n\t\t\t\telse
+        if (filter == 'filad') {document.getElementById('filternote').innerHTML =
+        'AD = Audiodescription disponible pour personnes avec déficience de la vue';}\n\t\t\t\telse
+        if (filter == 'filexp') {document.getElementById('filternote').innerHTML =
+        'Expérience extra - par exemple: VIP, D-Box, autres formats spéciaux';}\n\t\t\t\telse
+        {document.getElementById('filternote').innerHTML = '&nbsp;';}\n\t\t\t}\n\t\t\telse
+        {\n\t\t\t\tif (filter == 'filcc') {document.getElementById('filternote').innerHTML
+        = 'CC = Closed Caption available for hearing impaired';}\n\t\t\t\telse if
+        (filter == 'filad') {document.getElementById('filternote').innerHTML = 'AD
+        = Audio Description available for visually impaired';}\n\t\t\t\telse if (filter
+        == 'filexp') {document.getElementById('filternote').innerHTML = 'Extra experience
+        - for example: VIP, D-Box, other special formats';}\n\t\t\t\telse {document.getElementById('filternote').innerHTML
+        = ' ';}\n\t\t\t}\n\t\t}\n\t\t//$('#BBmobi').hide();\n\t\tapplyShowOneFormat();\n\t\tapplyGroupByTime();\n\t}\n\n\tfunction
+        applyShowOneFormat() {\n\t\tfilavail=filavailallcin; // all masks\n\n\t\t$('.times').show();\n\t\t$('.timesnotto').show();\n\t\t$('.timesalso').show();\n\t\t$('.timesother').show();\n\t\t$('.filall').hide();\n\t\t$('.showtimeblock').hide();\n\t\t$('.btnfilter').removeClass('butfilon').removeClass('butfiloff').prop('disabled',
+        false);;\n\t\tvar filterall='.filall';\n\t\tvar filbit= parseInt(\"0\"+showingfil['filexp']+showingfil['filad']+showingfil['filcc']+showingfil['filimax']+showingfil['fil3d']+showingfil['fil2d']+showingfil['filreg'],2);\n\t\tconsole.log('CCcurrent
+        combination of filters, filbit='+filbit);\n\n\t\tfor (filterr in showingfil)
+        {\n\t\t\tvar filbtn=\".btn\"+filterr;\n\t\t\tif (showingfil[filterr]==1) {\n\t\t\t\tfilterall
+        = filterall+'.'+filterr;\n\t\t\t\t$(filbtn).removeClass('butfiloff').prop('disabled',
+        false);\n\t\t\t\t$(filbtn).addClass('butfilon');\n\t\t\t}\n\t\t\telse {\n\t\t\t\t$(filbtn).addClass('butfiloff').prop('disabled',
+        true);;\n\t\t\t}\n\t\t}\n\n\t\t$('.showtimeblock').removeClass('showit');\n\t\tfor
+        (filtera in filavail) {\n\t\t\tvar filbittest= parseInt(\"0\"+filavail[filtera],2);\n\t\t\tvar
+        filand = filbit & filbittest;\n\t\t\tconsole.log(filbit+' & '+filbittest+'('+filavail[filtera]+')
+        = '+filand);\n\t\t\tif (filand>(filbit-1)) {\n\t\t\t\tvar filtershow = '.fil'+filavail[filtera];\n\t\t\t\t$(filtershow).show();\n\t\t\t\tvar
+        classblock = '.showtimeblock'+filtershow;\n\t\t\t\t$(classblock).addClass('showit');\n\t\t\t\tvar
+        fildif = filbittest-filand;\n\t\t\t\t//console.log('filbitdif='+fildif);\n\t\t\t\tif
+        (fildif>63){$('.btnfilexp').removeClass('butfiloff').prop('disabled', false);fildif=fildif-64;}\n\t\t\t\tif
+        (fildif>31){$('.btnfilad').removeClass('butfiloff').prop('disabled', false);fildif=fildif-32;}\n\t\t\t\tif
+        (fildif>15){$('.btnfilcc').removeClass('butfiloff').prop('disabled', false);fildif=fildif-16;}\n\t\t\t\tif
+        (fildif>7){$('.btnfilimax').removeClass('butfiloff').prop('disabled', false);fildif=fildif-8;}\n\t\t\t\tif
+        (fildif>3){$('.btnfil3d').removeClass('butfiloff').prop('disabled', false);fildif=fildif-4;}\n\t\t\t\tif
+        (fildif>1){$('.btnfil2d').removeClass('butfiloff').prop('disabled', false);fildif=fildif-2;}\n\t\t\t\tif
+        (fildif>0){$('.btnfilreg').removeClass('butfiloff').prop('disabled', false);}\n\t\t\t}\n\t\t}\n\t\tif
+        (filbit == \"00000000\") {\n\t\t\t$('.filall').show();\n\t\t\t$('.showtimeblock').show();\n\t\t}\n\n\t}\n</script>\n\n\n\n<div
+        class=\"BD\" id=\"headblock\"><div id=\"headblockin\">\n<div id=\"h1title\"><div
+        id=\"h1titlein\" class=\"onecinema\">\n<h1>Avalon</h1>\n<input type=\"hidden\"
+        value=\".391e76915.391e79974.391e77415.391e74441.391e79652.391e72211.391e67680.391e74451.391e76519.391e81098.\"
+        name=\"UCMAvalon\" id=\"ucm_391\">\n<input type=\"hidden\" value=\"0\" name=\"Avalon\"
+        id=\"my_heart_391\">\n<label for=\"my_heart_391\" onClick=\"clickAddFav('391','.391e76915.391e79974.391e77415.391e74441.391e79652.391e72211.391e67680.391e74451.391e76519.391e81098.');return
+        false;\"><span class=\"glyp check\"></span></label>\n<span class=\"ccicon-share\"
+        onClick=\"document.getElementById('sharepopup').style.display='block';\"></span>\n</div></div>\n\n<div
+        class=\"BDblock\" id=\"headoptions\">\n<a class=\"btn btnccinv twooptions
+        buttopinv\" onClick=\"showTimes();\" id=\"btntim\">times</a>\n<a class=\"btn
+        btnccinv twooptions\" onClick=\"showInfo();\" id=\"btninf\">info</a>\n</div>\n\n</div></div>\n<div
+        id=\"LBzone\"><div id='ad-slot-top'><script>googletag.cmd.push(function()
+        { googletag.display('ad-slot-top'); });</script></div></div>\n\n\n\n<div class=\"BDskin\"><div
+        class=\"BDblock headswitcher\" id=\"groupby\">\n<a class=\"btn btnccinv headoptions
+        groupmov nowrap\" onClick=\"groupByTime(0);return false;\">sort by movie</a>\n<a
+        class=\"btn btnccinv headoptions grouptim nowrap\" onClick=\"groupByTime(1);return
+        false;\">sort by time</a>\n</div></div>\n\n\n<div class=\"BD\" id=\"PARALLAX\"></div>\n\n<div
+        class=\"confirmationpopup\" id=\"confirmationpopup\" style=\"display:none;\">\n\t<div
+        class=\"confirmationpopuptoastcontainer\">\n\t\t<div class=\"confirmationpopuptoast\">\n\t\t\t<span
+        class=\"ccicon-heart\" style=\"font-size: 120px;line-height: 144px;\" aria-hidden=\"true\"></span><br>\n\t\t\tAdded
+        to favourites\n\t\t</div>\n\t</div>\n</div>\n\n<style>\nh3.notitle{margin:
+        0 auto 20px;}\n\ntable#restotab{display:none;}td.cinematd{width:50%;}td#restotd{display:none;}\n\n.gm-style
+        .gm-style-iw{color: #000;\n    text-align: left;\n    left: 0;\n    }\n    .gm-style
+        .gm-style-iw p{ padding-left: 0;}\n\n\n</style>\n\n<div style=\"display:none;\"
+        class=\"BD\" id=\"addressBlock\">\n\t\n\t<div style=\"padding:20px 0 0;font-size:
+        18px;\"><style>.prices{font-size:14px;line-height: 20px;}</style><em class=\"prices\"
+        style=\"font-size:18px;\">Landmark</em> </div>\n\t<div style=\"margin:0;font-size:
+        15px;\"><div style=\"margin:10px 0;\">Infoline: <a href=\"tel:(250) 390-5021\">(250)
+        390-5021</a></div></div>\n\t<div style=\"margin:0;font-size: 13px;\"><a href=\"#T391,49.235737,-124.051215,mymap_canvas391\"
+        class=\"clickaddress\" style=\"margin:0;\">\n\t<em class=\"prices\">6631 North
+        Island Hwy </span><br><span>(Woodgrove Centre)<br><span>Nanaimo, BC</span><br>V9T
+        4T7</a></div>\n\t<a class=\"btn btn-sort clickaddress\" href=\"#T391,49.235737,-124.051215,mymap_canvas391\"
+        style=\"margin:20px 0;min-width: 110px;\"><span class=\"ccicon-location\"
+        aria-hidden=\"true\" style=\"font-size:12px;\"></span>&nbsp; Map</a>\n\t<a
+        class=\"btn btn-sort\" style=\"display:inline-block;margin:20px 0;min-width:
+        110px;\" href=\"//maps.google.com?daddr=49.235737,-124.051215&amp;ll=\" target=\"_blank\"><span
+        class=\"ccicon-cab\" aria-hidden=\"true\" style=\"font-size:12px;\"></span>&nbsp;
+        Directions</a>\n\t</a></em>\n<script type=\"application/ld+json\">\n{\n\t\"@context\":
+        \"http://schema.org\",\n\t\"@type\": \"MovieTheater\",\n\t\"geo\": {\"@type\":
+        \"GeoCoordinates\",\"latitude\": \"49.235737\",\"longitude\": \"-124.051215\"},\n\t\"address\":
+        {\n\t\t\"@type\": \"PostalAddress\",\n\t\t\"addressLocality\": \"Nanaimo\",\n\t\t\"addressRegion\":
+        \"BC\",\n\t\t\"postalCode\": \"V9T 4T7\",\n\t\t\"streetAddress\": \"6631 North
+        Island Hwy\"\n\t},\n\t\"telephone\": \"(250) 390-5021\",\n\t\"priceRange\":
+        \"$\",\n\t\"screenCount\": 8,\n\t\"name\": \"Avalon\",\n\t\"image\": {\"@type\":\"ImageObject\",\"url\":\"https://www.cinemaclock.com/html/ccimg/logo-movie-theatre.jpg\"}\n}\n</script>\n\n\t<div
+        id=\"T391\" style=\"display:none;text-align:right;position:relative;height:100vw;max-height:
+        480px;\">\n\t\t<div style=\"position:relative;\">\n\t\t<a href=\"#T391,49.235737,-124.051215,mymap_canvas391\"
+        class=\"clickaddress xbutton\"><span class=\"ccicon-cancel\" aria-hidden=\"true\"></span></a>\n\t\t<a
+        href=\"//maps.google.com?daddr=49.235737,-124.051215&amp;ll=\" class=\"clickaddress
+        navbutton\" target=\"_blank\"><span class=\"ccicon-cab\" aria-hidden=\"true\"></span></a>\n\t\t<div
+        \ id='mymap_canvas391' class=\"map_canvas\"></div>\n\t\t</div>\n\t</div>\n\n\t\n<script>\nfunction
+        notifyPriceChange(lan) {\n\tconsole.log('call ajax ccinemanotifypricechange');\n\tvar
+        injuid='';\n\tif ((CCuserid>0) && (CCusertoken.length)) {\n\t\tinjuid=CCuserid+'/';\n\t}\n\t$.ajax({\n\t\turl:
+        \"/aw/ccinemanotifypricechange.aw/kino/\"+injuid+\"avalon/rn\"+RandomNumber,\n\t\tcache:
+        false\n\t})\n\t.done(function( html ) {\n\t\tif (lan == 'f') {\n\t\t\t$('#notifpricechange').html('<h3>Merci.</h3><br>C&apos;est
+        gentil de votre part. Nous allons vérifier et corriger les prix bientôt.<br><br>');\n\t\t}\n\t\telse
+        {\n\t\t\t$('#notifpricechange').html('<h3>Thank you.</h3><br>It is very nice
+        of you and we appreciate your help. We will update the prices soon.<br><brs>');\n\t\t}\n\t});\n}\n</script>\n<h2
+        style=\"margin: 0px 0 7px;\">Admission Prices</h2>\n\t\t<div style=\"text-align:center;padding:0
+        0 48px;background:none;backgroundcolor:#fff;\">\n\t\t\t<div><em>* prices are
+        subject to change<br>without prior notice</em></div>\n\t\t\t<div id=\"priceslong\"
+        class=\"prices\" style=\"padding: 10px 0 0;text-align:left;display: inline-block;\"><div
+        class=\"priceline\">General <span class=\"pramount\">10.99</span></div><div
+        class=\"priceline\">Child (3-13) <span class=\"pramount\">9.99</span></div><div
+        class=\"priceline\">Senior (65+) <span class=\"pramount\">9.99</span></div><div
+        class=\"priceline\">Before Noon <span class=\"pramount\">6.99</span></div><div
+        class=\"priceline\">Tuesday <span class=\"pramount\">6.99</span></div><div
+        class=\"priceline\">3D add <span class=\"pramount\">3.00</span></div><div
+        class=\"priceline\">10 Admissions <span class=\"pramount\">88.99</span></div></div>\n\t\t\t<div
+        id=\"notifpricechange\" style=\"margin:20px 0;\"><button class=\"btn btn-sort\"
+        style=\"display:inline-block;min-width: 220px;padding: 6px 20px;\" onClick=\"notifyPriceChange('e');\">Please
+        notify us if prices changed</button></div>\n\t\t</div>\n</div>\n\n<div id=\"timesBlock\">\n\t<!--
+        STASHO --><!-- BEGINCINEMA -->\n\n<!-- theblock -->\n<div class=\"showtimeblock
+        cin391\" style=\"margin-bottom: 0;border-bottom: 0;padding: 10px 7px 15px;\"><p
+        class=\"times multiplefeature\">Double Feature:\n</p></div><div class=\"showtimeblock
+        multfeatmid d0 d799740 d0 d0 cin391\"> <div class=\"movieblock fi76915 genact
+        gensci genani efilm\" id=\"efilm76915\"><div class=\"smallposter\" data-url=\"/movies/the-death-of-superman-2018\"><div
+        class=\"tagm tagm0\" onclick=\"favMovie(76915);return false;\"></div><img
+        class=\"lazy\" src=\"/images/posters/140x210.png\" data-src=\"/images/posters/140x210/15/the-death-of-superman-2018-us-poster.jpg\"
+        alt=\"The Death of Superman\"></div><div class=\"moviedesc\"><a href=\"/movies/the-death-of-superman-2018/reviews\"><div
+        class=\"valmain \">7<span class=\"decimal\">.5</span></div></a><h3 class=\"movietitle\"><a
+        href=\"/movies/the-death-of-superman-2018\">The Death of Superman <span class=\"rtUS\">PG-13</span><span
+        class=\"rtON\">PG</span></a></h3><p class=\"moviegenre\"> 1h21m &bull; Animation
+        <span class=\"avec\">&bull; Jerry O'Connell &amp; Rebecca Romijn</span><!--
+        TL e --> &bull; </span>1st&nbsp;week <!-- G:act:sci:ani: --></p><a class=\"button16
+        btntim aw76915\" href=\"/movies/the-death-of-superman-2018/showtimes\">times<div
+        class=\"butsub aw76915\"><!-- CINEMAS --></div></a><a class=\"button16 btninf
+        inne\" href=\"/movies/the-death-of-superman-2018\">info</a><a class=\"button16
+        btnvid\" href=\"/movies/the-death-of-superman-2018/videos/211469\">videos<span
+        class=\"butsub\">3</span></a><a class=\"button16 btnrev inne\" href=\"/movies/the-death-of-superman-2018/reviews\">reviews<span
+        class=\"butsub nrevmain \">2</span></a><!--RevSnip--></div><!--MoBl--></div>
+        <div class=\"filall  fil2d fil0000011\"> <p class=\"timesalso\"> Regular format
+        </p> \n<p class=\"times\"><u>Today <span style=\"font-size:0.9em;\">(Jan 14)</span></u><i>6:30</i></p>\n<p
+        class=\"timesother\">\n</p>\n</div></div><div class=\"showtimeblock cin391\"
+        style=\"margin-bottom: 0;border-bottom: 0;border-top:0;padding: 0 5px 20px;\"><p
+        class=\"times multiplefeature\" style=\"padding-left:8px;\">followed by...</p></div><div
+        class=\"showtimeblock multfeatlast d769150 d0 d0 d0 cin391\"> <div class=\"movieblock
+        fi79974 genact gensci genani efilm\" id=\"efilm79974\"><div class=\"smallposter\"
+        data-url=\"/movies/reign-of-the-supermen-2019\"><div class=\"tagm tagm0\"
+        onclick=\"favMovie(79974);return false;\"></div><img class=\"lazy\" src=\"/images/posters/140x210.png\"
+        data-src=\"/images/posters/140x210/74/reign-of-the-supermen-2019-us-poster.jpg\"
+        alt=\"Reign of the Supermen\"></div><div class=\"moviedesc\"><a href=\"/movies/reign-of-the-supermen-2019/reviews\"><div
+        class=\"valmain \">7<span class=\"decimal\">.5</span></div></a><h3 class=\"movietitle\"><a
+        href=\"/movies/reign-of-the-supermen-2019\">Reign of the Supermen <span class=\"rtUS\">PG-13</span><span
+        class=\"rtON\">PG</span></a></h3><p class=\"moviegenre\"> 1h27m &bull; Animation
+        <span class=\"avec\">&bull; Nathan Fillion &amp; Cameron Monaghan</span><!--
+        TL e --> &bull; </span>1st&nbsp;week <!-- G:act:sci:ani: --></p><a class=\"button16
+        btntim aw79974\" href=\"/movies/reign-of-the-supermen-2019/showtimes\">times<div
+        class=\"butsub aw79974\"><!-- CINEMAS --></div></a><a class=\"button16 btninf
+        inne\" href=\"/movies/reign-of-the-supermen-2019\">info</a><a class=\"button16
+        btnvid\" href=\"/movies/reign-of-the-supermen-2019/videos/212799\">videos<span
+        class=\"butsub\">2</span></a><a class=\"button16 btnrev inne\" href=\"/movies/reign-of-the-supermen-2019/reviews\">reviews<span
+        class=\"butsub nrevmain \">2</span></a><!--RevSnip--></div><!--MoBl--></div>
+        </div><div class=\"showtimeblock movie  fil2d fil0000011 cin391\"> <div class=\"movieblock
+        fi77415 gendra genbio efilm\" id=\"efilm77415\"><div class=\"smallposter\"
+        data-url=\"/movies/on-the-basis-of-sex-2018\"><div class=\"tagm tagm0\" onclick=\"favMovie(77415);return
+        false;\"></div><img class=\"lazy\" src=\"/images/posters/140x210.png\" data-src=\"/images/posters/140x210/15/on-the-basis-of-sex-2018-us-poster.jpg\"
+        alt=\"On the Basis of Sex\"></div><div class=\"moviedesc\"><a href=\"/movies/on-the-basis-of-sex-2018/reviews\"><div
+        class=\"valmain \">8<span class=\"decimal\">.3</span></div></a><h3 class=\"movietitle\"><a
+        href=\"/movies/on-the-basis-of-sex-2018\">On the Basis of Sex <span class=\"rtUS\">PG-13</span><span
+        class=\"rtQC\">G</span><span class=\"rtON\">PG</span><span class=\"rtAB\">PG</span><span
+        class=\"rtBC\">PG</span><span class=\"rtMB\">PG</span><span class=\"rtNS\">PG</span></a></h3><p
+        class=\"moviegenre\"> 2h00m &bull; Drama <span class=\"avec\">&bull; Felicity
+        Jones &amp; Armie Hammer</span><!-- TL e --> &bull; </span>1st&nbsp;week <!--
+        G:dra:bio: --></p><a class=\"button16 btntim aw77415\" href=\"/movies/on-the-basis-of-sex-2018/showtimes\">times<div
+        class=\"butsub aw77415\"><!-- CINEMAS --></div></a><a class=\"button16 btninf
+        inne\" href=\"/movies/on-the-basis-of-sex-2018\">info</a><a class=\"button16
+        btnvid\" href=\"/movies/on-the-basis-of-sex-2018/videos/211970\">videos<span
+        class=\"butsub\">5</span></a><a class=\"button16 btnrev inne\" href=\"/movies/on-the-basis-of-sex-2018/reviews\">reviews<span
+        class=\"butsub nrevmain \">20</span></a><!--RevSnip--></div><!--MoBl--></div>
+        <div class=\"filall  fil2d fil0000011\"> <p class=\"timesalso\"> Regular format
+        </p> \n<p class=\"times\"><u>Today <span style=\"font-size:0.9em;\">(Jan 14)</span></u><i>12:35&nbsp;
+        3:25&nbsp; 6:35&nbsp; 9:25</i></p>\n<p class=\"timesother\">\n<s><u>Tue <span
+        style=\"font-size:0.9em;\">(Jan 15)</span></u><i>12:35&nbsp; 3:25&nbsp; 6:35&nbsp;
+        9:25</i></s>\n<s><u>Wed <span style=\"font-size:0.9em;\">(Jan 16)</span></u><i>12:35&nbsp;
+        3:25&nbsp; 6:40&nbsp; 9:25</i></s>\n<s><u>Thu <span style=\"font-size:0.9em;\">(Jan
+        17)</span></u><i>12:35&nbsp; 3:25&nbsp; 6:35&nbsp; 9:25</i></s>\n\n\n\n</p>\n</div></div><div
+        class=\"showtimeblock movie  fil2d fil0000011 cin391\"> <div class=\"movieblock
+        fi74441 genthr gensci gencri genmys efilm\" id=\"efilm74441\"><div class=\"smallposter\"
+        data-url=\"/movies/replicas-2018\"><div class=\"tagm tagm0\" onclick=\"favMovie(74441);return
+        false;\"></div><img class=\"lazy\" src=\"/images/posters/140x210.png\" data-src=\"/images/posters/140x210/41/replicas-2018-us-poster.jpg\"
+        alt=\"Replicas\"></div><div class=\"moviedesc\"><a href=\"/movies/replicas-2018/reviews\"><div
+        class=\"valmain \">5<span class=\"decimal\">.5</span></div></a><h3 class=\"movietitle\"><a
+        href=\"/movies/replicas-2018\">Replicas <span class=\"rtUS\">PG-13</span><span
+        class=\"rtQC\">G</span><span class=\"rtON\">14A</span><span class=\"rtAB\">PG</span><span
+        class=\"rtBC\">PG</span><span class=\"rtMB\">PG</span><span class=\"rtNS\">PG</span></a></h3><p
+        class=\"moviegenre\"> 1h47m &bull; Sci-fi thriller <span class=\"avec\">&bull;
+        Keanu Reeves &amp; Alice Eve</span><!-- TL e --> &bull; </span>1st&nbsp;week
+        <!-- G:thr:sci:cri:mys: --></p><a class=\"button16 btntim aw74441\" href=\"/movies/replicas-2018/showtimes\">times<div
+        class=\"butsub aw74441\"><!-- CINEMAS --></div></a><a class=\"button16 btninf
+        inne\" href=\"/movies/replicas-2018\">info</a><div class=\"button16 btnvid
+        disabled\">videos</div><a class=\"button16 btnrev inne\" href=\"/movies/replicas-2018/reviews\">reviews<span
+        class=\"butsub nrevmain \">6</span></a><!--RevSnip--></div><!--MoBl--></div>
+        <div class=\"filall  fil2d fil0000011\"> <p class=\"timesalso\"> Regular format
+        </p> \n<p class=\"times\"><u>Today <span style=\"font-size:0.9em;\">(Jan 14)</span></u><i>1:00&nbsp;
+        4:00&nbsp; 7:10&nbsp; 10:00</i></p>\n<p class=\"timesother\">\n<s><u>Tue <span
+        style=\"font-size:0.9em;\">(Jan 15)</span></u><i>1:00&nbsp; 4:00&nbsp; 7:10&nbsp;
+        10:00</i></s>\n<s><u>Wed <span style=\"font-size:0.9em;\">(Jan 16)</span></u><i>1:00&nbsp;
+        4:00&nbsp; 10:00</i></s>\n<s><u>Thu <span style=\"font-size:0.9em;\">(Jan
+        17)</span></u><i>1:00&nbsp; 4:00&nbsp; 7:10&nbsp; 10:00</i></s>\n\n\n\n</p>\n</div></div><div
+        class=\"showtimeblock movie  fil2d fil0000011 cin391\"> <div class=\"movieblock
+        fi79652 genadv genfam efilm\" id=\"efilm79652\"><div class=\"smallposter\"
+        data-url=\"/movies/a-dog-s-way-home-2019\"><div class=\"tagm tagm0\" onclick=\"favMovie(79652);return
+        false;\"></div><img class=\"lazy\" src=\"/images/posters/140x210.png\" data-src=\"/images/posters/140x210/52/a-dog-s-way-home-2019-us-poster.jpg\"
+        alt=\"A Dog's Way Home\"></div><div class=\"moviedesc\"><a href=\"/movies/a-dog-s-way-home-2019/reviews\"><div
+        class=\"valmain \">6<span class=\"decimal\">.3</span></div></a><h3 class=\"movietitle\"><a
+        href=\"/movies/a-dog-s-way-home-2019\">A Dog's Way Home <span class=\"rtUS\">PG</span><span
+        class=\"rtQC\">G</span><span class=\"rtON\">G</span><span class=\"rtAB\">PG</span><span
+        class=\"rtBC\">PG</span><span class=\"rtMB\">PG</span><span class=\"rtNS\">PG</span></a></h3><p
+        class=\"moviegenre\"> 1h36m &bull; Adventure <span class=\"avec\">&bull; Bryce
+        Dallas Howard &amp; Ashley Judd</span><!-- TL e --> &bull; </span>1st&nbsp;week
+        <!-- G:adv:fam: --></p><a class=\"button16 btntim aw79652\" href=\"/movies/a-dog-s-way-home-2019/showtimes\">times<div
+        class=\"butsub aw79652\"><!-- CINEMAS --></div></a><a class=\"button16 btninf
+        inne\" href=\"/movies/a-dog-s-way-home-2019\">info</a><a class=\"button16
+        btnvid\" href=\"/movies/a-dog-s-way-home-2019/videos/212710\">videos<span
+        class=\"butsub\">7</span></a><a class=\"button16 btnrev inne\" href=\"/movies/a-dog-s-way-home-2019/reviews\">reviews<span
+        class=\"butsub nrevmain \">7</span></a><!--RevSnip--></div><!--MoBl--></div>
+        <div class=\"filall  fil2d fil0000011\"> <p class=\"timesalso\"> Regular format
+        </p> \n<p class=\"times\"><u>Today <span style=\"font-size:0.9em;\">(Jan 14)</span></u><i>1:10&nbsp;
+        3:55&nbsp; 6:45&nbsp; 9:05</i></p>\n<p class=\"timesother\">\n<s><u>Tue <span
+        style=\"font-size:0.9em;\">(Jan 15)</span></u><i>1:10&nbsp; 3:55&nbsp; 6:45&nbsp;
+        9:05</i></s>\n<s><u>Wed <span style=\"font-size:0.9em;\">(Jan 16)</span></u><i>1:10&nbsp;
+        3:55&nbsp; 6:45&nbsp; 9:05</i></s>\n<s><u>Thu <span style=\"font-size:0.9em;\">(Jan
+        17)</span></u><i>1:10&nbsp; 3:55&nbsp; 6:45&nbsp; 9:05</i></s>\n\n\n\n</p>\n</div></div><div
+        class=\"showtimeblock movie  fil3d fil0000100  fil2d fil0000011 cin391\">
+        <div class=\"movieblock fi72211 genact genadv genfan gensci efilm\" id=\"efilm72211\"><div
+        class=\"smallposter\" data-url=\"/movies/aquaman-2018\"><div class=\"tagm
+        tagm0\" onclick=\"favMovie(72211);return false;\"></div><img class=\"lazy\"
+        src=\"/images/posters/140x210.png\" data-src=\"/images/posters/140x210/11/aquaman-2018-poster.jpg\"
+        alt=\"Aquaman\"></div><div class=\"moviedesc\"><a href=\"/movies/aquaman-2018/reviews\"><div
+        class=\"valex 4379 4380 4479 4480 4573 4574 4673 4674\">7<span class=\"decimal\">.6</span></div><div
+        class=\"valmain 4379 4380 4479 4480 4573 4574 4673 4674\">7<span class=\"decimal\">.6</span></div></a><h3
+        class=\"movietitle\"><a href=\"/movies/aquaman-2018\">Aquaman <span class=\"rtUS\">PG-13</span><span
+        class=\"rtQC\">G</span><span class=\"rtON\">PG</span><span class=\"rtAB\">PG</span><span
+        class=\"rtBC\">PG</span><span class=\"rtMB\">PG</span><span class=\"rtNS\">PG</span></a></h3><p
+        class=\"moviegenre\"> 2h23m &bull; Fantasy action adventure <span class=\"avec\">&bull;
+        Jason Momoa &amp; Amber Heard</span><!-- TL e --> &bull; </span>4th&nbsp;week
+        <!-- G:act:adv:fan:sci: --></p><a class=\"button16 btntim aw72211\" href=\"/movies/aquaman-2018/showtimes\">times<div
+        class=\"butsub aw72211\"><!-- CINEMAS --></div></a><a class=\"button16 btninf
+        inne\" href=\"/movies/aquaman-2018\">info</a><a class=\"button16 btnvid\"
+        href=\"/movies/aquaman-2018/videos/212031\">videos<span class=\"butsub\">5</span></a><a
+        class=\"button16 btnrev inne\" href=\"/movies/aquaman-2018/reviews\">reviews<span
+        class=\"butsub nrevex 4379 4380 4479 4480\">346</span><span class=\"butsub
+        nrevex 4573 4574 4673 4674\">347</span><span class=\"butsub nrevmain 4379
+        4380 4479 4480 4573 4574 4673 4674\">345</span></a><!--RevSnip--></div><!--MoBl--></div>
+        <div class=\"filall  fil2d fil0000011\"> <p class=\"timesalso\"> Regular format
+        </p> \n<p class=\"times\"><u>Today <span style=\"font-size:0.9em;\">(Jan 14)</span></u><i>12:10&nbsp;
+        3:15&nbsp; 6:25</i></p>\n<p class=\"timesother\">\n<s><u>Tue <span style=\"font-size:0.9em;\">(Jan
+        15)</span></u><i>12:10&nbsp; 3:15&nbsp; 6:25&nbsp; 9:20</i></s>\n<s><u>Wed
+        <span style=\"font-size:0.9em;\">(Jan 16)</span></u><i>12:10&nbsp; 3:15&nbsp;
+        6:25&nbsp; 9:45</i></s>\n<s><u>Thu <span style=\"font-size:0.9em;\">(Jan 17)</span></u><i>12:10&nbsp;
+        3:15&nbsp; 6:25&nbsp; 9:20</i></s>\n\n\n\n</p>\n</div><div class=\"filall
+        \ fil3d fil0000100\"> <p class=\"timesalso\">In 3D <!-- ALONOTREG --> </p>
+        \n<p class=\"times\"><u>Today <span style=\"font-size:0.9em;\">(Jan 14)</span></u><i>9:35</i></p>\n<p
+        class=\"timesother\">\n<s><u>Tue <span style=\"font-size:0.9em;\">(Jan 15)</span></u><i>9:35</i></s>\n<s><u>Wed
+        <span style=\"font-size:0.9em;\">(Jan 16)</span></u><i>9:35</i></s>\n<s><u>Thu
+        <span style=\"font-size:0.9em;\">(Jan 17)</span></u><i>9:35</i></s>\n\n\n\n</p>\n</div></div><div
+        class=\"showtimeblock movie  fil2d fil0000011 cin391\"> <div class=\"movieblock
+        fi67680 genfan genfam genmus efilm\" id=\"efilm67680\"><div class=\"smallposter\"
+        data-url=\"/movies/mary-poppins-returns-2018\"><div class=\"tagm tagm0\" onclick=\"favMovie(67680);return
+        false;\"></div><img class=\"lazy\" src=\"/images/posters/140x210.png\" data-src=\"/images/posters/140x210/80/mary-poppins-returns-2018-poster.jpg\"
+        alt=\"Mary Poppins Returns\"></div><div class=\"moviedesc\"><a href=\"/movies/mary-poppins-returns-2018/reviews\"><div
+        class=\"valex 5097\">7<span class=\"decimal\">.8</span></div><div class=\"valmain
+        5097\">7<span class=\"decimal\">.8</span></div></a><h3 class=\"movietitle\"><a
+        href=\"/movies/mary-poppins-returns-2018\">Mary Poppins Returns <span class=\"rtUS\">PG</span><span
+        class=\"rtQC\">G</span><span class=\"rtON\">G</span><span class=\"rtAB\">G</span><span
+        class=\"rtBC\">G</span><span class=\"rtMB\">G</span><span class=\"rtNS\">G</span></a></h3><p
+        class=\"moviegenre\"> 2h10m &bull; Musical fantasy <span class=\"avec\">&bull;
+        Emily Blunt &amp; Lin-Manuel Miranda</span><!-- TL e --> &bull; </span>4th&nbsp;week
+        <!-- G:fan:fam:mus: --></p><a class=\"button16 btntim aw67680\" href=\"/movies/mary-poppins-returns-2018/showtimes\">times<div
+        class=\"butsub aw67680\"><!-- CINEMAS --></div></a><a class=\"button16 btninf
+        inne\" href=\"/movies/mary-poppins-returns-2018\">info</a><a class=\"button16
+        btnvid\" href=\"/movies/mary-poppins-returns-2018/videos/212469\">videos<span
+        class=\"butsub\">15</span></a><a class=\"button16 btnrev inne\" href=\"/movies/mary-poppins-returns-2018/reviews\">reviews<span
+        class=\"butsub nrevex 5097\">161</span><span class=\"butsub nrevmain 5097\">160</span></a><!--RevSnip--></div><!--MoBl--></div>
+        <div class=\"filall  fil2d fil0000011\"> <p class=\"timesalso\"> Regular format
+        </p> \n<p class=\"times\"><u>Today <span style=\"font-size:0.9em;\">(Jan 14)</span></u><i>12:25&nbsp;
+        12:45&nbsp; 3:30&nbsp; 3:45&nbsp; 6:55&nbsp; 9:45</i></p>\n<p class=\"timesother\">\n<s><u>Tue
+        <span style=\"font-size:0.9em;\">(Jan 15)</span></u><i>12:25&nbsp; 12:45&nbsp;
+        3:30&nbsp; 3:45&nbsp; 6:25&nbsp; 6:55&nbsp; 9:45</i></s>\n<s><u>Wed <span
+        style=\"font-size:0.9em;\">(Jan 16)</span></u><i>12:25&nbsp; 12:45&nbsp; 3:30&nbsp;
+        3:45&nbsp; 6:55&nbsp; 9:45</i></s>\n<s><u>Thu <span style=\"font-size:0.9em;\">(Jan
+        17)</span></u><i>12:25&nbsp; 12:45&nbsp; 3:30&nbsp; 3:45&nbsp; 6:25&nbsp;
+        6:55&nbsp; 9:45</i></s>\n\n\n\n</p>\n</div></div><div class=\"showtimeblock
+        movie  fil2d fil0000011 cin391\"> <div class=\"movieblock fi74451 genact genadv
+        gencom gensci genfam genani efilm\" id=\"efilm74451\"><div class=\"smallposter\"
+        data-url=\"/movies/spider-man-into-the-spider-verse-2018\"><div class=\"tagm
+        tagm0\" onclick=\"favMovie(74451);return false;\"></div><img class=\"lazy\"
+        src=\"/images/posters/140x210.png\" data-src=\"/images/posters/140x210/51/spider-man-into-the-spider-verse-2018-us-poster.jpg\"
+        alt=\"Spider-Man: Into the Spider-Verse\"></div><div class=\"moviedesc\"><a
+        href=\"/movies/spider-man-into-the-spider-verse-2018/reviews\"><div class=\"valex
+        4379 4380 4479 4480\">8<span class=\"decimal\">.7</span></div><div class=\"valmain
+        4379 4380 4479 4480\">8<span class=\"decimal\">.7</span></div></a><h3 class=\"movietitle\"><a
+        href=\"/movies/spider-man-into-the-spider-verse-2018\">Spider-Man: Into the
+        Spider-Verse <span class=\"rtUS\">PG</span><span class=\"rtQC\">G</span><span
+        class=\"rtON\">PG</span><span class=\"rtAB\">PG</span><span class=\"rtBC\">PG</span><span
+        class=\"rtMB\">PG</span><span class=\"rtNS\">PG</span></a></h3><p class=\"moviegenre\">
+        1h57m &bull; Animation <span class=\"avec\">&bull; Shameik Moore &amp; Hailee
+        Steinfeld</span><!-- TL e --> &bull; </span>5th&nbsp;week <!-- G:act:adv:com:sci:fam:ani:
+        --></p><a class=\"button16 btntim aw74451\" href=\"/movies/spider-man-into-the-spider-verse-2018/showtimes\">times<div
+        class=\"butsub aw74451\"><!-- CINEMAS --></div></a><a class=\"button16 btninf
+        inne\" href=\"/movies/spider-man-into-the-spider-verse-2018\">info</a><a class=\"button16
+        btnvid\" href=\"/movies/spider-man-into-the-spider-verse-2018/videos/212613\">videos<span
+        class=\"butsub\">19</span></a><a class=\"button16 btnrev inne\" href=\"/movies/spider-man-into-the-spider-verse-2018/reviews\">reviews<span
+        class=\"butsub nrevex 4379 4380 4479 4480\">134</span><span class=\"butsub
+        nrevmain 4379 4380 4479 4480\">133</span></a><!--RevSnip--></div><!--MoBl--></div>
+        <div class=\"filall  fil2d fil0000011\"> <p class=\"timesalso\"> Regular format
+        </p> \n<p class=\"times\"><u>Today <span style=\"font-size:0.9em;\">(Jan 14)</span></u><i>12:50&nbsp;
+        3:50&nbsp; 7:05&nbsp; 9:50</i></p>\n<p class=\"timesother\">\n<s><u>Tue <span
+        style=\"font-size:0.9em;\">(Jan 15)</span></u><i>12:50&nbsp; 3:50&nbsp; 7:05&nbsp;
+        9:50</i></s>\n<s><u>Wed <span style=\"font-size:0.9em;\">(Jan 16)</span></u><i>12:50&nbsp;
+        3:50&nbsp; 7:05&nbsp; 9:50</i></s>\n<s><u>Thu <span style=\"font-size:0.9em;\">(Jan
+        17)</span></u><i>12:50&nbsp; 3:50&nbsp; 7:05&nbsp; 9:50</i></s>\n\n\n\n</p>\n</div></div><div
+        class=\"showtimeblock movie  fil2d fil0000011 cin391\"> <div class=\"movieblock
+        fi76519 gendra genmus genbio efilm\" id=\"efilm76519\"><div class=\"smallposter\"
+        data-url=\"/movies/bohemian-rhapsody-2018\"><div class=\"tagm tagm0\" onclick=\"favMovie(76519);return
+        false;\"></div><img class=\"lazy\" src=\"/images/posters/140x210.png\" data-src=\"/images/posters/140x210/19/bohemian-rhapsody-2018-poster.jpg\"
+        alt=\"Bohemian Rhapsody\"></div><div class=\"moviedesc\"><a href=\"/movies/bohemian-rhapsody-2018/reviews\"><div
+        class=\"valex 4573 4574 4575 4576 4673 4674 4675 4676\">9<span class=\"decimal\">.0</span></div><div
+        class=\"valmain 4573 4574 4575 4576 4673 4674 4675 4676\">9<span class=\"decimal\">.0</span></div></a><h3
+        class=\"movietitle\"><a href=\"/movies/bohemian-rhapsody-2018\">Bohemian Rhapsody
+        <span class=\"rtUS\">PG-13</span><span class=\"rtQC\">G</span><span class=\"rtON\">PG</span><span
+        class=\"rtAB\">PG</span><span class=\"rtBC\">PG</span><span class=\"rtMB\">PG</span><span
+        class=\"rtNS\">PG</span></a></h3><p class=\"moviegenre\"> 2h14m &bull; Musical
+        drama <span class=\"avec\">&bull; Rami Malek &amp; Lucy Boynton</span><!--
+        TL e --> &bull; </span>11th&nbsp;week <!-- G:dra:mus:bio: --></p><a class=\"button16
+        btntim aw76519\" href=\"/movies/bohemian-rhapsody-2018/showtimes\">times<div
+        class=\"butsub aw76519\"><!-- CINEMAS --></div></a><a class=\"button16 btninf
+        inne\" href=\"/movies/bohemian-rhapsody-2018\">info</a><a class=\"button16
+        btnvid\" href=\"/movies/bohemian-rhapsody-2018/videos/211468\">videos<span
+        class=\"butsub\">10</span></a><a class=\"button16 btnrev inne\" href=\"/movies/bohemian-rhapsody-2018/reviews\">reviews<span
+        class=\"butsub nrevex 4573 4574 4673 4674\">810</span><span class=\"butsub
+        nrevex 4575 4576 4675 4676\">805</span><span class=\"butsub nrevmain 4573
+        4574 4575 4576 4673 4674 4675 4676\">804</span></a><!--RevSnip--></div><!--MoBl--></div>
+        <div class=\"filall  fil2d fil0000011\"> <p class=\"timesalso\"> Regular format
+        </p> \n<p class=\"times\"><u>Today <span style=\"font-size:0.9em;\">(Jan 14)</span></u><i>12:15&nbsp;
+        3:10&nbsp; 6:15&nbsp; 9:30</i></p>\n<p class=\"timesother\">\n<s><u>Tue <span
+        style=\"font-size:0.9em;\">(Jan 15)</span></u><i>12:15&nbsp; 3:10&nbsp; 6:15&nbsp;
+        9:30</i></s>\n<s><u>Wed <span style=\"font-size:0.9em;\">(Jan 16)</span></u><i>12:15&nbsp;
+        3:10&nbsp; 6:15&nbsp; 9:30</i></s>\n<s><u>Thu <span style=\"font-size:0.9em;\">(Jan
+        17)</span></u><i>12:15&nbsp; 3:10&nbsp; 6:15&nbsp; 9:30</i></s>\n\n\n\n</p>\n</div></div><div
+        class=\"showtimeblock movie  fil2d fil0000011 cin391\"> <div class=\"movieblock
+        fi81098 genact genfan genani efilm\" id=\"efilm81098\"><div class=\"smallposter\"
+        data-url=\"/movies/dragon-ball-super-broly-2018\"><div class=\"tagm tagm0\"
+        onclick=\"favMovie(81098);return false;\"></div><img class=\"lazy\" src=\"/images/posters/140x210.png\"
+        data-src=\"/images/posters/140x210/98/doragon-boru-cho-burori-dragon-ball-super-broly-2018-orig-poster.jpg\"
+        alt=\"Dragon Ball Super: Broly\"></div><div class=\"moviedesc\"><a href=\"/movies/dragon-ball-super-broly-2018/reviews\"></a><h3
+        class=\"movietitle\"><a href=\"/movies/dragon-ball-super-broly-2018\">Dragon
+        Ball Super: Broly <span class=\"rtUS\">PG</span></a><span class=\"movietitleother\">(Doragon
+        bôru chô: Burorî - Dragon Ball Super: Broly - Japanese)</span></h3><p class=\"moviegenre\">
+        1h40m &bull; Animation <span class=\"avec\">&bull; Sean Schemmel &amp; Christopher
+        Sabat</span><!-- TL e --> &bull; </span>Playing soon! <!-- G:act:fan:ani:
+        --></p><a class=\"button16 btntim aw81098\" href=\"/movies/dragon-ball-super-broly-2018/showtimes\">times<div
+        class=\"butsub aw81098\"><!-- CINEMAS --></div></a><a class=\"button16 btninf
+        inne\" href=\"/movies/dragon-ball-super-broly-2018\">info</a><div class=\"button16
+        btnvid disabled\">videos</div><a class=\"button16 btnrev inne\" href=\"/movies/dragon-ball-super-broly-2018/reviews\">reviews</a><!--RevSnip--></div><!--MoBl--></div>
+        <div class=\"filall  fil2d fil0000011\"> <p class=\"timesalso\"> Regular format
+        </p> \n<p class=\"timesnotto\"> Playing as of Wednesday<br></p><p class=\"timesother\"><u>Wed
+        <span style=\"font-size:0.9em;\">(Jan 16)</span></u><i>7:00</i>\n<s><u>Sat
+        <span style=\"font-size:0.9em;\">(Jan 19)</span></u><i>10:20am&nbsp; 1:15</i></s>\n\n</p>\n</div></div>\n<!--
+        BBmarker -->\n<p class=\"BDblock shownext\">Showtimes for the next upcoming
+        days are not available yet.</p><p class=\"BDblock shownext\">We will publish
+        them as soon as they become available, later this week.</p><!-- ENDSHO -->\n\t<h3
+        id=\"grouptime\" class=\"parallaxtext\">Monday January 14<sup>th</sup></h3>\n\t<h3
+        id=\"timenow\" class=\"parallaxtext\"></h3>\n\t<script>\n\t(function () {\n\t\tfunction
+        checkTime(i) {\n\t\t    return (i < 10) ? \"0\" + i : i;\n\t\t}\n\t\tfunction
+        startTime() {\n\t\t    var today = new Date(),\n\t\t\t   h = checkTime(today.getHours()),\n\t\t\t
+        \  m = checkTime(today.getMinutes()),\n\t\t\t   s = checkTime(today.getSeconds());\n\t\t\t
+        \  if (12 == 12) {\n\t\t\t\tif ((h>12) && (h<25)) {\n\t\t\t\t\th=h-12;\n\t\t\t\t}\n\t\t\t
+        \  }\n\t\t    document.getElementById('timenow').innerHTML = h + \":\" + m
+        + \":\" + s;\n\t\t    t = setTimeout(function () {\n\t\t\t   startTime()\n\t\t
+        \   }, 500);\n\t\t}\n\t\tstartTime();\n\t})();\n\t</script>\n\t<div class=\"showtimeblock
+        bytime tim1210 movi722110000 fil2d fil0000011 \"><h3>12:10pm</h3><div class='bytim
+        filall movi722110000  fil2d fil0000011 '> <p class='timesalso'> Regular format
+        </p>  <a class='times movi722110000' href='/movies/aquaman-2018/showtimes'>Aquaman</a></div></div><div
+        class=\"showtimeblock bytime tim1215 movi765190000 fil2d fil0000011 \"><h3>12:15pm</h3><div
+        class='bytim filall movi765190000  fil2d fil0000011 '> <p class='timesalso'>
+        Regular format </p>  <a class='times movi765190000' href='/movies/bohemian-rhapsody-2018/showtimes'>Bohemian
+        Rhapsody</a></div></div><div class=\"showtimeblock bytime tim1225 movi676800000
+        fil2d fil0000011 \"><h3>12:25pm</h3><div class='bytim filall movi676800000
+        \ fil2d fil0000011 '> <p class='timesalso'> Regular format </p>  <a class='times
+        movi676800000' href='/movies/mary-poppins-returns-2018/showtimes'>Mary Poppins
+        Returns</a></div></div><div class=\"showtimeblock bytime tim1235 movi774150000
+        fil2d fil0000011 \"><h3>12:35pm</h3><div class='bytim filall movi774150000
+        \ fil2d fil0000011 '> <p class='timesalso'> Regular format </p>  <a class='times
+        movi774150000' href='/movies/on-the-basis-of-sex-2018/showtimes'>On the Basis
+        of Sex</a></div></div><div class=\"showtimeblock bytime tim1245 movi676800000
+        fil2d fil0000011 \"><h3>12:45pm</h3><div class='bytim filall movi676800000
+        \ fil2d fil0000011 '> <p class='timesalso'> Regular format </p>  <a class='times
+        movi676800000' href='/movies/mary-poppins-returns-2018/showtimes'>Mary Poppins
+        Returns</a></div></div><div class=\"showtimeblock bytime tim1250 movi744510000
+        fil2d fil0000011 \"><h3>12:50pm</h3><div class='bytim filall movi744510000
+        \ fil2d fil0000011 '> <p class='timesalso'> Regular format </p>  <a class='times
+        movi744510000' href='/movies/spider-man-into-the-spider-verse-2018/showtimes'>Spider-Man:
+        Into the Spider-Verse</a></div></div><div class=\"showtimeblock bytime tim1300
+        movi744410000 fil2d fil0000011 \"><h3>1:00pm</h3><div class='bytim filall
+        movi744410000  fil2d fil0000011 '> <p class='timesalso'> Regular format </p>
+        \ <a class='times movi744410000' href='/movies/replicas-2018/showtimes'>Replicas</a></div></div><div
+        class=\"showtimeblock bytime tim1310 movi796520000 fil2d fil0000011 \"><h3>1:10pm</h3><div
+        class='bytim filall movi796520000  fil2d fil0000011 '> <p class='timesalso'>
+        Regular format </p>  <a class='times movi796520000' href='/movies/a-dog-s-way-home-2019/showtimes'>A
+        Dog's Way Home</a></div></div><div class=\"showtimeblock bytime tim1510 movi765190000
+        fil2d fil0000011 \"><h3>3:10pm</h3><div class='bytim filall movi765190000
+        \ fil2d fil0000011 '> <p class='timesalso'> Regular format </p>  <a class='times
+        movi765190000' href='/movies/bohemian-rhapsody-2018/showtimes'>Bohemian Rhapsody</a></div></div><div
+        class=\"showtimeblock bytime tim1515 movi722110000 fil2d fil0000011 \"><h3>3:15pm</h3><div
+        class='bytim filall movi722110000  fil2d fil0000011 '> <p class='timesalso'>
+        Regular format </p>  <a class='times movi722110000' href='/movies/aquaman-2018/showtimes'>Aquaman</a></div></div><div
+        class=\"showtimeblock bytime tim1525 movi774150000 fil2d fil0000011 \"><h3>3:25pm</h3><div
+        class='bytim filall movi774150000  fil2d fil0000011 '> <p class='timesalso'>
+        Regular format </p>  <a class='times movi774150000' href='/movies/on-the-basis-of-sex-2018/showtimes'>On
+        the Basis of Sex</a></div></div><div class=\"showtimeblock bytime tim1530
+        movi676800000 fil2d fil0000011 \"><h3>3:30pm</h3><div class='bytim filall
+        movi676800000  fil2d fil0000011 '> <p class='timesalso'> Regular format </p>
+        \ <a class='times movi676800000' href='/movies/mary-poppins-returns-2018/showtimes'>Mary
+        Poppins Returns</a></div></div><div class=\"showtimeblock bytime tim1545 movi676800000
+        fil2d fil0000011 \"><h3>3:45pm</h3><div class='bytim filall movi676800000
+        \ fil2d fil0000011 '> <p class='timesalso'> Regular format </p>  <a class='times
+        movi676800000' href='/movies/mary-poppins-returns-2018/showtimes'>Mary Poppins
+        Returns</a></div></div><div class=\"showtimeblock bytime tim1550 movi744510000
+        fil2d fil0000011 \"><h3>3:50pm</h3><div class='bytim filall movi744510000
+        \ fil2d fil0000011 '> <p class='timesalso'> Regular format </p>  <a class='times
+        movi744510000' href='/movies/spider-man-into-the-spider-verse-2018/showtimes'>Spider-Man:
+        Into the Spider-Verse</a></div></div><div class=\"showtimeblock bytime tim1555
+        movi796520000 fil2d fil0000011 \"><h3>3:55pm</h3><div class='bytim filall
+        movi796520000  fil2d fil0000011 '> <p class='timesalso'> Regular format </p>
+        \ <a class='times movi796520000' href='/movies/a-dog-s-way-home-2019/showtimes'>A
+        Dog's Way Home</a></div></div><div class=\"showtimeblock bytime tim1600 movi744410000
+        fil2d fil0000011 \"><h3>4:00pm</h3><div class='bytim filall movi744410000
+        \ fil2d fil0000011 '> <p class='timesalso'> Regular format </p>  <a class='times
+        movi744410000' href='/movies/replicas-2018/showtimes'>Replicas</a></div></div><div
+        class=\"showtimeblock bytime tim1815 movi765190000 fil2d fil0000011 \"><h3>6:15pm</h3><div
+        class='bytim filall movi765190000  fil2d fil0000011 '> <p class='timesalso'>
+        Regular format </p>  <a class='times movi765190000' href='/movies/bohemian-rhapsody-2018/showtimes'>Bohemian
+        Rhapsody</a></div></div><div class=\"showtimeblock bytime tim1825 movi722110000
+        fil2d fil0000011 \"><h3>6:25pm</h3><div class='bytim filall movi722110000
+        \ fil2d fil0000011 '> <p class='timesalso'> Regular format </p>  <a class='times
+        movi722110000' href='/movies/aquaman-2018/showtimes'>Aquaman</a></div></div><div
+        class=\"showtimeblock bytime tim1830 movi769150000 movi799740000 fil2d fil0000011
+        \"><h3>6:30pm</h3><div class='bytim filall movi769150000 movi799740000  fil2d
+        fil0000011 '> <p class='timesalso'> Regular format </p>  <a class='times movi769150000'
+        href='/movies/the-death-of-superman-2018/showtimes'>The Death of Superman</a><a
+        class='times movi799740000' href='/movies/reign-of-the-supermen-2019/showtimes'>Reign
+        of the Supermen</a></div></div><div class=\"showtimeblock bytime tim1835 movi774150000
+        fil2d fil0000011 \"><h3>6:35pm</h3><div class='bytim filall movi774150000
+        \ fil2d fil0000011 '> <p class='timesalso'> Regular format </p>  <a class='times
+        movi774150000' href='/movies/on-the-basis-of-sex-2018/showtimes'>On the Basis
+        of Sex</a></div></div><div class=\"showtimeblock bytime tim1845 movi796520000
+        fil2d fil0000011 \"><h3>6:45pm</h3><div class='bytim filall movi796520000
+        \ fil2d fil0000011 '> <p class='timesalso'> Regular format </p>  <a class='times
+        movi796520000' href='/movies/a-dog-s-way-home-2019/showtimes'>A Dog's Way
+        Home</a></div></div><div class=\"showtimeblock bytime tim1855 movi676800000
+        fil2d fil0000011 \"><h3>6:55pm</h3><div class='bytim filall movi676800000
+        \ fil2d fil0000011 '> <p class='timesalso'> Regular format </p>  <a class='times
+        movi676800000' href='/movies/mary-poppins-returns-2018/showtimes'>Mary Poppins
+        Returns</a></div></div><div class=\"showtimeblock bytime tim1905 movi744510000
+        fil2d fil0000011 \"><h3>7:05pm</h3><div class='bytim filall movi744510000
+        \ fil2d fil0000011 '> <p class='timesalso'> Regular format </p>  <a class='times
+        movi744510000' href='/movies/spider-man-into-the-spider-verse-2018/showtimes'>Spider-Man:
+        Into the Spider-Verse</a></div></div><div class=\"showtimeblock bytime tim1910
+        movi744410000 fil2d fil0000011 \"><h3>7:10pm</h3><div class='bytim filall
+        movi744410000  fil2d fil0000011 '> <p class='timesalso'> Regular format </p>
+        \ <a class='times movi744410000' href='/movies/replicas-2018/showtimes'>Replicas</a></div></div><div
+        class=\"showtimeblock bytime tim2105 movi796520000 fil2d fil0000011 \"><h3>9:05pm</h3><div
+        class='bytim filall movi796520000  fil2d fil0000011 '> <p class='timesalso'>
+        Regular format </p>  <a class='times movi796520000' href='/movies/a-dog-s-way-home-2019/showtimes'>A
+        Dog's Way Home</a></div></div><div class=\"showtimeblock bytime tim2125 movi774150000
+        fil2d fil0000011 \"><h3>9:25pm</h3><div class='bytim filall movi774150000
+        \ fil2d fil0000011 '> <p class='timesalso'> Regular format </p>  <a class='times
+        movi774150000' href='/movies/on-the-basis-of-sex-2018/showtimes'>On the Basis
+        of Sex</a></div></div><div class=\"showtimeblock bytime tim2130 movi765190000
+        fil2d fil0000011 \"><h3>9:30pm</h3><div class='bytim filall movi765190000
+        \ fil2d fil0000011 '> <p class='timesalso'> Regular format </p>  <a class='times
+        movi765190000' href='/movies/bohemian-rhapsody-2018/showtimes'>Bohemian Rhapsody</a></div></div><div
+        class=\"showtimeblock bytime tim2135 movi722110000 fil3d fil0000100 \"><h3>9:35pm</h3><div
+        class='bytim filall movi722110000  fil3d fil0000100 '> <p class='timesalso'>In
+        3D <!-- ALONOTREG --> </p>  <a class='times movi722110000' href='/movies/aquaman-2018/showtimes'>Aquaman</a></div></div><div
+        class=\"showtimeblock bytime tim2145 movi676800000 fil2d fil0000011 \"><h3>9:45pm</h3><div
+        class='bytim filall movi676800000  fil2d fil0000011 '> <p class='timesalso'>
+        Regular format </p>  <a class='times movi676800000' href='/movies/mary-poppins-returns-2018/showtimes'>Mary
+        Poppins Returns</a></div></div><div class=\"showtimeblock bytime tim2150 movi744510000
+        fil2d fil0000011 \"><h3>9:50pm</h3><div class='bytim filall movi744510000
+        \ fil2d fil0000011 '> <p class='timesalso'> Regular format </p>  <a class='times
+        movi744510000' href='/movies/spider-man-into-the-spider-verse-2018/showtimes'>Spider-Man:
+        Into the Spider-Verse</a></div></div><div class=\"showtimeblock bytime tim2200
+        movi744410000 fil2d fil0000011 \"><h3>10:00pm</h3><div class='bytim filall
+        movi744410000  fil2d fil0000011 '> <p class='timesalso'> Regular format </p>
+        \ <a class='times movi744410000' href='/movies/replicas-2018/showtimes'>Replicas</a></div></div>\n\n\t<div
+        class=\"BD nobottom\" id=\"BBmobi\"><div id=\"BBmobiSAND\"><div id='ad-slot-mid'><script>googletag.cmd.push(function()
+        { googletag.display('ad-slot-mid'); });</script></div></div></div>\n\t<div
+        id=\"buttonsettings\">\n\t<div class=\"BDblock headswitcher\" id=\"incinfavall\"
+        style=\"margin-top:43px;\">\n\t<a class=\"btn btnccinv headoptions btn-prefh
+        hs12\" onClick=\"$('.btn-prefh').removeClass('buttopinv');$(this).addClass('buttopinv');setCookie('hoursystem',12,1024);window.location.reload();\"
+        rel=\"nofollow\"\">12-hour clock</a>\n\t<a class=\"btn btnccinv headoptions
+        btn-prefh hs24\" onClick=\"$('.btn-prefh').removeClass('buttopinv');$(this).addClass('buttopinv');setCookie('hoursystem',24,1024);window.location.reload();\"
+        rel=\"nofollow\">24-hour clock</a>\n\t</div>\n</div>\n\t\n\t\t<div style=\"text-align:center;padding:20px
+        0;background:none;backgroundcolor:#fff;\">\n\t\t\t<em>* Movie showtimes are
+        subject to change without prior notice.</em>\n\t\t</div>\n\t\t\n</div><!--
+        timesblock -->\n\n\n\n\n\n<script>\n//\tvar favcinemascookie = getCookie('uc');\n//\tvar
+        favcinemasarray = favcinemascookie.split('.');\n//\tvar favcinema;\n//\tvar
+        favcinel = '';\n//\tfor (favcinema = 0; favcinema < favcinemasarray.length;
+        ++favcinema) {\n//\t\tif (favcinemasarray[favcinema].length) {\n//\t\t\tfavcinel
+        = '#my_heart_' + favcinemasarray[favcinema];\n//\t\t\t$(favcinel).val('1');$(favcinel).next('label').removeClass('checked').addClass('checked');\n//\t\t}\n//\t}\n\n//2015-11-02\n\tvar
+        umall = '';\n\n\n\n\n\n</script>\n\n<script type=\"text/javascript\" src=\"//maps.googleapis.com/maps/api/js?key=AIzaSyABIYHmdf3cUolUnmdXBhI8meijyRtdmzo&sensor=false\"
+        async defer></script>\n\n<div class=\"spinner\" id=\"spinner\" style=\"display:none;\"><div
+        class=\"bar1\"></div><div class=\"bar2\"></div><div class=\"bar3\"></div><div
+        class=\"bar4\"></div><div class=\"bar5\"></div><div class=\"bar6\"></div><div
+        class=\"bar7\"></div><div class=\"bar8\"></div><div class=\"bar9\"></div><div
+        class=\"bar10\"></div><div class=\"bar11\"></div><div class=\"bar12\"></div></div>\n<script>\nvar
+        locAccuracy = true;\nvar optionsPosition = {\n  enableHighAccuracy: locAccuracy,\n
+        \ timeout: 5000,\n  maximumAge: 0\n};\nfunction getLocation(force) {\n\t//
+        1 = force gps\n\t// 2 = show box\n\tif (force > 0) {} else {force=0;}\n\tif
+        (navigator.geolocation) {\n\t\tvar deviceloctime = getCookie('deviceloctime');\n\t\tif
+        ((force == 2) || ((force<1) && (deviceloctime>(1547523444-1800)))) {\n\t\t\tshowGeoBox(force);\n\t\t}\n\t\telse
+        {\n\t\t\tdocument.getElementById('spinner').style.display = 'block'; \n\t\t\tsetTimeout(function(){document.getElementById('spinner').style.display
+        = 'none'; },3000);\n\t\t\tnavigator.geolocation.getCurrentPosition(savePosition,errorPosition,optionsPosition);\n\t\t}\n\t}
+        else {\n\t\tlocAccuracy=false;\n\t\tconsole.log('CC: Geolocation is not supported
+        by this browser.');\n\t\terrorPosition(999);\n\t}\n}\nfunction savePosition(pos)
+        {\n\tvar crd = pos.coords;\n\tconsole.log('Your current position is:');\n\tconsole.log('Latitude
+        : ' + crd.latitude);\n\tconsole.log('Longitude: ' + crd.longitude);\n\tconsole.log('More
+        or less ' + crd.accuracy + ' meters.');\n\tvar devlat = Math.abs(crd.latitude);\n\tvar
+        devlon = Math.abs(crd.longitude);\n\tsetCookie('devicelat',devlat,180);\n\tsetCookie('devicelon',devlon,180);\n\tsetCookie('devicelocacc',crd.accuracy,180);\n\tsetCookie('deviceloctime','1547523444',180);\n\tsetCookie('userlat',devlat,180);\n\tsetCookie('userlon',devlon,180);\n\tif
+        (crd.accuracy < 2000) { // within 2km\n\t\tsetCookie('lang','e',1024);\n\t\tsetCookie('m','',-1);\n\t\tsetCookie('r','',-1);\n\t\tsetCookie('zipcode','',-1);\n\t\tif
+        ((CCuserid>0) && (CCusertoken.length)) {\n\t\t\t$.post(\"/login/\",{CCuserid:CCuserid,CCusertoken:CCusertoken,CCdevlat:devlat,CCdevlon:devlon,CClocacc:crd.accuracy},\n\t\t\tfunction(html){\n\t\t\t\tconsole.log('CCdevlocResp:
+        '+html);\n\t\t\t});\n\t\t}\n\t\tconsole.log (\"Got device location=\" + devlat
+        + \"-\" + devlon);\n\t\twindow.location = \"/location/\" + devlat + \"/\"+devlon+\"/theatres/avalon\";\n\t}\n\telse
+        {\n\t\tconsole.log (\"Not enough devlocacc=\" + crd.accuracy + \" - showGeoBox()\");\n\t\tshowGeoBox(3);\n\t}\n\tdocument.getElementById('spinner').style.display
+        = 'none';\n}\nfunction errorPosition(err) {\n\tdocument.getElementById('spinner').style.display
+        = 'none';\n\tconsole.log(\"locAccuracy=\" + locAccuracy + \" (err:\" + err
+        + \")\");\n\tif (locAccuracy) {\n\t\tlocAccuracy = false;\n\t\toptionsPosition
+        = {\n\t\t  enableHighAccuracy: locAccuracy,\n\t\t  timeout: 5000,\n\t\t  maximumAge:
+        0\n\t\t};\n\t\tconsole.log(\"Try again to getLocation() with locAccuracy=false\");\n\t\tgetLocation();\n\t\treturn;\n\t}\n\tsetCookie('gpslocerror',err.code,0.0001);\n\tshowGeoBox();\n\tconsole.log('ERROR('
+        + err.code + '): ' + err.message);\n\tvar devicelat = getCookie('devicelat');\n\tvar
+        devicelon = getCookie('devicelon');\n\tif ((devicelat>3) && (devicelon>3))
+        {\n\t\tif ('e'=='f') {\n\t\t\t$('#cinedistbtn').text('La même localisation');\n\t\t}\n\t\telse
+        {\n\t\t\t$('#cinedistbtn').text('The same location');\n\t\t}\n\t}\n}\nfunction
+        afterVideoPlay() {\n\tcloseVoken();\n}\nfunction closeVoken(){\n\tclockplayer.stop();\n\t$('#vokenxbutton').hide();\n\t$('body').removeClass('stop-scrolling');\n\t$('#VIDEO').hide();\n\t$('#ccbumblebeelogoanim').hide();\n\t$('#ccbumblebeetext').hide();\n\t$('#logowhite').removeClass('logowhiteover');\n\t$('#sitetitle').removeClass('sitetitleover');\n\t$('#sitetitle').css('height','130px');\n\t$('#WALL').css('height','250px');\n\t$('#menubar').appendTo('body').removeClass('menubarover');\n\t$('#tdsearch').animate({opacity:\"1\"},
+        500 );\n\t$('#MISIA').animate({opacity:\"1\"}, 500 );\n\t$('#topbarinner').css('max-width','1600px');\n\tvar
+        vtagba='';\n\tif (Bannerid>0) {\n\t\tvtagba = '<a href=\"/aw/bannadsc.aw?zid='
+        + Zoneid + '&bid=' + Bannerid + '\" target=\"' + BannerTarget + '\" style=\"display:
+        block;width: 100%;height: 100%;text-decoration: none;\"></a>';\n\t\t$(\"#WALL\").append(vtagba);\n\t}\n\tsetCookie('CCVokenCap',1,1);\n}\n</script>\n<div
+        id=\"LOGUJ\"></div>\n<div id=\"FT\" style=\"color:#999;\">\n<div><a href=\"\">English</a>
+        &nbsp; &nbsp; <a href=\"/francais\">Français</a></div>\n<div style=\"padding:15px
+        0;\">Thank you for your visit! :)</div>\n<div class=\"left\">\n<script>\ndocument.write('<p><a
+        href=\"'+CCpathHomeIcon+'\">Home Page</a></p><p><a href=\"'+CCpath+'/theatres\">Cinemas</a></p><p><a
+        href=\"'+CCpath+'/movies/in-theatres\">Movies</a></p><p><a href=\"'+CCpath+'/movies/top-10\">Top
+        10</a></p>');\n</script>\n</div>\n<div class=\"right\">\n<script>\ndocument.write('<p><a
+        href=\"/movies/trailers\">Trailers</a></p><p><a href=\"'+CCpath+'/movies/upcoming\">Upcoming</a></p><p><a
+        \ href=\"/movies/dvd\">DVD-VOD</a></p>');\nif (ccpromo>0) {document.write('<p><a
+        href=\"'+CCpath+'/contests\">Promotions</a></p>');}\nelse {document.write('<p><a
+        href=\"/awards/oscars\">Oscars</a></p>');}\n</script>\n</div>\n<div class=\"left\">\n<p><a
+        onClick=\"showMyAccountFn();return false;\">My Account</a></p>\n<p><a href=\"/theatres/my-theatres\">My
+        Cinemas</a></p>\n<p><a href=\"/movies/my-movies\">My Movies</a></p>\n<p><a
+        onClick=\"showMyReviewsFn();return false;\">My Reviews</a></p>\n</div>\n<div
+        class=\"right\">\n<p><a href=\"/contact-us\" rel=\"nofollow\">Contact us</a></p>\n<p><a
+        onclick=\"getLocation(2);return false;\">Change Location</a></p>\n<p><a href=\"/info/terms\"
+        rel=\"nofollow\">Terms of Use</a></p>\n<p><a href=\"/info/privacy-policy\"
+        rel=\"nofollow\">Privacy Policy</a></p>\n</div>\n<div style=\"padding:20px
+        0 30px;\">\n&copy; 1996-2018 Cinema Clock Inc. &reg;\n</div>\n</div>\n<div
+        id=\"PGL\"></div>\n<div id=\"PGR\"></div>\n<div id=\"AJAXhtml\"></div>\n<div
+        id=\"BANNADShtml\"></div>\n\n<!-- Google Analytics Tag -->\n<script>\n\tvar
+        brattag2='U'+'A-52'+'978631-2';\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
+        \ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
+        \ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n
+        \ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\n\n\t\n
+        \ ga('create', brattag2, 'auto');\n  ga('send', 'pageview');\n\n</script>\n\n\n<!--
+        Quantcast Tag -->\n<script type=\"text/javascript\">\nvar _qevents = _qevents
+        || [];\n\n(function() {\nvar elem = document.createElement('script');\nelem.src
+        = (document.location.protocol == \"https:\" ? \"https://secure\" : \"http://edge\")
+        + \".quantserve.com/quant.js\";\nelem.async = true;\nelem.type = \"text/javascript\";\nvar
+        scpt = document.getElementsByTagName('script')[0];\nscpt.parentNode.insertBefore(elem,
+        scpt);\n})();\n\n_qevents.push({\nqacct:\"p-WcM7XpA_Z55GF\"\n});\n</script>\n\n<noscript>\n<div
+        style=\"display:none;\">\n<img src=\"//pixel.quantserve.com/pixel/p-WcM7XpA_Z55GF.gif\"
+        border=\"0\" height=\"1\" width=\"1\" alt=\"Quantcast\"/>\n</div>\n</noscript>\n<!--
+        End Quantcast tag -->\n\n\n<!-- Begin comScore Tag -->\n<script>\n  var _comscore
+        = _comscore || [];\n  _comscore.push({ c1: \"2\", c2: \"20427481\" });\n  (function()
+        {\n    var s = document.createElement(\"script\"), el = document.getElementsByTagName(\"script\")[0];
+        s.async = true;\n    s.src = (document.location.protocol == \"https:\" ? \"https://sb\"
+        : \"http://b\") + \".scorecardresearch.com/beacon.js\";\n    el.parentNode.insertBefore(s,
+        el);\n  })();\n</script>\n<noscript>\n  <img src=\"https://sb.scorecardresearch.com/p?c1=2&c2=20427481&cv=2.0b&cj=1\"
+        />\n</noscript>\n<!-- End comScore Tag -->\n\n\n<div class=\"btn btnscroll\"
+        id=\"btnscrolltop\"><span class=\"ccicon-up-open\"></span></div>\n<script>\nfunction
+        executejquery()  {\n\t$.support.cors = true;\n\t$(document).keydown(function(e)
+        {\n\t\tif ((e.keyCode == 40) || (e.keyCode === 38)) {\n\t\t\tif ($(\"#results\").css('display')
+        == 'block' ) {\n\t          e.preventDefault();\n    \t      return false;\n\t\t\t}\n
+        \   \t}\n    \treturn true;\n\t});\n\t$(\"#results\").on('mouseover','li.divline',function()
+        {\n\t\tif ((!$(this).hasClass('hilite')) && (!runningUnhideMenu)) {\n\t\t\t$('.divline').removeClass('hilite');\n\t\t\t$(this).addClass('hilite');\n\t\t}\n\t});\n\tDate.now
+        = Date.now || function() { return +new Date; }; \n\tvar qczas=Date.now();\n\tvar
+        srchtimer;\n\t\t\n\t$(\"#key\").keyup(function(e){\n\t\t$('#keysel').val('');\n\t\tclearTimeout(srchtimer);\n\t\tvar
+        q = $(\"#key\").val();\n\t\tq = q.replace(/(['\"])/g, \" \");\n\t\tif ($(\"#results\").css('display')
+        == 'block' ) {\n\t\t\tvar hilite = $('.divline.hilite'), divline = $('.divline');\n\t\t\tif
+        (e.which == 40) {\n\t\t\t//\t$('#key').blur();\n\t\t\t\thilite.removeClass('hilite').next().addClass('hilite');\n\t\t\t\tif
+        (hilite.next().length == 0) {\n\t\t\t\t\tdivline.eq(0).addClass('hilite')\n\t\t\t\t}\n\t\t\t\t$('#keysel').val($('.divline.hilite
+        a.aline').attr('href'));\n\t\t\t\te.preventDefault();\n\t\t\t\treturn false;\n\t\t\t}
+        else if (e.which === 38) {\n\t\t\t\thilite.removeClass('hilite').prev().addClass('hilite');\n\t\t\t\tif
+        (hilite.prev().length == 0) {\n\t\t\t\t\tdivline.eq(-1).addClass('hilite')\n\t\t\t\t}\n\t\t\t\t$('#keysel').val($('.divline.hilite
+        a.aline').attr('href'));\n\t\t\t\te.preventDefault();\n\t\t\t\treturn false;\n\t\t\t}\n\t\t}\n\t\tif
+        (q.length > 1) {\n\t\t\tquicksrchres=0;\n\t        srchtimer = setTimeout(function(){\n
+        \       \t\t$.getJSON(\"/search/quick\",{'rp':CCpath,'r':CCr,'m':CCm,'j':'e','t':Date.now(),'q':q},\n
+        \       \t\t\tfunction(data) {\n          \t\t\t\t$.each(data, function(key,val){\n\t\t\t\t\t\tif
+        (key == \"czas\") {\n\t\t\t\t\t\t\t//console.log('search result time: key
+        / this / previous: '+q+' / '+val+' / '+qczas);\n\t\t\t\t\t\t\tif (qczas >
+        val) {\n\t\t\t\t\t\t\t\tconsole.log('SKIP');\n\t\t\t\t\t\t\t\treturn false;\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t$(\"#resultsli\").empty();\n\t\t\t\t\t\t\tqczas=val;\n\t\t\t\t\t\t\treturn;\n\t\t\t\t\t\t}\n
+        \           \t\t\t$(\"#resultsli\").append(\"<li class='divline'><a class='aline'
+        href='\" + key + \"'>\" + val + \"</a></li>\");\n\t\t\t\t\t\t quicksrchres++;\n\t\t\t\t\t});\n
+        \         \t\t\t$(\"#results\").show();\n        \t\t});\n        \t}, 200);\n
+        \     \t}\n\t});\n\tvar a = document.body,\n\tlbz = $('#LBzone'),\n\tgb=42,\n
+        \   e = document.documentElement;\n\tloadedBB2 = 1;\n\t\n\tvar rttop = 0;\n\t\n\n\tif
+        (Bannerid) {loadedBB2 = 1;}\n\t// FullScreen\n\tvar misi = $('#MISIA');\n\tvar
+        lbzoffset = lbz.offset();\n\tvar lbztop = 0;\n\t if (document.getElementById(\"LBzone\"))
+        {lbztop = lbzoffset.top-10;}\n\tvar ccmh=0;\n\tfunction dismissFullScreen()
+        {\n\t\tif (SkinFullScreenShowing) {\n\t\t\tconsole.log('CCfullscreen dismiss');\n\t\t\tfsopening=0;\n\t\t\t$(\"html,
+        body\").scrollTop(lbztop-39);\n\t\t\t$(\"#sitetitle,#menubar,#FT,#PAGE,#breadcrumbs,#headblock,#JASON,#AGNES,#KEVIN\").css(\"opacity\",\"1\");\n\t\t\t$(\"#menubar\").show();\n\t\t\t$(\"#WOJTEK\").hide();\n\t\t\t$(\"#btnscrolltop\").css(\"bottom\",\"10px\");\n\t\t\tmisi.css(\"z-index\",\"-2\").animate({
+        opacity: 0},500);\n\t\t\tlbz.css(\"height\",\"170px\").css(\"width\",\"320px\").css(\"opacity\",\"1\");\n\t\t\tsetCookie('FullScreenMobileCap',1,0.01);\n\t\t}\n\t\tSkinFullScreenShowing=0;\n\t\tSkinFullScreenDismiss=0;\n\t\tconsole.log('CCfullscreen
+        ScrollHandler is OFF');\n\t    $(window).off('scroll.test');\n\t}\n\t\n\tfunction
+        FullScreenScrollHandler() {\n\t\tconsole.log('CCfullscreen ScrollHandler ON');\n\t\tccmh
+        = (Math.max(e.scrollTop, a.scrollTop));\n\t\tif ((fstrigger) && (ccmh>(lbztop-40)))
+        {\n\t\t\tfsopening=0;\n\t\t\tlbz.css(\"opacity\",\"0\");\n\t\t\tlbz.animate({
+        height: \"120vh\"},800, function() {\n\t\t\t\tlbz.stop().css(\"height\",\"1000vh\").css(\"width\",\"100%\");\n\t\t\t});\n\t\t\tfstrigger=0;\n\t\t\tSkinFullScreenShowing=1;\n\t\t\t$(\"#btnscrolltop\").css(\"bottom\",\"-100px\");\n\t\t\tmisi.css(\"top\",\"0\").css(\"position\",\"fixed\").animate({
+        opacity: 1},500);\n\t\t\t$(\"#sitetitle,#menubar,#FT,#PAGE,#headblock,#JASON,#AGNES,#KEVIN\").animate({opacity:0},800,
+        function() {\n\t\t\t\tmisi.css(\"z-index\",\"5\");\n\t\t\t\t$(\"#menubar\").hide();\n\t\t\t});\n\t\t\t$(\"#WOJTEK\").append('<div
+        class=\"ccicon ccicon-cancel loginclose\" onclick=\"SkinFullScreenDismiss=1;return
+        false;\"></div>').show();\n\t\t\t$(\"#MINI\").animate({width:\"0\"},SkinFullScreenTime,\"linear\");\n\t\t\tsetTimeout(function()
+        { \n\t\t\t\tFSallowDismiss=1;\n\t\t\t}, 1000);\n\t\t\tsetTimeout(function()
+        { \n\t\t\t\tif (SkinFullScreenShowing) {\n\t\t\t\t\tdismissFullScreen();\n\t\t\t\t}\n\t\t\t},
+        SkinFullScreenTime);\n\t\t}\n\t}\n\t\t\n\tfunction ClickThroughBanner(element,banid)
+        {\n\t\telement.click(function (e) {\n\t\t\telement.hide();\n\t\t\tvar whichel
+        = $(document.elementFromPoint(e.clientX, e.clientY));\n\t\t\tconsole.log('ClickThroughBanner
+        ' + element +' click to ' +whichel.src + ':'+ banid);\n\t\t\twhichel[0].click();\n\t\t\t//whichel.hide();\n\t\t\telement.show();\n\t\t});\n\t}\n\n\n\t//
+        2017-12-01 video embed info button\n\tvar postrollinfobutton=0;\n\tsetInterval(function(){
+        \n\t\tif (!postrollinfobutton) {\n\t\t\tif (document.getElementById('postrollclick'))
+        {\n\t\t\t\tif (document.getElementById('unmutebutton')) {}\n\t\t\t\telse {\n\t\t\t\t\t$('div.mejs-mediaelement').append('<div
+        id=\"videoinfobuttoninplay\"></div>');\n\t\t\t\t\tsetTimeout(function() {
+        \n\t\t\t\t\t\t$('#videoinfobuttoninplay').fadeIn();\n\t\t\t\t\t}, 14000);\n\t\t\t\t\tpostrollinfobutton=1;\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t\tif
+        ((SkinFullScreenShowing) && (SkinFullScreenDismiss)) {\n\t\t\tconsole.log('CCfullscreen
+        dismissX tapped');\n\t\t\tdismissFullScreen();\n\t\t}\n\t}, 300);\t\n\n\n\t//
+        throttle scroll\n\tvar scrollTimeout;\n\tvar throttle = 300;\n\tvar menuSitcked=0;\n\tvar
+        btnScrollSticked=0;\n\tvar scrollEvents = function () {\n\t\tvar scrollpos
+        = $(this).scrollTop();\n\t\tif (scrollpos > 200) {\n\t\t\tif (!menuSitcked)
+        {\n\t\t\t\t$('#menubar').hide().css(\"position\",\"fixed\").css(\"top\",\"0\").css(\"background\",\"rgba(0,
+        0, 0, 0.85)\").fadeIn('fast');\n\t\t\t\tif (document.getElementById(\"h1title\"))
+        {\n\t\t\t\t\tvar hbheight = $('#headblock').outerHeight() + \"px\";\n\t\t\t\t\t$('#headblock').css(\"height\",hbheight).addClass('width100per');\n\t\t\t\t\t$('#h1title').hide().addClass(\"h1fixedtitle\").fadeIn('fast');\n\t\t\t\t}\n\t\t\t\tmenuSitcked=1;\n\t\t\t}\n\t\t}\n\t\telse
+        if (menuSitcked) {\n\t\t\t$('#menubar').hide().css(\"position\",\"absolute\").css(\"top\",\"91px\").css(\"background\",\"none\").fadeIn('fast');\n\t\t\tif
+        (document.getElementById(\"h1title\")) {\n\t\t\t\t$('#h1title').hide().removeClass(\"h1fixedtitle\").fadeIn('fast');\n\t\t\t\t$('#headblock').removeClass('width100per');\n\t\t\t}\n\t\t\tmenuSitcked=0;\n\t\t}\n\t\tif
+        (scrollpos > 600) {\n\t\t\tif (!btnScrollSticked) {\n\t\t\t\t$('#btnscrolltop').fadeIn('fast');\n\t\t\t\tbtnScrollSticked=1;\n\t\t\t}\n\t\t}\n\t\telse
+        if (btnScrollSticked) {\n\t\t\t$('#btnscrolltop').fadeOut();\n\t\t\tbtnScrollSticked=0;\n\t\t}\n\t\tif
+        ((!delayLazyLoadAll) && (!msie)) {lazyLoad();}\n\t};\n\t$(window).on('scroll',
+        function () {\n\t\tif (!scrollTimeout) {\n\t\t\tscrollTimeout = setTimeout(function
+        () {\n\t\t\t\tscrollEvents();\n\t\t\t\tscrollTimeout = null;\n\t\t\t}, throttle);\n\t\t}\n\t});\n\n\t$(\"#mnopen\").click(function(e){\n\t\tvar
+        menuarrow = document.getElementById( 'menuarrowc' );\n\t\tif ($(\"#MNFull\").is(\":visible\"))
+        {\n\t\t\tmenuarrow.className = 'turnup';\n\t\t}\n\t\telse {\n\t\t\tmenuarrow.className
+        = 'turndown';\n\t\t}\n\n\t\t$(\"#MNFull\").slideToggle(\"fast\", function()
+        {\n  \t\t});\n\t});\n\n\thighlightFavMov();\n\n\t$(\"#btnscrolltop\").click(function()
+        {\n  \t\t$(\"html, body\").animate({ scrollTop: 0 },\"fast\");\n  \t\treturn
+        false;\n\t});\n\tvar filmbuttonscookie = getCookie('filmbuttons');\n\tvar
+        CCpasstoken = getCookie('ccpasstoken');\n\tif ((CCpasstoken.length>2) && (CCuserid>0))
+        {\n\t\t$.ajax({\n\t\t\turl: \"/login/\"+CCuserid+\"/rp/\"+CCpasstoken+\"/rn\"
+        + RandomNumber,\n\t\t\tcache: false\n\t\t})\n\t\t.done(function( uemail )
+        {\n\t\t\tshowLoginBox(uemail);\n\t\t\tclickingEnter=1;\n\t\t\tloginfindemail();\n\t\t\tsetCookie('ccpasstoken','',1);\n\t\t\tsetCookie('ccpasstokenconf',CCpasstoken,1);\n\t\t});\n\t}\n\tif
+        ((CCuserid) && (CCusertoken.length)) {\n\t\t$('#ccmainlogin').fadeOut();\n\t\t$('#ccmainlogout').fadeIn();\n\t}\n\telse
+        {\n\t\t$('#ccmainlogout').fadeOut();\n\t\t$('#ccmainlogin').fadeIn();\n\t}\n\n\n\n\tgroupByTime(0);\n\n\tvar
+        hoursystem = getCookie('hoursystem');\n\tif (hoursystem == '24') {$(\".hs24\").addClass('buttopinv');}else
+        {$(\".hs12\").addClass('buttopinv');}\n\n\tvar showalldays = getCookie('showalldays');\n\tvar
+        showalldays24hrs = getCookie('showalldays24hrs');\n\tshowalldays=1;\n\tif
+        (showalldays == '1') {\n\t\t$(\"#tod0\").addClass('btn-neonb');\n\t\t$(\".noshows\").show();\n\t\t$(\".timesother\").show();\n\t\t$('.buttonShowAllDays').hide();\n\t//\tif
+        ('e' == 'f') {\n\t//\t\t$('#sortbyoptionsdays').html('toutes les dates disponibles');\n\t//\t}\n\t//\telse
+        {\n\t//\t\t$('#sortbyoptionsdays').html('all available dates');\n\t//\t}\n\t}\n\telse
+        if (showalldays24hrs == '1') {\n\t\t$(\"#tod0\").addClass('btn-neonb');\n\t\t$(\".noshows\").show();\n\t\t$(\".timesother\").show();\n\t\t$('.buttonShowAllDays').hide();\n\t\tif
+        ('e' == 'f') {\n\t\t\t$('#sortbyoptionsdays').html('toutes les dates disponibles');\n\t\t}\n\t\telse
+        {\n\t\t\t$('#sortbyoptionsdays').html('all available dates');\n\t\t}\n\t}\n\telse
+        if (showalldays == '0') {\n\t\t$(\"#tod1\").addClass('btn-neonb');\n\t\t$('.buttonShowAllDays').hide();\n\t\tif
+        ('e' == 'f') {\n\t\t\t$('#sortbyoptionsdays').html('aujourd`hui seulement');\n\t\t}\n\t\telse
+        {\n\t\t\t$('#sortbyoptionsdays').html('today only');\n\t\t}\n\t}\n\telse if
+        (wwi > 639) {\n\t\t$(\"#tod0\").addClass('btn-neonb');\n\t\t$(\".noshows\").show();\n\t\t$(\".timesother\").show();\n\t\t$('.buttonShowAllDays').hide();\n\t\tif
+        ('e' == 'f') {\n\t\t\t$('#sortbyoptionsdays').html('toutes les dates disponibles');\n\t\t}\n\t\telse
+        {\n\t\t\t$('#sortbyoptionsdays').html('all available dates');\n\t\t}\n\t}\n\telse
+        {\n\t\t$(\"#tod1\").addClass('btn-neonb');\n\t\t$('.buttonShowAllDays').css('display','inline-block');\n\t\tif
+        ('e' == 'f') {\n\t\t\t$('#sortbyoptionsdays').html('aujourd`hui seulement');\n\t\t}\n\t\telse
+        {\n\t\t\t$('#sortbyoptionsdays').html('today only');\n\t\t}\n\t}\n\n\t\t$.ajax({\n\t\t\turl:
+        \"/aw/cajaxfilmcinemas.aw/f.76915.79974.77415.74441.79652.72211.67680.74451.76519.81098./rbri/mnanaimo/rn\"
+        + RandomNumber,\n\t\t\tcache: false\n\t\t})\n\t\t.done(function( data ) {\n\t\t\t$.each(data,
+        function(key,val){\n\t\t\t\tvar elm = 'div.butsub.aw' + key;\n\t\t\t\t$(elm).html(val+'<div
+        class=\"butkinofav me'+key+' mf'+key+'\"></div>')\n\t\t\t});\n\t\t\thighlightMovAtFavCin();\n\t\t});\n\tvar
+        alltimesclasses=[1210,1215,1225,1235,1245,1250,1300,1310,1510,1515,1525,1530,1545,1550,1555,1600,1815,1825,1830,1835,1845,1855,1905,1910,2105,2125,2130,2135,2145,2150,2200];var
+        localtimenow = new Date();\n\t\tlocaltimenow.setMinutes(localtimenow.getMinutes()
+        - 30);\n\t\tvar localtimenowh = localtimenow.getHours();\n\t\tvar localtimenowm
+        = localtimenow.getMinutes();\n\t\tvar localtimeint = 100*localtimenowh+localtimenowm;\n\t\tfor
+        (var i = 0, len = alltimesclasses.length; i < len; i++) {\n\t\t\tif (alltimesclasses[i]
+        < localtimeint) {\n\t\t\t\tvar timcss = '.tim' + alltimesclasses[i].toString();\n\t\t\t\t$(timcss).remove();\n\t\t\t\tconsole.log('time
+        local='+localtimeint+'  time passed='+alltimesclasses[i]);\n\t\t\t}\n\t\t}\n\t\n\n\t$('#mncinemas').addClass('btn-neonr');\n\n\tfunction
+        highlightFavCin() {\n\t\tvar ucall = getCookie('uc');\n\t\tvar oneum = ucall.split('.');\n\t\tfor(var
+        i=0; i<oneum.length; i++) {\n\t\t\tvar fid = oneum[i];\n\t\t\tvar myheartcheck
+        = '#my_heart_' + fid;\n\t\t\tvar ucmdiv = '#ucm_' + fid;\n\t\t\tvar ucmval
+        = $(ucmdiv).val();\n\t\t\t$(myheartcheck).val('1').next(\"label\").removeClass(\"checked\").addClass(\"checked\");\n\t\t\tif
+        (ucmval) {\n\t\t\t\tumall = umall + ucmval;\n\t\t\t//\talert (umall);\n\t\t\t}\n\t\t}\n\t}\n\thighlightFavCin();\n\n\n\n\tfunction
+        highlightMovAtFavCin() {\n\t\tif (document.cookie.indexOf(\"um=\") >= 0) {\n\t\t\tvar
+        favmoviecookie = getCookie('um');\n\t\t\tvar favmoviesarray = favmoviecookie.split('.');\n\t\t\tvar
+        favmovie;\n\t\t\tvar favmovel = '';\n\t\t\tfor (favmovie = 0; favmovie < favmoviesarray.length;
+        ++favmovie) {\n\t\t\t\tfavmovel = '.butkinofav.m' + favmoviesarray[favmovie];\n\t\t\t//\tconsole.log('Trigger
+        to show:',favmovel);\n\t\t\t\t$(favmovel).css('display', 'block');\n\t\t\t}\n\t\t}\n\t}\n\thighlightMovAtFavCin();\n\n\n\tvar
+        cinmissing = getCookie('uc');\n\tvar nearbycinarray = cinemasNearby.split('.');\n\tconsole.log('cinmissing1:',cinmissing);\n\tfor(var
+        i=0; i<nearbycinarray.length; i++) {\n\t\tvar nearbycin = nearbycinarray[i];\n\t\tif
+        (nearbycin) {\n\t\t\tvar pat = '\\\\b'+nearbycin+'\\\\b';\n\t\t\tvar reg =
+        new RegExp(pat,\"g\");\n\t\t\tcinmissing = cinmissing.replace(reg,'.');\n\t\t\tcinmissing
+        = cinmissing.replace(/\\.+/g,'.');\n\t\t}\n\t}\n\tconsole.log('cinmissing2:',cinmissing);\n\n//\tif
+        (cinmissing.length>2) {\n//\t\tconsole.log('call ajax');\n//\t\t$.ajax({\n//\t\t\turl:
+        \"/aw/ccinemaloadfavcinemas.aw/miss/\" + cinmissing + \"/rn\" + RandomNumber,\n//\t\t\tcache:
+        false\n//\t\t})\n//\t\t.done(function( html ) {\n//\t\t\t$('#cinemasnearby').append(html);\n//\t\t\thighlightFavCin();\n//\t\t});\n//\t}\n\n\n\tvar
+        ww = $(window).width(),wh = $(window).height();\n\n\t$(window).bind(\"orientationchange\",
+        orientationChange());\n\tfunction orientationChange(){\n\t\tww = $(window).width();\n\t\twh
+        = $(window).height();\n\t\t$('.map_BD').hide();\n\t\t$('#map_canvas').css(\"width\",\"100%\");\n\t\t$('.map_canvas').css(\"width\",\"100%\");\n\t//\tif
+        (wh < 640) {\n\t//\t\t$('#map_canvas').css(\"height\",(wh-30) + \"px\");\n\t//\t\t$('.map_canvas').css(\"height\",(wh-30)
+        + \"px\");\n\t//\t\t$('.map_BD').css(\"height\",(wh-30) + \"px\");\n\t//\t}\n\t}\n\torientationChange();\n\n\tvar
+        activeInfoWindow;\n\tfunction bindInfoWindow(marker, map, infowindow, html,
+        Ltitle) {\n\t\tgoogle.maps.event.addListener(marker, 'click', function ()
+        {\n\t\t\tinfowindow.setContent(html);\n\t\t\tif(activeInfoWindow && activeInfoWindow
+        != infowindow){\n\t\t\t\tactiveInfoWindow.close();\n\t\t\t}\n\t\t\tinfowindow.open(map,
+        marker);\n\t\t\tactiveInfoWindow = infowindow;\n\t\t});\n\n\t }\n\n\t$(\".clickaddress\").click(function
+        () {\n\t\tvar LinkHref = $(this).attr(\"href\");\n\t\tvar idToShow = LinkHref.split(\",\");\n\t\t$(idToShow[0]).slideToggle(function
+        initialize() {\n\t\t\tvar i;\n\t\t\tvar Locations = [\n\t\t\t\t\n\t\t\t];\n\n\n\t\t\tif
+        (Locations.length > 0) {\n\t\t\t\tvar toappend= '<img src=\"/aw/bannadsi.aw?kimp=2&zimp=23&bimp=1885&los='+RandomNumber+'\"><img
+        src=\"/aw/bannadsc.aw?zid=23&bid=1884&url=noredir&rand='+RandomNumber+'\">';\n\t\t\t\t$('#addressblock').append(toappend);\n\t\t\t}\n\n\n\n\n\t\t\tvar
+        lat = idToShow[1];\n\t\t\tvar lng = idToShow[2];\n\t\t\tvar latlng = new google.maps.LatLng(lat,
+        lng);\n\t\t\tvar myOptions = {\n\t\t\t\tzoom: 12,\n\t\t\t\tstreetViewControl:
+        false,\n\t\t\t\tmapTypeControl: false,\n\t\t\t\tcenter: latlng,\n\t\t\t\tmapTypeId:
+        google.maps.MapTypeId.ROADMAP\n\t\t\t};\n\t\t\tvar map = new google.maps.Map(document.getElementById(idToShow[3]),
+        myOptions);\n\t\t\tvar infowindow =  new google.maps.InfoWindow({\n\t\t\t
+        \   content: ''\n\t\t\t});\n\n\t\t\tvar image = new google.maps.MarkerImage('/html/ccimg/map-marker-cinema-26x32.png',new
+        google.maps.Size(26,32),new google.maps.Point(0,0),new google.maps.Point(13,31));\n\t\t\tvar
+        imagesh = new google.maps.MarkerImage('/html/ccimg/tim-hortons-map-marker-2.png',new
+        google.maps.Size(66,50),new google.maps.Point(0,0),new google.maps.Point(33,50));\n\t\t\tvar
+        marker = new google.maps.Marker({draggable: false,icon: image,map: map,position:
+        latlng});\n\n\t\t\tif ((0 > 10) && (0>10)) {\n\t\t\t\tvar latme = 0;\n\t\t\t\tvar
+        lngme = -0;\n\t\t\t\tvar latlngme = new google.maps.LatLng(latme, lngme);\n\t\t\t\tvar
+        imageme = new google.maps.MarkerImage('/html/ccimg/map-marker-me-36x44.png',new
+        google.maps.Size(36,44),new google.maps.Point(0,0),new google.maps.Point(18,43));\n\t\t\t\tvar
+        markerme = new google.maps.Marker({draggable: false,icon: imageme,map: map,position:
+        latlngme});\n\t\t\t}\n\n\t\t\tfor (i = 0; i < Locations.length; i++) {\n\t\t\t\tvar
+        marker = new google.maps.Marker({map: map,title: Locations[i].title,position:
+        new google.maps.LatLng(Locations[i].lat, Locations[i].lon), icon: imagesh});\n\t\t\t\tbindInfoWindow(marker,
+        map, infowindow, Locations[i].descr );\n\t\t\t}\n\t\t\t//bindInfoWindow(marker,
+        map, infowindow, \"<p>\" + Locations[i].descr + \"</p>\n\n\n\t\t});\n\t\treturn
+        false;\n\t});\n\n\t//45.560932,-73.548220\n\n\n\n\t$(\".onecinema input[type='checkbox']\").change(function(){\n\t\tif($(this).is(\":checked\")){\n\t\t\t$(this).next(\"label\").removeClass(\"hover\").addClass(\"checked\");\n\t\t}\n\t\telse{\n\t\t\t$(this).next(\"label\").removeClass(\"checked\");\n\t\t}\n\t});\n\n\n\t$('<div
+        id=\"livetip\"></div>').hide().appendTo('body');\n\tvar tipTitle = '';\n\n\n\n\t$('<div
+        id=\"livetip\"></div>').hide().appendTo('body');\n\tvar tipTitle = '';\n\n\t$('.dvse').bind('mouseover',
+        function(event) {\n\t    tipTitle = 'AD = Audio Description available for
+        visually impaired';\n\t    $('#livetip').css({top: event.pageY +20,left: event.pageX
+        - 100})\n\t    .html('<div>' + tipTitle + '</div>')\n\t    .show();\n\t}).bind('mouseout',
+        function(event) {$('#livetip').hide();});\n\n\t$('.dvsf').bind('mouseover',
+        function(event) {\n\t    tipTitle = 'AD = Audio-description disponible pour
+        personnes avec déficience de la vue';\n\t    $('#livetip').css({top: event.pageY
+        +20,left: event.pageX - 100})\n\t    .html('<div>' + tipTitle + '</div>')\n\t
+        \   .show();\n\t}).bind('mouseout', function(event) {$('#livetip').hide();});\n\n\t$('.cce').bind('mouseover',
+        function(event) {\n\t    tipTitle = 'CC = Closed Caption available for hearing
+        impaired';\n\t    $('#livetip').css({top: event.pageY +20,left: event.pageX
+        - 100})\n\t    .html('<div>' + tipTitle + '</div>')\n\t    .show();\n\t}).bind('mouseout',
+        function(event) {$('#livetip').hide();});\n\n\t$('.ccf').bind('mouseover',
+        function(event) {\n\t    tipTitle = 'CC = Soutitres codés disponibles pour
+        personnes malentendantes';\n\t    $('#livetip').css({top: event.pageY +20,left:
+        event.pageX - 100})\n\t    .html('<div>' + tipTitle + '</div>')\n\t    .show();\n\t}).bind('mouseout',
+        function(event) {$('#livetip').hide();});\n\n\t$('.rwce').bind('mouseover',
+        function(event) {\n\t    tipTitle = 'RWC = Rear Window Captioning available
+        for hearing impaired';\n\t    $('#livetip').css({top: event.pageY +20,left:
+        event.pageX - 100})\n\t    .html('<div>' + tipTitle + '</div>')\n\t    .show();\n\t}).bind('mouseout',
+        function(event) {$('#livetip').hide();});\n\n\t$('.rwcf').bind('mouseover',
+        function(event) {\n\t    tipTitle = 'RWC = Soutitres codés disponibles pour
+        personnes malentendantes';\n\t    $('#livetip').css({top: event.pageY +20,left:
+        event.pageX - 100})\n\t    .html('<div>' + tipTitle + '</div>')\n\t    .show();\n\t}).bind('mouseout',
+        function(event) {$('#livetip').hide();});\n\n\t$('.dboxf').bind('mouseover',
+        function(event) {\n\t    tipTitle = 'D-Box = sièges en mouvement disponibles';\n\t
+        \   $('#livetip').css({top: event.pageY +20,left: event.pageX - 100})\n\t
+        \   .html('<div>' + tipTitle + '</div>')\n\t    .show();\n\t}).bind('mouseout',
+        function(event) {$('#livetip').hide();});\n\n\t$('.dboxe').bind('mouseover',
+        function(event) {\n\t    tipTitle = 'D-Box = Motion seats available';\n\t
+        \   $('#livetip').css({top: event.pageY +20,left: event.pageX - 100})\n\t
+        \   .html('<div>' + tipTitle + '</div>')\n\t    .show();\n\t}).bind('mouseout',
+        function(event) {$('#livetip').hide();});\n\n\n\t\t$.post(\"/aw/bannadsi18.aw\",{zid:\"10,52\",ww:wwi,url:escape(window.location)},\n\t\t\tfunction(html){\n\t\t\t\tif
+        (html.length>20) {\n\t\t\t\t\tdocument.getElementById('BANNADShtml').innerHTML
+        = html;\n\t\t\t\t\t$(\"#BANNADShtml\").find(\"script\").each(function(i) {\n\t\t\t\t\t\teval($(this).text());\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t});\n\t\t\n\n\tvar
+        cookieEnabled = (navigator.cookieEnabled) ? true : false;\n\tif (typeof navigator.cookieEnabled
+        == \"undefined\" && !cookieEnabled) {\n\t\tdocument.cookie=\"testcookie\";\n\t\tcookieEnabled
+        = (document.cookie.indexOf(\"testcookie\") != -1) ? true : false;\n\t}\n\tif
+        (!cookieEnabled) {\n\t\t$('#BDmenu').append(\"<div class='BD BDblock' style='padding:
+        20px 0;'>Please enable ''cookies'' to choose your favourite cinemas and movies.</div>\");\n\t\t$('.tagms').hide();\n\t\t$('.tagm').hide();\n\t\t$('.onecinema').hide();\n\t\t$('#favhint').hide();\n\t}\n\t\n\t$.fn.slideFadeToggle
+        \ = function(speed, easing, callback) {\n        return this.animate({opacity:
+        'toggle', height: 'toggle'}, speed, easing, callback);\n\t}; \n\n\t$(\".tagm\").click(function(event)
+        { event.stopPropagation(); });\n\t$('.smallposter').click(function() {\n\t\tvar
+        divurl = $(this).attr(\"data-url\");\n\t\tif (divurl.length>5) {\n\t\t\tdivurl
+        = divurl + '/showtimes';\n\t\t\twindow.location.href = divurl;\n\t\t}\n\t\telse
+        {\n\t\t\treturn false;\n\t\t}\n\t});\n\t\t\n\t\t\t\n\tif ((devicelat>3) &&
+        (devicelon>3) && (CCm=='') && (CCr=='')) {\n\t\tvar geocodingAPI = \"https://maps.googleapis.com/maps/api/geocode/json?latlng=\"+devicelat+\",-\"+devicelon+\"&key=AIzaSyDmMYmTyExzmOB7iHHOba8g4Afh4e-KNRQ\";\n\t\t
+        $.getJSON(geocodingAPI, function (json) {\n\t\t\t if (json.status == \"OK\")
+        {\n\t\t\t\t //Check result 0\n\t\t\t\t var result = json.results[0];\n\t\t\t\t
+        //look for locality tag and administrative_area_level_1\n\t\t\t\t var city
+        = \"\";\n\t\t\t\t var state = \"\";\n\t\t\t\t for (var i = 0, len = result.address_components.length;
+        i < len; i++) {\n\t\t\t\t\t var ac = result.address_components[i];\n\t\t\t\t\tif
+        (ac.types.indexOf(\"administrative_area_level_1\") >= 0) state = ac.short_name;\n\t\t\t\t
+        }\n\t\t\t\t if (state != '') {\n\t\t\t\t }\n\t\t\t }\n\t\t });\n\t}\n\n\tupdateRatings();\n\t\t\n\tif
+        ((CCuserid>0) && (CCusertoken.length)) {\n\t\tconsole.log('About to record
+        User Activity');\n\t\t$.post(\"/login/\",{CCuserid:CCuserid,CCusertoken:CCusertoken,CChtml:'23c'},\n\t\tfunction(html){\n\t\t\tconsole.log('Recorded
+        User Activity: '+html);\n\t\t});\n\t}\n\t// adjust LB250\n\tvar expand250=15;\n\tvar
+        myLBhInt = setInterval(function(){ \n\t\tvar LBinH= lbz.contents().find( \"iframe\"
+        ).height();\n\t\tif (LBinH > 240) {\n\t\t\t//console.log(\"Adjusting LB to
+        height 250\");\n\t\t\tlbz.css(\"height\",\"250px\");\n\t\t\texpand250=0;\n\t\t}\n\t\texpand250--;\n\t\tif
+        (expand250<1) {clearInterval(myLBhInt);}\n\t}, 500);\n\tvar checkBBfilled=15;\n\tvar
+        myBBhInt = setInterval(function(){ \n\t\tvar BBinH= $(\"div#BBmobi\").height();\n\t\tif
+        (BBinH > 80) {\n\t\t\t$(\"div#BBmobi\").addClass('filled');\n\t\t\tcheckBBfilled=0;\n\t\t}\n\t\tcheckBBfilled--;\n\t\tif
+        (checkBBfilled<1) {clearInterval(myBBhInt);}\n\t}, 1000);\n\n\t//delayLazyLoadAll=1;\n\tlazyLoad();\n};\n</script>\n<script>\nfunction
+        loadScript(url, callback) {\n    var script = document.createElement(\"script\");\n
+        \   script.type = \"text/javascript\";\n    script.async = true;\n    if (script.readyState)
+        {\n        script.onreadystatechange = function () {\n            if (script.readyState
+        == \"loaded\" || script.readyState == \"complete\") {\n                script.onreadystatechange
+        = null;\n                if (callback && typeof callback === \"function\")
+        {\n                    callback();\n                }\n            }\n        };\n
+        \   } else {\n        script.onload = function () {\n            if (callback
+        && typeof callback === \"function\") {\n                callback();\n            }\n
+        \       };\n    }\n    script.src = url;\n    (document.getElementsByTagName('head')[0]
+        || document.getElementsByTagName('body')[0]).appendChild(script);\n}\n</script>\n<script>\n//A
+        PEN BY Robin Osborne\t\nvar lazy = [];\nif (msie) {\n\tfor(var i=0; i<lazy.length;
+        i++){\n        if (lazy[i].getAttribute('data-src')){\n            lazy[i].src
+        = lazy[i].getAttribute('data-src');\n            lazy[i].removeAttribute('data-src');\n
+        \       }\n    }\n}\nfunction setLazy(){\n    lazy = document.getElementsByClassName('lazy');\n}
+        \nfunction lazyLoad(){\n    for(var i=0; i<lazy.length; i++){\n        if(isInViewport(lazy[i])){\n
+        \           if (lazy[i].getAttribute('data-src')){\n                lazy[i].src
+        = lazy[i].getAttribute('data-src');\n                lazy[i].removeAttribute('data-src');\n
+        \           }\n        }\n    }\n    cleanLazy();\n}\nfunction cleanLazy(){\n
+        \   lazy = Array.prototype.filter.call(lazy, function(l){ return l.getAttribute('data-src');});\n}\nvar
+        delayLazyLoadAll=0;\nfunction isInViewport(el){\n\tif (delayLazyLoadAll) {return
+        1;}\n    var rect = el.getBoundingClientRect();\n    return (\n        (rect.bottom
+        >= 0) && \n        (rect.right > rect.left) && \n        (rect.top-200) <=
+        (window.innerHeight || document.documentElement.clientHeight) && \n        rect.left
+        <= (window.innerWidth || document.documentElement.clientWidth)\n     );\n}\n</script>\n<script>\nfunction
+        loadscript1() {\n\tif (PostRollBannerId>0) {\n\t\t\tloadScript(\"/html/ccjs/me/mediaelement-and-player.min.js\",
+        function () {\n\t\t\tvar vtag = '<video autoplay muted id=\"clockplayer\"
+        controls style=\"width:100%;height:100%;\"><source src=\"\" type=\"video/mp4\"
+        title=\"mp4\"><object style=\"width:100%;height:100%;\" type=\"application/x-shockwave-flash\"
+        data=\"/html/ccjs/me/flashmediaelement.swf\"><param name=\"wmode\" value=\"transparent\"><param
+        name=\"movie\" value=\"/html/ccjs/me/flashmediaelement.swf\"></object></video>';\n\t\t\t$(\"#TRvideo\").append(vtag);\n\t\t\tloadScript(\"/html/ccjs/clockvideo20181129.js\",function
+        () {if (SkinVideoWaitPlay>0) {clockplayer.stop();}})\n\t\t});\t\n\t}\n\tsetTimeout(function()
+        {\n\t\t//delayLazyLoadAll=1;\n\t\tlazyLoad();\n\t}, 1000);\n}\n</script>\n<script>\n$(document).ready(function(){\n
+        \   executejquery();\n\tsetLazy();\n\tloadscript1();\n});\n</script>\n<script>\n
+        \ if ('serviceWorker' in navigator) {\n    console.log(\"Will the service
+        worker register?\");\n    navigator.serviceWorker.register('/html/ccjs/service-worker.js')\n
+        \     .then(function(reg){\n        console.log(\"Yes, it did.\");\n      }).catch(function(err)
+        {\n        console.log(\"No it didn't. This happened: \", err)\n      });\n
+        \ }\n</script>\n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Tue, 15 Jan 2019 03:37:22 GMT
+recorded_with: VCR 4.0.0
