@@ -44,6 +44,7 @@ class App extends Component {
               <Table.Header>
                 <Table.Row>
                   <Table.HeaderCell>Film</Table.HeaderCell>
+                  <Table.HeaderCell>Theatre</Table.HeaderCell>
                   <Table.HeaderCell>Times</Table.HeaderCell>
                 </Table.Row>
               </Table.Header>
@@ -51,7 +52,10 @@ class App extends Component {
                 {films.map((film) =>
                   <Table.Row>
                     <Table.Cell>{film.title}</Table.Cell>
-                    <Table.Cell>{film.times2d} {film.times3d}</Table.Cell>
+                    <Table.Cell>{film.theatre}</Table.Cell>
+                    <Table.Cell>{(film.times.map((time) => {
+                      return time[1];
+                    }).join(", "))}</Table.Cell>
                   </Table.Row>
                 )}
               </Table.Body>
