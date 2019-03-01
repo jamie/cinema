@@ -6,12 +6,26 @@ import TimeBlock from "./TimeBlock";
 class App extends Component {
   constructor() {
     super();
-    this.state = {};
+
+    var today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    this.state = {
+      date: today
+    };
     this.getFilms = this.getFilms.bind(this);
   }
 
   componentDidMount() {
     this.getFilms();
+  }
+
+  updateState(newState) {
+    var oldState = this.state;
+    Object.keys(newState).forEach(key => {
+      oldState[key] = newState[key];
+    });
+    this.setState(oldState);
   }
 
   fetch(url) {
@@ -26,7 +40,8 @@ class App extends Component {
       "https://www.cinemaclock.com/theatres/galaxy-nanaimo",
       "https://www.cinemaclock.com/theatres/avalon"
     ];
-    this.setState({ films: [] });
+    this.updateState({ films: [] });
+
     sources.forEach(url => {
       this.fetch("/api/v1/films?source=" + url).then(films => {
         var all_films = this.state.films.concat(films);
@@ -34,9 +49,9 @@ class App extends Component {
           return film1.title < film2.title ? -1 : 1;
         });
         if (films.length) {
-          this.setState({ films: all_films });
+          this.updateState({ films: all_films });
         } else {
-          this.setState({ films: [] });
+          this.updateState({ films: [] });
         }
       });
     });
@@ -83,6 +98,7 @@ class App extends Component {
                             .replace(/[^a-z_]/g, "")
                         }
                         showings={film.showings}
+                        date={this.state.date}
                       />
                     </Table.Cell>
                   </Table.Row>

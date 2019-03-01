@@ -94,6 +94,7 @@ module CinemaClock
             start_sec = (h * 60 + m) * 60
             {
               'format' => is_3d ? '3d' : '2d',
+              'date' => date.strftime('%Y-%m-%d'),
               'time' => time,
               'd3_time' => {
                 'start' => (date + start_sec).to_s[0..-7], # Strip timezone

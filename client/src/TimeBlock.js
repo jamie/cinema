@@ -50,7 +50,14 @@ export class TimeBlock extends Component {
     //   .attr("height", (d, i) => d * 10)
     //   .attr("fill", "green")
     // Adapted/updated from http://bl.ocks.org/LauraHornbake/6248343
-    var data = this.props.showings.map(s => s.d3_time);
+    var data = this.props.showings
+      .filter(s => {
+        var filmDate = new Date(s.date);
+        filmDate.setHours(0, 0, 0);
+
+        return !(filmDate < this.props.date || filmDate > this.props.date);
+      })
+      .map(s => s.d3_time);
     var dRange = [
       d3.min(data, function(d) {
         return d3.timeDay.floor(new Date(d.start));
