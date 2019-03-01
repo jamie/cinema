@@ -1,24 +1,11 @@
-# README
+Sample React+Rails app.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Now Playing
 
-Things you may want to cover:
+> Movies in Nanaimo
 
-* Ruby version
+[View it live](http://)
 
-* System dependencies
+### Notes
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I'm following the general app structure in [this article from Heroku](https://blog.heroku.com/a-rock-solid-modern-web-stack).
