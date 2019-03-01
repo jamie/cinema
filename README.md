@@ -4,7 +4,7 @@ Sample React+Rails app.
 
 > Movies in Nanaimo
 
-[View it live](http://)
+[View it live](http://tnowplaying.herokuapp.com)
 
 ### Notes
 
