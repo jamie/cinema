@@ -60,15 +60,19 @@ export class TimeBlock extends Component {
       .filter(s => {
         var filmDate = new Date(s.date);
         filmDate.setHours(0, 0, 0);
-
+        return true;
         return !(filmDate < this.props.date || filmDate > this.props.date);
       })
       .map(s => s.d3_time);
+    if (data.length === 0) {
+      return;
+    }
+
     var dRange = [
-      d3.min(data, function(d) {
+      d3.min(data, d => {
         return d3.timeDay.floor(new Date(d.start));
       }),
-      d3.max(data, function(d) {
+      d3.max(data, d => {
         return d3.timeDay.ceil(new Date(d.stop));
       })
     ];
@@ -76,6 +80,7 @@ export class TimeBlock extends Component {
       width = 360,
       barSize = 20,
       height = ((dRange[1] - dRange[0]) / (24 * 60 * 60 * 1000)) * barSize;
+
     var svg = d3
       .select("#" + this.props.id)
       .append("div")
@@ -105,6 +110,7 @@ export class TimeBlock extends Component {
         d3.timeHour(new Date(2014, 0, 2, 0, 0, 0))
       ])
       .range([0, width]);
+
     /* add bars to chart */
     svg
       .append("g")
@@ -121,10 +127,10 @@ export class TimeBlock extends Component {
           dur = hr - 10 + mn / 60; // -10 because we're rendering 0..14 hours of the day?
         return x(dur);
       })
-      .attr("y", function(d) {
+      .attr("y", d => {
         return y(d3.timeDay.floor(new Date(d.start)));
       })
-      .attr("width", function(d) {
+      .attr("width", d => {
         var hstart = new Date(d.start),
           hstop = new Date(d.stop);
         return x((hstop - hstart) / 3600000); //date operations return a timestamp in miliseconds, divide to convert to hours
@@ -132,12 +138,9 @@ export class TimeBlock extends Component {
       .attr("height", barSize - 2)
       .attr("rx", 3)
       .attr("ry", 3)
-      .text(function(d) {
-        return d.start + " - " + d.stop;
-      })
-      .datum(function(d) {
-        return Date.parse(d.start);
-      });
+      .text(d => d.start + " - " + d.stop)
+      .datum(d => Date.parse(d.start));
+
     /*add axes and grid*/
     var xAxis = d3
       .axisTop(tfh)
@@ -146,6 +149,7 @@ export class TimeBlock extends Component {
     var xGrid = d3.axisBottom(tfh).ticks(6);
     // var yAxis = d3.axisLeft(y)
     //   .tickFormat(d3.timeFormat("%m/%d"));
+
     svg
       .append("g")
       .attr("class", "x top axis")
