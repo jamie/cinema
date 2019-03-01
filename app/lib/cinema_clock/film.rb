@@ -1,14 +1,6 @@
-require 'http'
-require 'nokogiri'
+# frozen_string_literal: true
 
-class CinemaClock < Struct.new(:url)
-  def films
-    doc = Nokogiri::HTML(HTTP.get(url).to_s)
-    doc.css('.showtimeblock').map do |node|
-      Film.new(node, doc).to_h
-    end.compact
-  end
-
+module CinemaClock
   # Small-ish complex example (multi-format, incl future dates)
   # <div class="showtimeblock movie  fil3d filexp filcc filad fil1110100  fil2d filexp filcc filad fil1110010 cin494">
   #   <div class="movieblock fi70438 genact genadv gensci efilm" id="efilm70438">
@@ -52,19 +44,24 @@ class CinemaClock < Struct.new(:url)
   class Film < Struct.new(:node, :doc)
     def to_h
       return if title.nil?
+
       {
-        'title'    => title,
-        'theatre'  => theatre,
+        'title' => title,
+        'theatre' => theatre,
         'duration' => duration,
-        'showings' => showings,
+        'showings' => showings
       }
     end
 
-  private
+    private
+
     def title
       title_str = node.css('.movietitle').text
       return if title_str.empty?
-      title_str.match(/(.*) (PG-13|PG|G|R)+/).captures[0]
+
+      title_str.match(/(.*) (G|PG|PG-13|14A|R)+?/).captures[0]
+    rescue NoMethodError
+      title_str
     end
 
     def theatre
@@ -72,33 +69,36 @@ class CinemaClock < Struct.new(:url)
     end
 
     def duration
-      @duration ||= begin
-        h, m = node.css('.moviegenre').text.match(/(\d+)h(\d+)m/).captures.map(&:to_i)
-        h * 60 + m
-      end
+      @duration ||=
+        begin
+          h, m = node.css('.moviegenre').text.match(/(\d+)h(\d+)m/).captures.map(&:to_i)
+          h * 60 + m
+        rescue NoMethodError
+          0
+        end
     end
 
     def showings
-      duration_sec = duration*60
+      duration_sec = duration * 60
       node.css('.filall').map do |filall|
         is_3d = filall.attributes['class'].value.include?('fil3d')
         filall.css('.times, .timesother s').map do |time|
           date = Time.parse(time.css('u span').text)
           time.css('i').text.split(' ').map do |time|
-            h, m = time.split(":").map(&:to_i)
+            h, m = time.split(':').map(&:to_i)
             h += 12 if time !~ /am/ && h != 12
-            start_sec = (h*60 + m)*60
+            start_sec = (h * 60 + m) * 60
             {
-              'format'  => is_3d ? '3d' : '2d',
-              'time'    => time,
+              'format' => is_3d ? '3d' : '2d',
+              'time' => time,
               'd3_time' => {
-                "start" => (date + start_sec).to_s[0..-7], # Strip timezone
-                "stop"  => (date + start_sec + duration_sec).to_s[0..-7],
-              },
+                'start' => (date + start_sec).to_s[0..-7], # Strip timezone
+                'stop' => (date + start_sec + duration_sec).to_s[0..-7]
+              }
             }
           end
         end
-      end.flatten.sort_by{|e| [e['format'], e['time']] }
+      end.flatten.sort_by { |e| [e['format'], e['time']] }
     end
   end
 end
