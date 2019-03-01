@@ -27,7 +27,7 @@ class App extends Component {
       "https://www.cinemaclock.com/theatres/avalon"
     ];
     this.setState({ films: [] });
-    sources.map(url => {
+    sources.forEach(url => {
       this.fetch("/api/v1/films?source=" + url).then(films => {
         var all_films = this.state.films.concat(films);
         all_films.sort((film1, film2) => {
@@ -39,7 +39,6 @@ class App extends Component {
           this.setState({ films: [] });
         }
       });
-      return ""; // TODO: I really just want "each"
     });
   }
 
