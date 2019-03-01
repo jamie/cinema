@@ -28,6 +28,7 @@ export class TimeBlock extends Component {
   componentDidMount() {
     this.drawChart();
   }
+
   drawChart() {
     // const height = 30
     // const width = 420
@@ -58,7 +59,7 @@ export class TimeBlock extends Component {
         return d3.timeDay.ceil(new Date(d.stop));
       })
     ];
-    var m = { top: 40, right: 20, bottom: 20, left: 20 },
+    var m = { top: 20, right: 15, bottom: 0, left: 0 },
       width = 360,
       barSize = 20,
       height = ((dRange[1] - dRange[0]) / (24 * 60 * 60 * 1000)) * barSize;
@@ -144,8 +145,13 @@ export class TimeBlock extends Component {
     //   .attr("class","y left axis")
     //   .call(yAxis);
   }
+
   render() {
-    return <TimeBlockDiv id={this.props.id} />;
+    if (this.props.showings.length === 0) {
+      return "N/A";
+    } else {
+      return <TimeBlockDiv id={this.props.id} />;
+    }
   }
 }
 

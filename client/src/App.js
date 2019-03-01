@@ -55,9 +55,9 @@ class App extends Component {
             <Table celled>
               <Table.Header>
                 <Table.Row>
-                  <Table.HeaderCell>Film</Table.HeaderCell>
-                  {/* <Table.HeaderCell>Theatre</Table.HeaderCell> */}
-                  <Table.HeaderCell>Times</Table.HeaderCell>
+                  <Table.HeaderCell>What</Table.HeaderCell>
+                  <Table.HeaderCell>Where</Table.HeaderCell>
+                  <Table.HeaderCell>When</Table.HeaderCell>
                 </Table.Row>
               </Table.Header>
               <Table.Body>
@@ -69,7 +69,7 @@ class App extends Component {
                       .replace(/[^a-z_]/g, "")}
                   >
                     <Table.Cell>{film.title}</Table.Cell>
-                    {/* <Table.Cell>{film.theatre}</Table.Cell> */}
+                    <Table.Cell>{film.theatre}</Table.Cell>
                     <Table.Cell>
                       {/* {(film.showings.map((showing) =>
                         showing.d3_time.start

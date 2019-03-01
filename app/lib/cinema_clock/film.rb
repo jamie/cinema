@@ -47,7 +47,7 @@ module CinemaClock
 
       {
         'title' => title,
-        'theatre' => theatre,
+        'theatre' => theatre_shortname,
         'duration' => duration,
         'showings' => showings
       }
@@ -66,6 +66,10 @@ module CinemaClock
 
     def theatre
       doc.css('#h1titlein h1').text
+    end
+
+    def theatre_shortname
+      theatre.split(" ").map{|word| word[0]}.join
     end
 
     def duration

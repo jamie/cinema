@@ -30,3 +30,8 @@
     transform: rotate(360deg);
   }
 }
+
+table.ui.celled td {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
