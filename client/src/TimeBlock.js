@@ -17,10 +17,16 @@ const TimeBlockDiv = styled.div`
     stroke-width: 0;
   }
   & rect.times.bar {
-    fill: #006d2c;
     fill-opacity: 0.5;
-    stroke: #006d2c;
     stroke-width: 1px;
+    &.f2d {
+      fill: #006d2c;
+      stroke: #006d2c;
+    }
+    &.f3d {
+      fill: #f36e6e;
+      stroke: #f36e6e;
+    }
   }
 `;
 
@@ -107,8 +113,8 @@ export class TimeBlock extends Component {
       .data(data)
       .enter()
       .append("rect")
-      .attr("class", "times bar")
-      .attr("x", function(d) {
+      .attr("class", d => "times bar f" + d.format)
+      .attr("x", d => {
         var startDate = new Date(d.start),
           hr = startDate.getHours(),
           mn = startDate.getMinutes(),
@@ -154,11 +160,7 @@ export class TimeBlock extends Component {
   }
 
   render() {
-    if (this.props.showings.length === 0) {
-      return "N/A";
-    } else {
-      return <TimeBlockDiv id={this.props.id} />;
-    }
+    return <TimeBlockDiv id={this.props.id} />;
   }
 }
 
