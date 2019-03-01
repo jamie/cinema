@@ -59,7 +59,7 @@ module CinemaClock
       title_str = node.css('.movietitle').text
       return if title_str.empty?
 
-      title_str.match(/(.*) (G|PG|PG-13|14A|R)+?/).captures[0]
+      title_str.match(/(.*?)( (G|PG|PG-13|13\+|14A|R)+)?$/).captures[0]
     rescue NoMethodError
       title_str
     end

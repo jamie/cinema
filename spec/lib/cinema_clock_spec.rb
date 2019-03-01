@@ -1,11 +1,11 @@
-require 'spec_helper'
-require 'cinema_clock'
+# frozen_string_literal: true
+
+require 'rails_helper'
 
 describe CinemaClock do
-  context "(Galaxy Nanaimo)", vcr: {cassette_name: 'cinema_clock/galaxy'} do
+  context '(Galaxy Nanaimo)', vcr: { cassette_name: 'cinema_clock/galaxy' } do
     let(:url) { 'https://www.cinemaclock.com/theatres/galaxy-nanaimo' }
-    let(:parser) { CinemaClock.new(url) }
-    let(:films) { parser.films }
+    let(:films) { CinemaClock.films_at(url) }
 
     describe '#films' do
       it { expect(films.size).to eq(10) }
@@ -13,22 +13,23 @@ describe CinemaClock do
       describe 'Bumblebee' do
         let(:film) { films[5] }
 
-        it { expect(film['title']).to eq("Bumblebee") }
-        it { expect(film['theatre']).to eq("Galaxy Nanaimo") }
-        it { expect(film['showings'].size).to eq(6)}
-        it { expect(film['showings'][0]).to eq({
-          'format' => '2d',
-          'time' => '4:15',
-          'd3_time' => {'start'=>'2019-01-14 16:15:00','stop'=>'2019-01-14 18:08:00'},
-        })}
+        it { expect(film['title']).to eq('Bumblebee') }
+        it { expect(film['theatre']).to eq('Galaxy Nanaimo') }
+        it { expect(film['showings'].size).to eq(6) }
+        it {
+          expect(film['showings'][0]).to eq(
+            'format' => '2d',
+            'time' => '4:15',
+            'd3_time' => { 'start' => '2019-01-14 16:15:00', 'stop' => '2019-01-14 18:08:00' }
+          )
+        }
       end
     end
   end
 
-  context "(Double Features)", vcr: {cassette_name: 'cinema_clock/double-feature'} do
+  context '(Double Features)', vcr: { cassette_name: 'cinema_clock/double-feature' } do
     let(:url) { 'https://www.cinemaclock.com/theatres/avalon' }
-    let(:parser) { CinemaClock.new(url) }
-    let(:films) { parser.films }
+    let(:films) { CinemaClock.films_at(url) }
 
     describe '#films' do
       it { expect(films.size).to eq(10) }
@@ -38,13 +39,11 @@ describe CinemaClock do
         # TODO
       end
     end
-
   end
 
-  context "(Upcoming)", vcr: {cassette_name: 'cinema_clock/upcoming'} do
+  context '(Upcoming)', vcr: { cassette_name: 'cinema_clock/upcoming' } do
     let(:url) { 'https://www.cinemaclock.com/theatres/avalon' }
-    let(:parser) { CinemaClock.new(url) }
-    let(:films) { parser.films }
+    let(:films) { CinemaClock.films_at(url) }
 
     describe '#films' do
       it { expect(films.size).to eq(10) }
