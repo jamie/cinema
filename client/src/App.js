@@ -86,7 +86,7 @@ class App extends Component {
                     <Table.Cell>{film.theatre}</Table.Cell>
                     <Table.Cell>
                       {/* {(film.showings.map((showing) =>
-                        showing.d3_time.start
+                        showing.d3.start
                       ).sort().join(", "))}
                       <br/> */}
                       <TimeBlock

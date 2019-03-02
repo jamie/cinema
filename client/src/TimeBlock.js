@@ -62,7 +62,7 @@ export class TimeBlock extends Component {
         filmDate.setHours(0, 0, 0);
         return !(filmDate < this.props.date || filmDate > this.props.date);
       })
-      .map(s => s.d3_time);
+      .map(s => s.d3);
     if (data.length === 0) {
       return;
     }
